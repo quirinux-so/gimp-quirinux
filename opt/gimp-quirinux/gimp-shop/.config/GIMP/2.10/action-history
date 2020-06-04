@@ -1,0 +1,9 @@
+# GIMP action-history
+
+(history-item "dialogs-preferences" 4)
+(history-item "dialogs-colors" 0)
+(history-item "dialogs-palettes" 0)
+(history-item "dialogs-fonts" 0)
+(history-item "dialogs-mypaint-brushes" 1)
+
+# end of action-history

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -79.352 761.04)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#222" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient8202" x1="222.03" x2="228" y1="551.03" y2="551.03" gradientTransform="matrix(1.5079 0 0 1.5 986.8 -280.16)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient8208" x1="-16.75" x2="-5.9935" y1="335.28" y2="335.28" gradientTransform="matrix(1.5 0 0 1.5 1342.8 44.541)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient8214" x1="-17.969" x2="-4.0312" y1="339.02" y2="339.02" gradientTransform="matrix(1.5067 0 0 1.5078 1348.7 44.998)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <g id="g4290">
+  <path id="path13641" d="m2.3194 1c-0.75011 0-1.3194 0.3606-1.3194 0.79688v17.578c0 1.4542 1.976 2.625 4.4764 2.625 2.5004 0 4.5236-1.1708 4.5236-2.625v-5.2969l-0.04704-3.8438 0.04704-8.4375c0.001432-0.43628-0.61637-0.79688-1.3665-0.79688zm0.14092 1h6.0314l3.631e-4 3h-6.0314zm3.631e-4 5h6.0314v3h-6.0314zm0 5h6.0314v3h-6.0314zm3.0393 5.5c0.83277 0 1.5 0.67156 1.5 1.5s-0.66723 1.5-1.5 1.5c-0.83277 0-1.5-0.67156-1.5-1.5s0.66723-1.5 1.5-1.5z" style="color:#ffffff;fill:url(#linearGradient8202)"/>
+  <path id="path13710" d="m14.172 3.1572c-0.11 0.01965-0.20551 0.0663-0.28125 0.14055l-4.3125 4.2188v1.9219 0.04695l1.7344-1.6406 4.0781 4.1719-2.1094 2.0625-3.7031-3.8438 0.04687 2.1562 2.625 2.7188-2.0625 2.0156-0.5625-0.5625v2.0156c0 1.4542-2.0127 2.625-4.5 2.625-0.39776 0-0.75982-0.0375-1.125-0.09375 1.432 0.9706 2.9559 1.2011 3.75 0.42188l3.7031-3.6094 2.625-2.6719 5.9062-5.7187c0.30393-0.2963 0.13108-0.93252-0.375-1.4531l-4.2656-4.4062c-0.37961-0.39038-0.84188-0.57464-1.1719-0.51562zm0.28125 1.5938 4.0312 4.2188-2.0625 2.0156-4.0781-4.1719z" style="color:#ffffff;fill:url(#linearGradient8208);opacity:.6"/>
+  <path id="path13662" d="m15 14-0.94619 1.4607h2.9462v6.0314h-3l0.0067-5.9842-0.0067 0.0472-2 0.44496v5.4922h-3l0.48655-1.4607-2.4866 0.96856c-1.0144 0.99617-2.5991 1.247-4.2937-0.49736-0.28028-0.28851-0.49294-0.59119-0.70628-0.89528 0.29682 1.9391 1.3154 3.3926 2.5426 3.3926h5.3206l3.861-0.04719 8.4753 0.04719c0.43823 0.0014 0.80045-0.61636 0.80045-1.3665v-6.3141c0-0.7501-0.36222-1.3194-0.80045-1.3194h-7.1996zm4 1.4607h3v6.0314h-3z" style="color:#ffffff;fill:url(#linearGradient8214);opacity:.3"/>
+ </g>
+</svg>

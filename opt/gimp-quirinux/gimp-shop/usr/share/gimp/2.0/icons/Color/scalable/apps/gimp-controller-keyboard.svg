@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>many unknown and unnamed, Andrew Chadwick, Alexandre Prokoudine, Aryeom Han, Benoit Touchette, Jakub Steiner, Jehan, Johannes Matschke, Kevin Payne, Klaus Staedtler, Marek Dvoroznak, Michael Natterer</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Enhanced, extended tango-art-libre for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient3165">
+   <stop id="stop3171" style="stop-color:#d7d7d7" offset="0"/>
+   <stop id="stop3173" style="stop-color:#e7e7e7" offset=".5"/>
+   <stop id="stop3169" style="stop-color:#d7d7d7" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4656" x1="90.59" x2="250.18" y1="292.36" y2="292.36" gradientTransform="matrix(.83174 0 0 .83684 27.65 44.986)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3165"/>
+ </defs>
+ <g id="g4284">
+  <g id="g4267" transform="matrix(1.0006 0 0 .99827 -8.0039 -7.9708)">
+   <g id="g3175-9-4-9" transform="matrix(.035844 0 0 .038072 5.4571 1.3687)">
+    <rect id="rect2168-6-5-1" x="71.429" y="200.93" width="194.29" height="182.86" ry="21.429" style="fill-rule:evenodd;fill:#555753;stroke-width:1px;stroke:#8d8d8d"/>
+    <rect id="rect3157-7-1-0" x="87.06" y="213.14" width="161.59" height="153.02" ry="17.932" style="fill-rule:evenodd;fill:url(#linearGradient4656);stroke-width:.83429px;stroke:#f8f8f8"/>
+   </g>
+   <g id="g3175-9-3-3" transform="matrix(.035759 0 0 .081725 13.471 -7.3938)">
+    <rect id="rect2168-6-0-2" x="71.429" y="200.93" width="194.29" height="182.86" rx="15.168" ry="13.963" style="fill-rule:evenodd;fill:#555753;stroke-width:1px;stroke:#8d8d8d"/>
+    <rect id="rect3157-7-0-83" x="87.06" y="209.82" width="162.82" height="166.23" rx="22.751" ry="13.784" style="fill-rule:evenodd;fill:url(#linearGradient4656);stroke-width:.83429px;stroke:#f8f8f8"/>
+   </g>
+   <g id="g3175-9-4-2" transform="matrix(.035844 0 0 .038072 5.4571 9.3687)">
+    <rect id="rect2168-6-5-8" x="71.429" y="200.93" width="194.29" height="182.86" ry="21.429" style="fill-rule:evenodd;fill:#555753;stroke-width:1px;stroke:#8d8d8d"/>
+    <rect id="rect3157-7-1-9" x="87.06" y="213.14" width="161.59" height="153.02" ry="17.932" style="fill-rule:evenodd;fill:url(#linearGradient4656);stroke-width:.83429px;stroke:#f8f8f8"/>
+   </g>
+   <text id="text4722-7-6-9" x="9.2196474" y="21.967489" style="fill:#555753;font-family:sans-serif;font-size:2.296px;letter-spacing:0px;line-height:125%;stroke-width:1px;word-spacing:0px" xml:space="preserve"><tspan id="tspan4724-9-3-7" x="9.2196474" y="21.967489">alt</tspan></text>
+   <text id="text4722-6-0" x="9.1518517" y="13.899693" style="fill:#555753;font-family:sans-serif;font-size:2.296px;letter-spacing:0px;line-height:125%;stroke-width:1px;word-spacing:0px" xml:space="preserve"><tspan id="tspan4724-98-6" x="9.1518517" y="13.899693">@</tspan></text>
+  </g>
+  <rect id="rect4282" x="-9.5367e-7" y="-1.4305e-6" width="16" height="16" ry="6.0188" style="opacity:0"/>
+ </g>
+</svg>

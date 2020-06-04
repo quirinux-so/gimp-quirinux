@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="g919">
+  <rect id="rect4013-8-5-6-4" width="24" height="24" rx=".41507" ry="2.1219" style="color-rendering:auto;color:#ffffff;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:0;shape-rendering:auto;solid-color:#ffffff;stroke-width:.75"/>
+  <path id="path1105-9-5" d="m22.479 1.542v14.693h1.5208l-2.6138 5.3068-2.618-5.3068h1.542v-14.693z" style="color-rendering:auto;color:#ffffff;dominant-baseline:auto;fill:#414141;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-padding:0;shape-rendering:auto;solid-color:#ffffff;text-decoration-color:#ffffff;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  <path id="path1105-9-5-3" d="m22.479 3.7109h-14.693v1.5208l-5.3068-2.6138 5.3068-2.618v1.542h14.693z" style="color-rendering:auto;color:#ffffff;dominant-baseline:auto;fill:#414141;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:.6;shape-padding:0;shape-rendering:auto;solid-color:#ffffff;text-decoration-color:#ffffff;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  <path id="path158-9" d="m7.8237 22.028v1.1478l8.3526-3.216v-1.2841l-8.3526-3.1819v1.1023l2.5456 0.94322v3.5456zm3.3638-4.2388 1.3296 0.50002c0.93186 0.34092 1.841 0.68185 2.8069 1v0.04546c-0.95458 0.34092-1.8637 0.67048-2.8069 1.0114l-1.3296 0.50002z" style="fill:#414141"/>
+  <g id="text875" transform="matrix(.25409 0 0 .25409 2.8073 8.6974)" style="fill:#fff" aria-label="文">
+   <path id="path877" d="m25.1-0.94019 2.96-0.84q3.16 8.92 8.04 13.56 5.2-5.08 8.56-15.28h-25.96v-2.8h15.88v-5.92h3.2v5.92h15.88v2.8h-5.64q-3.72 11.52-9.6 17.28 5.28 4 15.16 7l-0.88 2.72q-10.72-3.2-16.56-7.72-5.72 4.48-16.48 7.72l-0.88-2.72q9.84-3 15.04-7-5.32-5.16-8.72-14.72z" style="fill:#414141"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg30571" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs30573">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -482.62 330.96)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#bebebe" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient7139" x1="72" x2="76" y1="280.5" y2="280.5" gradientTransform="matrix(2 0 0 2 -128 471.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7163" x1="62" x2="66" y1="285.5" y2="285.5" gradientTransform="matrix(2 0 0 2 -124 469.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7181" x1="62" x2="64" y1="290.5" y2="290.5" gradientTransform="matrix(2 0 0 2 -123 467.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7151" x1="67" x2="73" y1="285.5" y2="285.5" gradientTransform="matrix(1.5 0 0 2 -91.5 469.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7133" x1="65" x2="71" y1="280.5" y2="280.5" gradientTransform="matrix(1.5 0 0 2 -91.5 471.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7169" x1="65" x2="71" y1="290.5" y2="290.5" gradientTransform="matrix(1.5 0 0 2 -91.5 467.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7157" x1="74" x2="76" y1="285.5" y2="285.5" gradientTransform="matrix(2 0 0 2 -129 469.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7175" x1="72" x2="76" y1="290.5" y2="290.5" gradientTransform="matrix(2 0 0 2 -128 467.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7145" x1="62" x2="64" y1="280.5" y2="280.5" gradientTransform="matrix(2 0 0 2 -123 471.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <metadata id="metadata30576">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1028.4)">
+  <g id="g8982">
+   <rect id="rect4940" y="1028.4" width="24" height="24" style="fill:none"/>
+   <rect id="rect4942" x="16" y="1031.4" width="8" height="2" style="fill:url(#linearGradient7139)"/>
+   <rect id="rect4944" y="1039.4" width="8" height="2" style="fill:url(#linearGradient7163)"/>
+   <rect id="rect4946" x="1" y="1047.4" width="4" height="2" style="fill:url(#linearGradient7181)"/>
+   <rect id="rect5016" x="9" y="1037.4" width="9" height="6" style="fill:url(#linearGradient7151)"/>
+   <rect id="rect5018" x="6" y="1029.4" width="9" height="6" style="fill:url(#linearGradient7133);opacity:.5"/>
+   <path id="rect5018-3" d="m6 1045.4v6h9v-6zm2 2h5v2h-5z" style="fill:url(#linearGradient7169)"/>
+   <rect id="rect5038" x="19" y="1039.4" width="4" height="2" style="fill:url(#linearGradient7157)"/>
+   <rect id="rect5043" x="16" y="1047.4" width="8" height="2" style="fill:url(#linearGradient7175)"/>
+   <rect id="rect5047" x="1" y="1031.4" width="4" height="2" style="fill:url(#linearGradient7145)"/>
+  </g>
+ </g>
+</svg>

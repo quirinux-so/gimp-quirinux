@@ -1,0 +1,12 @@
+# GIMP gimp-smudge-tool options
+
+(brush "2. Hardness 025")
+(dynamics "Pressure Opacity")
+(gradient "FG to BG (RGB)")
+(palette "Default")
+(brush-size 50)
+(brush-spacing 0.050000000000000003)
+(brush-hardness 0.25)
+(brush-force 1)
+
+# end of gimp-smudge-tool options

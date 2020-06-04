@@ -1,0 +1,32 @@
+#!/bin/bash
+#
+# Quirinux-DEB Postinstall 1.0
+#
+# Autor: Charlie Martínez
+#
+#	Otorga permisos a la carpeta que contiene el programa.
+#	Crea el enlace simbólico.
+
+
+
+sudo chmod -R 775 /opt/gimp-quirinux
+sudo chown -R $USER /opt/gimp-quirinux
+
+FILE="/usr/local/bin/gimp-quirinux"
+
+if [ -f "$FILE" ]; then
+
+sudo rm /usr/local/bin/gimp-quirinux
+cd /usr/local/bin
+sudo ln -s /opt/gimp-quirinux/gimp-quirinux
+sudo chmod -R 775 /usr/local/bin/gimp-quirinux
+
+else
+
+cd /usr/local/bin
+sudo ln -s /opt/gimp-quirinux/gimp-quirinux
+sudo chmod -R 775 /usr/local/bin/gimp-quirinux
+
+fi
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -113.35 362.04)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#ddd" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient10230" x1="47" x2="51" y1="414.5" y2="414.5" gradientTransform="matrix(1.5 0 0 1 541.24 -259.25)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10232" x1="46" x2="52" y1="412" y2="412" gradientTransform="matrix(1.5 0 0 1.5 541.24 -399.38)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10234" x1="-193" x2="-191" y1="187.5" y2="187.5" gradientTransform="matrix(2 0 0 2 1199.7 -101.5)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10236" x1="44" x2="54" y1="404.5" y2="404.5" gradientTransform="matrix(1.5 0 0 1.5 541.24 -398.88)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10230-7" x1="47" x2="51" y1="414.5" y2="414.5" gradientTransform="translate(364.83 -258.25)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <g id="g4213">
+  <path id="path4561" d="m12 0.5c-4.1244 0-7.5 3.3756-7.5 7.5 0 2.3793 1.2669 4.355 3 5.7188v3.2812h3e-4 1.5 6 1.5-3e-4v-3.2812c1.7331-1.3637 3-3.3394 3-5.7188 0-4.1244-3.3756-7.5-7.5-7.5zm0 3c2.503 0 4.5 1.997 4.5 4.5 0 1.6738-0.8926 3.0568-2.25 3.8438l-0.75 0.46875v0.84375l3e-4 0.84375h-3l-3e-4 -0.84375v-0.84375l-0.75-0.46875c-1.3574-0.78693-2.25-2.17-2.25-3.8438 0-2.503 1.997-4.5 4.5-4.5z" style="color:#000000;fill:url(#linearGradient10236);text-decoration-line:none;text-indent:0;text-transform:none"/>
+  <path id="path4488-4" d="m9 22v1h6v-1z" style="color:#000000;fill:url(#linearGradient10230);text-decoration-line:none;text-indent:0;text-transform:none"/>
+  <path id="path4488-4-7" d="m7.5 18v3h9v-3z" style="color:#000000;fill:url(#linearGradient10232);text-decoration-line:none;text-indent:0;text-transform:none"/>
+  <rect id="rect29445" x="10" y="7" width="4" height="2" style="fill:url(#linearGradient10234);opacity:.3"/>
+  <path id="path4488-4-4" d="m10 23v1h4v-1z" style="color:#000000;fill:url(#linearGradient10230-7);text-decoration-line:none;text-indent:0;text-transform:none"/>
+ </g>
+</svg>

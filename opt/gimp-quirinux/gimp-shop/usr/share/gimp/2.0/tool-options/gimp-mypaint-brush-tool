@@ -1,0 +1,11 @@
+# GIMP gimp-mypaint-brush-tool options
+
+(mybrush "Standard")
+(brush-size 50.000000)
+(brush-hardness 0.000000)
+(brush-force 1.000000)
+(radius 3.750000)
+(opaque 0.850000)
+(hardness 0.750000)
+
+# end of gimp-mypaint-brush-tool options

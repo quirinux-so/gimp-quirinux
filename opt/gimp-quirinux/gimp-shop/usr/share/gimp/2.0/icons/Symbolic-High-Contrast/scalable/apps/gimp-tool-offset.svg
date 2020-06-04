@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="16.001" height="16.001" version="1.1" viewBox="0 0 16.001 16.001" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title id="title8375">GIMP Offset Tool</title>
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>GIMP Offset Tool</dc:title>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient7060-0" x1="295.7" x2="311.7" y1="305.37" y2="305.37" gradientTransform="matrix(.625 0 0 .625 5.2256 3.0009)" gradientUnits="userSpaceOnUse">
+   <stop id="stop19284-0" style="stop-color:#ddd" offset="0"/>
+  </linearGradient>
+ </defs>
+ <g id="gimp-tool-offset">
+  <rect id="rect7909" x="1.5" y="1.5009" width="13" height="13" style="fill:none;stroke-width:1px;stroke:#ddd"/>
+  <path id="path74740" d="m8.0134 3.0009-1.8884 1.8848h1.2695v2.5134c-0.83963-0.0063125-1.6797-0.013188-2.5195-0.018312v-1.2463l-1.875 1.8591 1.875 1.886v-1.2537c0.83985-5.63e-5 1.6797-0.00188 2.5195 0v2.5024h-1.2695l1.8884 1.8726 1.8616-1.8726h-1.25v-2.5024c0.83334 5.625e-4 1.6667 0.0025 2.5 0v1.2537l1.875-1.886-1.875-1.8591v1.2476c-0.83326 0.014688-1.6664 0.02425-2.5 0.021938v-2.5183h1.25z" style="fill:url(#linearGradient7060-0)"/>
+ </g>
+</svg>

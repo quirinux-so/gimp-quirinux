@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient8346" x2="16" y1="8" y2="8" gradientTransform="translate(877.05 422.91)" gradientUnits="userSpaceOnUse">
+   <stop id="stop19284-0" style="stop-color:#222" offset="0"/>
+  </linearGradient>
+ </defs>
+ <g id="preferences" transform="translate(-263.73 -264.91)">
+  <g id="gimp-prefs-folders-tools" transform="translate(248.73 304.91)">
+   <path id="rect3845-6" transform="translate(15,-40)" d="m0.53125 0c-0.28913 0-0.53125 0.24212-0.53125 0.53125v14.938c0 0.2985 0.23264 0.53125 0.53125 0.53125h14.938c0.2986 0 0.53125-0.23265 0.53125-0.53125v-9.9375c0-0.2891-0.24212-0.53125-0.53125-0.53125h-12.469v8.5c0 0.277-0.223 0.5-0.5 0.5s-0.5-0.223-0.5-0.5v-9c0-0.277 0.223-0.5 0.5-0.5h2.9688 8.5312v-1.4062c0-0.3272-0.26666-0.59375-0.59375-0.59375h-7.4062v-1.4688c0-0.28915-0.24212-0.53125-0.53125-0.53125zm3.7871 6.291 4.2012 0.060547c0.10832 1.4172-0.57114 3.9946-1.4434 4.8379h0.11328l0.064453 3.9609-1.3906-0.0098-0.066406-3.9609 0.1543 2e-3c-0.97377-0.86877-1.9716-3.546-1.6328-4.8906zm7.6094 0.019531c0.70532-0.00361 1.3117 0.15456 1.5703 0.38281 0.0862 0.076084 0.13257 0.15992 0.13281 0.24805l2e-3 1.0273c6.05e-4 0.23756-0.36282 0.23072-0.8457 0.20312 0.0583 0.012823 0.13657 0.019198 0.18164 0.035156l0.65039 0.78711 0.64844 5.2891h0.20117c0.12728-2.33e-4 0.23169 0.09936 0.23242 0.22656l2e-3 0.5625c7.33e-4 0.1272-0.10124 0.23023-0.22852 0.23047l-4.7324 0.0078c-0.12728 2.33e-4 -0.22974-0.10131-0.23047-0.22852l-0.00195-0.5625c-7.313e-4 -0.1272 0.099287-0.23023 0.22656-0.23047h0.1582l0.22266-5.125 0.64062-0.95312c0.02296-0.00746 0.06215-0.010784 0.08789-0.017578-0.36686 0.00937-0.62062-0.020993-0.62109-0.20703l-2e-3 -1.0273c-9.76e-4 -0.33594 0.69514-0.61709 1.5742-0.64647 0.04355-0.00183 0.08685-0.00182 0.13086-0.00195zm-0.0957 1.8926c-0.38085 0.012515-0.75727 0.060808-1.0625 0.11914l-0.54297 0.89062c0.4852-0.35578 2.3617-0.43274 3.3047-0.16211l-0.61133-0.75c-0.32258-0.08607-0.70704-0.11017-1.0879-0.097656zm0.20898 1.4805c-0.73196-0.023957-1.507 0.023412-1.8652 0.18164l-0.06836 1.6816c0.43051-0.28092 3.1149-0.3343 3.7285 0.09375l-0.19336-1.7148c-0.1824-0.12347-0.8696-0.21823-1.6016-0.24219z" style="fill:url(#linearGradient8346)"/>
+  </g>
+ </g>
+</svg>

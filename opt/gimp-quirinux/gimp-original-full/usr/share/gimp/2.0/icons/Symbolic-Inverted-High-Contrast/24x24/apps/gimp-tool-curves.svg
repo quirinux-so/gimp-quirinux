@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg30571" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs30573">
+  <linearGradient id="linearGradient9850" x1="-139" x2="-125" y1="68" y2="68" gradientTransform="matrix(1.5714 0 0 1.5714 219.43 -94.857)" gradientUnits="userSpaceOnUse">
+   <stop id="stop19284-0" style="stop-color:#222" offset="0"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata30576">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1028.4)">
+  <g id="g8991">
+   <rect id="rect5103" y="1028.4" width="24" height="24" rx="1.5" ry="0" style="fill:none"/>
+   <path id="rect5105" transform="translate(0 1028.4)" d="m1 1v22h22v-22h-22zm1 1h19.119c-1.5679 6.0221-3.1071 11.189-4.2109 12.383-0.55391 0.599-0.95831 0.70944-1.3438 0.67774-0.38544-0.033-0.83386-0.3041-1.3418-0.7832-1.0159-0.9581-2.0756-2.7019-3.1953-4.1738-0.55988-0.7359-1.1499-1.4101-1.8047-1.877-0.65476-0.4669-1.4706-0.71807-2.2695-0.41797-1.2688 0.4766-2.1273 1.7056-2.7773 3.1309-0.65001 1.4252-1.1201 3.0764-1.4355 4.6953-0.23687 1.2157-0.49643 2.3664-0.74023 3.4023v-17.037zm20 2.668v17.332h-19.037c0.02535-0.12105 0.62753-2.9958 1.2129-6 0.29879-1.5336 0.74088-3.1111 1.2969-4.3301 0.556-1.2192 1.2245-2.0268 1.9434-2.2969 0.31221-0.1173 0.59177-0.044281 1.0195 0.26172 0.42776 0.305 0.9163 0.88175 1.4355 1.5645 1.0385 1.365 2.1458 3.1755 3.4258 4.3828 0.63997 0.6037 1.3411 1.0798 2.1758 1.1484 0.83464 0.069 1.6896-0.32284 2.4531-1.1484 1.3122-1.4192 2.7229-6.1126 4.0742-10.914z" style="fill:url(#linearGradient9850)"/>
+  </g>
+ </g>
+</svg>

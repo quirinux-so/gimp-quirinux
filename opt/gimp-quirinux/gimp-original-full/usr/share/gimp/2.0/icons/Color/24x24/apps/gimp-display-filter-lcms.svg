@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg7854" width="24" height="24" version="1.0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs7856">
+  <linearGradient id="linearGradient5146" x1="12" x2="12" y1="1.2684" y2="21.252" gradientTransform="matrix(1.0003 0 0 .98528 -.0037372 .98899)" gradientUnits="userSpaceOnUse">
+   <stop id="stop5142" style="stop-color:#eeeeec" offset="0"/>
+   <stop id="stop5144" style="stop-color:#d4d4cf" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient5259" x1="6.0289" x2="18.913" y1="8.3465" y2="8.3465" gradientTransform="matrix(1.1586 0 0 1.1454 -2.3465 2.4401)" gradientUnits="userSpaceOnUse">
+   <stop id="stop5255" style="stop-color:#729fcf" offset="0"/>
+   <stop id="stop5261" style="stop-color:#73d216" offset=".20362"/>
+   <stop id="stop5263" style="stop-color:#c17d11" offset=".52222"/>
+   <stop id="stop5265" style="stop-color:#75507b" offset=".889"/>
+   <stop id="stop5257" style="stop-color:#a40000" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata7859">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Jakub Steiner</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:source>http://jimmac.musichall.cz</dc:source>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/GPL/2.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+    <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/SourceCode"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1">
+  <g id="g4250">
+   <rect id="rect4559" x=".49189" y=".49189" width="23.016" height="23.016" rx="1.4056" ry="1.5408" style="color:#000000;fill-rule:evenodd;fill:url(#linearGradient5146);stroke-width:.98378;stroke:#888a85"/>
+   <rect id="rect5148" x="1.4368" y="1.4512" width="21.126" height="21.098" rx=".64013" ry=".62965" style="color:#000000;fill:none;stroke-width:.90239;stroke:#fff"/>
+   <path id="path5245" d="m12 6c-4.9721 0-9 4.0048-9 8.9202 0 1.0842 0.19504 2.1192 0.55385 3.0798h5.1c-0.76061-0.8069-1.2231-1.8908-1.2231-3.0798 8e-7 -2.4933 2.0471-4.5171 4.5692-4.5171 2.5221 0 4.5692 2.0238 4.5692 4.5171-1e-6 1.1926-0.48151 2.2722-1.2462 3.0798h5.1c0.35881-0.96062 0.57692-1.9957 0.57692-3.0798-2e-6 -4.9154-4.0279-8.9202-9-8.9202z" style="color:#000000;fill-rule:evenodd;fill:url(#linearGradient5259)"/>
+  </g>
+ </g>
+</svg>

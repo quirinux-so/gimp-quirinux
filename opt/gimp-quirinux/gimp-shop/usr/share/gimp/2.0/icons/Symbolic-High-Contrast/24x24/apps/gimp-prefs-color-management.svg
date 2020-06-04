@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -119.31 780.97)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#ddd" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient7504" x1="36.858" x2="41.454" y1="-7.5555" y2="-7.5555" gradientTransform="matrix(1.3054 0 0 1.2122 1073.6 526.35)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7506" x1="35.052" x2="43.038" y1="-7.9307" y2="-7.9307" gradientTransform="matrix(1.5027 0 0 1.5027 1068.1 530.01)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7509" x1="44" x2="49.542" y1="-7.5" y2="-7.5" gradientTransform="matrix(1.0827 0 0 1.2 1086.1 526.19)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7506-4" x1="35.052" x2="43.038" y1="-7.9307" y2="-7.9307" gradientTransform="matrix(1.5027 0 0 1.5027 1080.1 530.01)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7506-7" x1="35.052" x2="43.038" y1="-7.9307" y2="-7.9307" gradientTransform="matrix(1.5027 0 0 1.5027 1074.1 520.01)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <g id="g4331">
+  <circle id="path14494" cx="6" cy="17" r="3" style="fill:url(#linearGradient7504);opacity:.3"/>
+  <ellipse id="path14496" cx="18" cy="17" rx="3" ry="3" style="fill:url(#linearGradient7509)"/>
+  <path id="path8591" d="m6 11c-3.3101 0-6 2.6899-6 6 0 3.3101 2.6899 6 6 6 3.3101 0 6-2.6899 6-6 0-3.3101-2.6899-6-6-6zm0 1c2.4439 0 5 2.5561 5 5 0 2.4439-2.5561 5-5 5-2.4439 0-5-2.5561-5-5 0-2.4439 2.5561-5 5-5z" style="color:#000000;enable-background:new;fill:url(#linearGradient7506);text-decoration-line:none;text-indent:0;text-transform:none"/>
+  <path id="path8591-0" d="m18 11c-3.3101 0-6 2.6899-6 6 0 3.3101 2.6899 6 6 6 3.3101 0 6-2.6899 6-6 0-3.3101-2.6899-6-6-6zm0 1c2.4439 0 5 2.5561 5 5 0 2.4439-2.5561 5-5 5-2.4439 0-5-2.5561-5-5 0-2.4439 2.5561-5 5-5z" style="color:#000000;enable-background:new;fill:url(#linearGradient7506-4);text-decoration-line:none;text-indent:0;text-transform:none"/>
+  <path id="path8591-1" d="m12 1c-3.3101 0-6 2.6899-6 6 0 3.3101 2.6899 6 6 6 3.3101 0 6-2.6899 6-6 0-3.3101-2.6899-6-6-6zm0 1c2.4439 0 5 2.5561 5 5 0 2.4439-2.5561 5-5 5-2.4439 0-5-2.5561-5-5 0-2.4439 2.5561-5 5-5z" style="color:#000000;enable-background:new;fill:url(#linearGradient7506-7);text-decoration-line:none;text-indent:0;text-transform:none"/>
+ </g>
+</svg>

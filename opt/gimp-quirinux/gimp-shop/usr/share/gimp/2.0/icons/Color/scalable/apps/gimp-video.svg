@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Gimp Color Icon Theme</dc:title>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>many unknown and unnamed, Andrew Chadwick, Alexandre Prokoudine, Aryeom Han, Benoit Touchette, Jakub Steiner, Jehan, Johannes Matschke, Kevin Payne, Klaus Staedtler, Marek Dvoroznak, Michael Natterer</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Enhanced, extended tango-art-libre for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="g4294">
+  <g id="g7387" transform="matrix(.99987 0 0 .9412 11 -2.8239)" style="stroke:#555753">
+   <rect id="rect7393" x="1.5" y="3.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7395" x="1.5" y="5.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7397" x="1.5" y="7.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7399" x="1.5" y="9.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7401" x="1.5" y="11.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7403" x="1.5" y="13.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7405" x="1.5" y="15.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7407" x="1.5" y="17.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke:#555753"/>
+  </g>
+  <g id="g7387-7" transform="matrix(.99987 0 0 .9412 .00013201 -2.8239)" style="stroke:#555753">
+   <rect id="rect7393-0" x="1.5" y="3.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7395-7" x="1.5" y="5.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7397-9" x="1.5" y="7.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7399-1" x="1.5" y="9.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7401-4" x="1.5" y="11.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7403-5" x="1.5" y="13.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7405-0" x="1.5" y="15.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#555753"/>
+   <rect id="rect7407-1" x="1.5" y="17.5" width="2" height="2" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-width:.99991;stroke:#555753"/>
+  </g>
+  <rect id="rect4401" width="16" height="16" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:0;shape-rendering:auto;solid-color:#000000;stroke-width:.4"/>
+  <rect id="rect4094" x="4.1816" y=".96655" width="7.6369" height="4.4269" style="color-rendering:auto;color:#000000;fill:#729fcf;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:.75;shape-rendering:auto;solid-color:#000000;stroke-linecap:square;stroke-width:.36311;stroke:#000"/>
+  <rect id="rect4094-2" x="4.1852" y="6.7062" width="7.6297" height="4.609" style="color-rendering:auto;color:#000000;fill:#729fcf;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:.75;shape-rendering:auto;solid-color:#000000;stroke-linecap:square;stroke-width:.37032;stroke:#000"/>
+  <rect id="rect4094-3" x="4.1829" y="12.683" width="7.6343" height="3.1343" style="color-rendering:auto;color:#000000;fill:#729fcf;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:.75;shape-rendering:auto;solid-color:#000000;stroke-linecap:square;stroke-width:.36573;stroke:#000"/>
+  <rect id="rect4117" x="4.181" y="11.731" width="7.638" height=".63802" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:.75;shape-rendering:auto;solid-color:#000000;stroke-linecap:square;stroke-width:.36198;stroke:#000"/>
+  <rect id="rect4117-6" x="4.1861" y="5.7927" width="7.6278" height=".6756" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:.75;shape-rendering:auto;solid-color:#000000;stroke-linecap:square;stroke-width:.37223;stroke:#000"/>
+ </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg30571" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs30573">
+  <linearGradient id="linearGradient6878" x1="40.406" x2="81.401" y1="78.405" y2="78.405" gradientTransform="matrix(.53665 0 0 .53573 -20.684 998.36)" gradientUnits="userSpaceOnUse">
+   <stop id="stop19284-0" style="stop-color:#222" offset="0"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata30576">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1028.4)">
+  <g id="g3984">
+   <path id="path3189" d="m11.347 1029.4c-5.6566 0.079-10.347 4.9402-10.347 11.317 0 3.2417 1.1368 5.8931 3.1193 7.7514s4.829 2.9298 8.3181 2.9298c6.7684 0 11.62-6.4975 10.364-13.376h-10.347c-1.5505 0-2.3418 1.1219-2.4149 2.2433-0.03657 0.5608 0.1343 1.1 0.46957 1.4734 0.33527 0.3733 0.85004 0.6233 1.6938 0.5858 0.73526-0.032 0.90726-0.2648 1.2242-0.6361 0.31698-0.3714 0.7764-0.9557 1.6435-1.038 0.35698-0.034 0.78745 0.038 1.1907 0.2845 0.40325 0.2469 0.75286 0.7111 0.80498 1.3394 0.10748 1.2957-0.44311 2.4164-1.3249 3.1474-0.88176 0.7311-2.0739 1.1124-3.3541 1.105-4.1825-0.024-6.4929-3.0921-6.574-6.1274-0.040549-1.5177 0.45763-3.0471 1.5093-4.2022s2.6642-1.9085 4.746-1.9085h9.1567c-1.66-2.4443-4.5976-4.9618-9.8778-4.8885z" style="fill:url(#linearGradient6878)"/>
+  </g>
+ </g>
+</svg>
