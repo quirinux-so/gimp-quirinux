@@ -9,8 +9,13 @@ gimp-gap, gimp-gap, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp
 ### Compatibilidad
 Probado con éxito en Debian 10.x / Ubuntu  20.x
 ### Instrucciones
-sudo chmod 755 quirinux-kernel.sh </br>
-sudo ./quirinux-kernel.sh
+sudo apt-get install gimp gimp-data </br>
+sudo cp -rf /opt/gimp-quirinux /opt/ </br>
+sudo cp -rf /usr/share /usr/ </br>
+sudo chmod 755 /opt/gimp-quirinux/gimp-quirinux </br>
+cd DEBIAN </br>
+sudo ./postinst </br>
+sudo gimp-quirinux </br>
 #### Autores
 Charlie Martínez, haciendo uso de la libertad de modificación y distribución de la licencia GPL, ha programado este complemento y no guarda relación alguna con los autores de GIMP (Peter Mattis y Spencer Kimball) ni con el autor de los componentes gráficos que incluye (íconos, hechos por un diseñador anónimo). 
 #### Avisos legales
