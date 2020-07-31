@@ -1,5 +1,5 @@
 #!/bin/bash 
-# hosts-block.sh 
+# gimp-quirinux
 
 # Programado por Charlie Martínez ®
 
@@ -12,8 +12,10 @@
 
 # Generando el menú gráfico con Zenity:
 
-opc=$(zenity --width=350 --height=220 --title=Quirinux --entry --text="        
-              Programa que sirve para bloquear plubicidad.
+opc=$(zenity --width=500 --height=220 --title=gimp-quirinux --entry --text="  
+              ¡Ahora puedes modificar el aspecto y/o atajos
+              de teclado de GIMP, las veces que quieras!.
+
               Introduce una opción: 
 
 	      1) Usar iconos y atajos de Photoshop
@@ -36,17 +38,21 @@ case $opc in
 echo "# Configurando como Photoshop"; sleep 1s
 
 sudo chmod 777 -R /home/
+
 sudo rm -rf /home/*/.config/GIMP
 sudo rm -rf /root/.config/GIMP 
 sudo rm -rf /usr/share/gimp 
 sudo rm -rf /etc/skel/.config/GIMP 
+
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
+
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/ 
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/ 
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/
+
 sudo chmod 777 -R /home/
 
-echo "# Photoshop OK"; sleep 3s
+echo "# GIMP se configuró con los íconos y atajos de Photoshop."; sleep 3s
 )|
 
 zenity --progress --pulsate 
@@ -76,7 +82,7 @@ sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/.c
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/usr/share /usr/
 sudo chmod 777 -R /home/
 
-echo "# GIMP OK."; sleep 1s
+echo "# GIMP se configuró con sus propios íconos y atajos de teclado."; sleep 1s
 
 )|
 
@@ -93,7 +99,7 @@ percentage=0
 "3") 
 (
 
-echo "# Iconos Photoshop y atajos de GIMP"; sleep 1s
+echo "# Configurando íconos Photoshop y atajos de GIMP"; sleep 1s
 
 sudo chmod 777 -R /home/ 
 sudo rm -rf /home/*/.config/GIMP
@@ -110,7 +116,7 @@ sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
 sudo chmod 777 -R /home/
 
-echo "# Iconos Photoshop y atajos de GIMP OK."; sleep 1s
+echo "# GIMP se configuró con los íconos de Photoshop, pero con sus propios atajos de teclado."; sleep 1s
 )|
 
 zenity --progress --pulsate 
@@ -126,7 +132,7 @@ percentage=0
 "4") 
 (
 
-echo "# Iconos GIMP y atajos Photoshop"; sleep 1s
+echo "# Configurando íconos GIMP y atajos Photoshop"; sleep 1s
 
 sudo chmod 777 -R /home/
 sudo rm -rf /home/*/.config/GIMP
@@ -143,7 +149,7 @@ sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
 sudo chmod 777 -R /home/
 
-echo "# Iconos GIMP y atajos Photoshop OK."; sleep 1s
+echo "# GIMP se configuró con sus propios íconos, pero con los atajos de teclado de Photoshop."; sleep 1s
 
 )|
 
