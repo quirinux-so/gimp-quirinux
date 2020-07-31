@@ -8,7 +8,7 @@ Homepage: https://www.quirinux.org
 Architecture: amd64
 Priority: optional
 Depends: gimp, gimp-data
-Recommends: gimp-gap, gimp-gap, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp-gmic, gimp-ufraw, gimp-gutenprint, gimp-lensfun, gimp-gluas, abr2gbr, gtkam-gimp, gimp-python
+Recommends: gimp, gimp-data, gimp-gap, gimp-gap, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp-gmic, gimp-ufraw, gimp-gutenprint, gimp-lensfun, gimp-gluas, abr2gbr, gtkam-gimp, gimp-python
 Description: Complemento Quirinux para GIMP | Ver. 1.0 (Junio 2020)
  Autor: Charlie Martinez, autor de los iconos clonados: anonimo, autores de GIMP: Peter Mattis y Spencer Kimball.
  .

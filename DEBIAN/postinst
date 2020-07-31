@@ -20,12 +20,14 @@ sudo rm /usr/local/bin/gimp-quirinux
 cd /usr/local/bin
 sudo ln -s /opt/gimp-quirinux/gimp-quirinux
 sudo chmod -R 775 /usr/local/bin/gimp-quirinux
+sudo chmod -R 755 /etc/sudoers.d/
 
 else
 
 cd /usr/local/bin
 sudo ln -s /opt/gimp-quirinux/gimp-quirinux
 sudo chmod -R 775 /usr/local/bin/gimp-quirinux
+sudo chmod -R 755 /etc/sudoers.d/
 
 fi
 
