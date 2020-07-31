@@ -15,7 +15,7 @@ sudo cp -rf /usr/share /usr/ </br>
 sudo chmod 755 /opt/gimp-quirinux/gimp-quirinux </br>
 cd DEBIAN </br>
 sudo ./postinst </br>
-sudo gimp-quirinux </br>
+gimp-quirinux </br>
 #### Autores
 Charlie Martínez, haciendo uso de la libertad de modificación y distribución de la licencia GPL, ha programado este complemento y no guarda relación alguna con los autores de GIMP (Peter Mattis y Spencer Kimball) ni con el autor de los componentes gráficos que incluye (íconos, hechos por un diseñador anónimo). 
 #### Avisos legales
