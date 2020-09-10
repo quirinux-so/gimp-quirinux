@@ -1,7 +1,9 @@
 # gimp-quirinux 
 Autor: Charlie Martínez ®
 ## Acerca de este repositorio
-Este programa sirve para configurar GIMP con los íconos y/o atajos de teclado de Photoshop.
+Complemento para Gimp que instala el programa Configurar Gimp en el menú Aplicaciones > Gráficos y el comando gimp-quirinux. 
+Permite modificar la apariencia y/o los atajos de teclado de Gimp para emular a los de Adobe Photoshop. 
+A diferencia de complementos similares que modifican atajos e íconos de manera irreversible, gimp-quirinux permite modificar una cosa, la otra o ambas (atajos, íconos) y posibilita revertir los cambios en cualquier momento. 
 ### Dependencias
 gimp, gimp-data
 ### Recomendados
@@ -18,6 +20,8 @@ sudo cp -rf /usr/share /usr/ </br>
 sudo chmod 755 /opt/gimp-quirinux/gimp-quirinux </br>
 cd DEBIAN </br>
 sudo ./postinst </br>
+Ejecutar desde menú Aplicaciones > Gráficos > Configurar GIMP
+ó con el comando:
 gimp-quirinux </br>
 ### Instalar este complemento desde binario .deb
 Luego de haber instalado Gimp desde repositorio oficial, la forma más sencilla de instalar este complemento es descargar el binario .deb
@@ -26,6 +30,9 @@ Enlace de descarga:
 https://github.com/quirinux-so/gimp-quirinux/releases/tag/v1.0-estable
 Ejecutar con algún gestor como gdedebi, qapt-deb-installer, gnome-software, etc. o los siguientes comandos:
 sudo dpkg -i gimp-quirinux-1.0-q2_amd64.deb
+Iniciar desde menú Aplicaciones > Gráficos > Configurar GIMP
+ó con el comando:
+gimp-quirinux
 #### Autores
 Charlie Martínez, haciendo uso de la libertad de modificación y distribución de la licencia GPL, ha programado este complemento y no guarda relación alguna con los autores de GIMP (Peter Mattis y Spencer Kimball) ni con el autor de los componentes gráficos que incluye (íconos, hechos por un diseñador anónimo). 
 #### Avisos legales
