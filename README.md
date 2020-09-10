@@ -9,15 +9,23 @@ gimp-gap, gimp-gap, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp
 ### Compatibilidad
 Probado con éxito en Debian 10.x / Devuan Beowulf / Ubuntu  20.x
 ### Requisitos
-Este complemento funciona SÓLO para GIMP instalado desde *repositorio oficial*. No válido para Snap, Flatpak ni Appimage. 
-### Instrucciones
+Este complemento funciona sólo para Gimp instalado desde *repositorio oficial*. No válido para Snap, Flatpak ni Appimage.
+### Instrucciones para instalar Gimp desde repositorio oficial
 sudo apt-get install gimp gimp-data </br>
+### Instrucciones para instalar este complemento desde el código fuente
 sudo cp -rf /opt/gimp-quirinux /opt/ </br>
 sudo cp -rf /usr/share /usr/ </br>
 sudo chmod 755 /opt/gimp-quirinux/gimp-quirinux </br>
 cd DEBIAN </br>
 sudo ./postinst </br>
 gimp-quirinux </br>
+### Instalar este complemento desde binario .deb
+Luego de haber instalado Gimp desde repositorio oficial, la forma más sencilla de instalar este complemento es descargar el binario .deb
+### Instrucciones para instalar desde binario:
+Enlace de descarga: 
+https://github.com/quirinux-so/gimp-quirinux/releases/tag/v1.0-estable
+Ejecutar con algún gestor como gdedebi, qapt-deb-installer, gnome-software, etc. o los siguientes comandos:
+sudo dpkg -i gimp-quirinux-1.0-q2_amd64.deb
 #### Autores
 Charlie Martínez, haciendo uso de la libertad de modificación y distribución de la licencia GPL, ha programado este complemento y no guarda relación alguna con los autores de GIMP (Peter Mattis y Spencer Kimball) ni con el autor de los componentes gráficos que incluye (íconos, hechos por un diseñador anónimo). 
 #### Avisos legales
