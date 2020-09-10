@@ -7,7 +7,9 @@ gimp, gimp-data
 ### Recomendados
 gimp-gap, gimp-gap, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp-gmic, gimp-ufraw, gimp-gutenprint, gimp-lensfun, gimp-gluas, abr2gbr, gtkam-gimp, gimp-pytho
 ### Compatibilidad
-Probado con éxito en Debian 10.x / Ubuntu  20.x
+Probado con éxito en Debian 10.x / Devuan Beowulf / Ubuntu  20.x
+### Requisitos
+Este complemento funciona SÓLO para GIMP instalado desde *repositorio oficial*. No válido para Snap, Flatpak ni Appimage. 
 ### Instrucciones
 sudo apt-get install gimp gimp-data </br>
 sudo cp -rf /opt/gimp-quirinux /opt/ </br>
