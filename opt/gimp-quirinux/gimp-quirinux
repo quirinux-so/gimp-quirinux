@@ -1,14 +1,10 @@
-#!/bin/bash 
-# gimp-quirinux
 
-# Programado por Charlie Martínez ®
-
-# Sitio oficial: www.quirinux.org
-# Contacto directo: cmartinez@quirinux.org
-# https://github.com/quirinux-so
-
-# Licencia GPL Versión 3 
-# https://github.com/quirinux-so/quirinux-kernel/blob/master/LICENCE
+# !/bin/bash
+# Nombre:	gimp-quirinux.sh
+# Autor:	Charlie Martínez® <cmartinez@quirinux.org>
+# Licencia:	https://www.gnu.org/licenses/gpl-3.0.txt
+# Descripción:	Complento que permite definir el aspecto de GIMP y revertir los cambios.
+# Versión:	1.00
 
 # Generando el menú gráfico con Zenity:
 
