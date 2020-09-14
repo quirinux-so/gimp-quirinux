@@ -13,22 +13,22 @@ Probado con éxito en Debian 10.x / Devuan Beowulf / Ubuntu  20.x
 ### Requisitos
 Este complemento funciona sólo para Gimp instalado desde *repositorio oficial*. No válido para Snap, Flatpak ni Appimage.
 ### Instrucciones para instalar Gimp desde repositorio oficial
-sudo apt-get install gimp gimp-data </br>
+sudo apt-get install gimp gimp-data 
 ### Instrucciones para instalar este complemento desde el código fuente
-sudo dpkg -b gimp-quirinux-1.0-q2_amd64
-sudo dpkg -i gimp-quirinux-1.0-q2_amd64.deb
-Ejecutar desde menú Aplicaciones > Gráficos > Configurar GIMP
-ó con el comando:
-gimp-quirinux </br>
+sudo dpkg -b gimp-quirinux-1.0-q2_amd64</br>
+sudo dpkg -i gimp-quirinux-1.0-q2_amd64.deb</br>
+Ejecutar desde menú Aplicaciones > Gráficos > Configurar GIMP</br>
+ó con el comando:</br>
+gimp-quirinux 
 ### Instalar este complemento desde binario .deb
 Luego de haber instalado Gimp desde repositorio oficial, la forma más sencilla de instalar este complemento es descargar el binario .deb
 ### Instrucciones para instalar desde binario:
-Enlace de descarga: 
-https://github.com/quirinux-so/gimp-quirinux/releases/tag/v1.0-estable
-Ejecutar con algún gestor como gdedebi, qapt-deb-installer, gnome-software, etc. o los siguientes comandos:
-sudo dpkg -i gimp-quirinux-1.0-q2_amd64.deb
-Iniciar desde menú Aplicaciones > Gráficos > Configurar GIMP
-ó con el comando:
+Enlace de descarga: </br>
+https://github.com/quirinux-so/gimp-quirinux/releases/tag/v1.0-estable</br>
+Ejecutar con algún gestor como gdedebi, qapt-deb-installer, gnome-software, etc. o los siguientes comandos:</br>
+sudo dpkg -i gimp-quirinux-1.0-q2_amd64.deb</br>
+Iniciar desde menú Aplicaciones > Gráficos > Configurar GIMP</br>
+ó con el comando:</br>
 gimp-quirinux
 #### Autores
 Charlie Martínez, haciendo uso de la libertad de modificación y distribución de la licencia GPL, ha programado este complemento y no guarda relación alguna con los autores de GIMP (Peter Mattis y Spencer Kimball) ni con el autor de los componentes gráficos que incluye (íconos, hechos por un diseñador anónimo). 
