@@ -15,11 +15,8 @@ Este complemento funciona sólo para Gimp instalado desde *repositorio oficial*.
 ### Instrucciones para instalar Gimp desde repositorio oficial
 sudo apt-get install gimp gimp-data </br>
 ### Instrucciones para instalar este complemento desde el código fuente
-sudo cp -rf /opt/gimp-quirinux /opt/ </br>
-sudo cp -rf /usr/share /usr/ </br>
-sudo chmod 755 /opt/gimp-quirinux/gimp-quirinux </br>
-cd DEBIAN </br>
-sudo ./postinst </br>
+sudo dpkg -b gimp-quirinux-1.0-q2_amd64
+sudo dpkg -i gimp-quirinux-1.0-q2_amd64.deb
 Ejecutar desde menú Aplicaciones > Gráficos > Configurar GIMP
 ó con el comando:
 gimp-quirinux </br>
