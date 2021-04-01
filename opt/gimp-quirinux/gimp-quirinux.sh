@@ -33,7 +33,7 @@ case $opc in
 
 echo "# Configurando como Photoshop"; sleep 1s
 
-sudo chmod 777 -R /home/
+sudo chmod 755 -R /home/
 
 sudo rm -rf /home/*/.config/GIMP
 sudo rm -rf /root/.config/GIMP 
@@ -46,7 +46,7 @@ sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/ 
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/
 
-sudo chmod 777 -R /home/
+sudo chmod 755 -R /home/
 
 echo "# GIMP se configuró con los íconos y atajos de Photoshop."; sleep 3s
 )|
@@ -67,7 +67,7 @@ percentage=0
 
 echo "# Configurando como GIMP"; sleep 1s
 
-sudo chmod 777 -R /home/
+sudo chmod 755 -R /home/
 sudo rm -rf /home/*/.config/GIMP
 sudo rm -rf /root/.config/GIMP
 sudo rm -rf /usr/share/gimp
@@ -76,7 +76,7 @@ for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-origin
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config /root/
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/.config/
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/usr/share /usr/
-sudo chmod 777 -R /home/
+sudo chmod 755 -R /home/
 
 echo "# GIMP se configuró con sus propios íconos y atajos de teclado."; sleep 1s
 
@@ -97,7 +97,7 @@ percentage=0
 
 echo "# Configurando íconos Photoshop y atajos de GIMP"; sleep 1s
 
-sudo chmod 777 -R /home/ 
+sudo chmod 755 -R /home/ 
 sudo rm -rf /home/*/.config/GIMP
 sudo rm -rf /root/.config/GIMP 
 sudo rm -rf /usr/share/gimp 
@@ -106,11 +106,11 @@ for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config/* /root/.config/ 
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config/* /etc/skel/.config/ 
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/usr/share /usr/
-sudo chmod 777 -R /home/
+sudo chmod 755 -R /home/
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-sudo chmod 777 -R /home/
+sudo chmod 755 -R /home/
 
 echo "# GIMP se configuró con los íconos de Photoshop, pero con sus propios atajos de teclado."; sleep 1s
 )|
@@ -130,7 +130,7 @@ percentage=0
 
 echo "# Configurando íconos GIMP y atajos Photoshop"; sleep 1s
 
-sudo chmod 777 -R /home/
+sudo chmod 755 -R /home/
 sudo rm -rf /home/*/.config/GIMP
 sudo rm -rf /root/.config/GIMP
 sudo rm -rf /usr/share/gimp
@@ -139,11 +139,11 @@ for usuarios in /home/*; do sudo yes | cp  -r /opt/gimp-quirinux/gimp-original-f
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config /root/
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/usr/share /usr/
-sudo chmod 777 -R /home/
+sudo chmod 755 -R /home/
 for usuarios in /home/*; do sudo yes | cp  -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-sudo chmod 777 -R /home/
+sudo chmod 755 -R /home/
 
 echo "# GIMP se configuró con sus propios íconos, pero con los atajos de teclado de Photoshop."; sleep 1s
 
