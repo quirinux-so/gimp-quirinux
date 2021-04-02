@@ -40,7 +40,7 @@ _photoshop_es
 _fin_es
 fi
 if [[ $opPrincipal == "Usar iconos y atajos de GIMP" ]]; then
-_gimp_Es
+_gimp_es
 _fin_es
 fi
 if [[ $opPrincipal == "Usar iconos de Photoshop y atajos de GIMP" ]]; then
@@ -61,29 +61,29 @@ fi
 function _photoshop_es()
 {
 (
-echo "14"; sleep 5
-echo "# Modificando permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modificando permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "86"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -96,29 +96,29 @@ fi
 function _gimp_es()
 {
 (
-echo "14"; sleep 5
-echo "# Modificando permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modificando permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "86"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -131,41 +131,41 @@ fi
 function _photogimp_es()
 {
 (
-echo "18"; sleep 5
-echo "# Modificando permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modificando permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modificando permisos"; sleep 5
+echo "63"; sleep 1
+echo "# Modificando permisos"; sleep 1
 sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restaurando permisos"; sleep 5
-sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "99"; sleep 1
+echo "# Restaurando permisos"; sleep 1
+sudo chmod 777 -R /home/  
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -178,41 +178,41 @@ fi
 function _gimpshop_es()
 {
 (
-echo "18"; sleep 5
-echo "# Modificando permisos"; sleep 5
+echo "18"; sleep 1
+echo "# Modificando permisos"; sleep 1
 sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "27"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modificando permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modificando permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "99"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -279,29 +279,29 @@ fi
 function _photoshop_en()
 {
 (
-echo "14"; sleep 5
-echo "# Modifying permissions"; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modifying /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modifying permissions"; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modifying /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modifying /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modifying /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 5
-echo "# Modifying /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modifying /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modifying /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modifying /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restoring permissions"; sleep 5
+echo "86"; sleep 1
+echo "# Restoring permissions"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configuring" --text="Be patient, it will take time" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -314,29 +314,29 @@ fi
 function _gimp_en()
 {
 (
-echo "14"; sleep 5
-echo "# Modifying permissions"; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modifying /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modifying permissions"; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modifying /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modifying /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modifying /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 5
-echo "# Modifying /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modifying /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modifying /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modifying /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restoring permissions"; sleep 5
+echo "86"; sleep 1
+echo "# Restoring permissions"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configuring" --text="Be patient, it will take time" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -349,41 +349,41 @@ fi
 function _photogimp_en()
 {
 (
-echo "18"; sleep 5
-echo "# Modifying permissions"; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modifying /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modifying permissions"; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modifying /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modifying /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modifying /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 5
-echo "# Modifying /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modifying /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modifying /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modifying /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modifying permissions"; sleep 5
+echo "63"; sleep 1
+echo "# Modifying permissions"; sleep 1
 sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restoring permissions"; sleep 5
-sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "99"; sleep 1
+echo "# Restoring permissions"; sleep 1
+sudo chmod 777 -R /home/  
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configuring" --text="Be patient, it will take time" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -396,41 +396,41 @@ fi
 function _gimpshop_en()
 {
 (
-echo "18"; sleep 5
-echo "# Modifying permissions"; sleep 5
+echo "18"; sleep 1
+echo "# Modifying permissions"; sleep 1
 sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modifying /home/*/.config/GIMP"; sleep 5
+echo "27"; sleep 1
+echo "# Modifying /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modifying /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modifying /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 5
-echo "# Modifying /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modifying /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modifying /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modifying /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modifying permissions"; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modifying permissions"; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restoring permissions"; sleep 5
+echo "99"; sleep 1
+echo "# Restoring permissions"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configuring" --text="Be patient, it will take time" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -497,29 +497,29 @@ fi
 function _photoshop_gl()
 {
 (
-echo "14"; sleep 5
-echo "# Modificación de permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modificación de permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "86"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configuring" --text="Sexa paciente, levará tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -532,29 +532,29 @@ fi
 function _gimp_gl()
 {
 (
-echo "14"; sleep 5
-echo "# Modificación de permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modificación de permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "86"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configuring" --text="Sexa paciente, levará tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -567,41 +567,41 @@ fi
 function _photogimp_gl()
 {
 (
-echo "18"; sleep 5
-echo "# Modificación de permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modificación de permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modificación de permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modificación de permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "99"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configuring" --text="Sexa paciente, levará tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -614,41 +614,41 @@ fi
 function _gimpshop_gl()
 {
 (
-echo "18"; sleep 5
-echo "# Modificación de permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modificación de permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modificación de permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modificación de permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "99"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Sexa paciente, levará tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -715,29 +715,29 @@ fi
 function _photoshop_pt()
 {
 (
-echo "14"; sleep 5
-echo "# Modificando permissões "; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modificando permissões "; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restaurando permissões "; sleep 5
+echo "86"; sleep 1
+echo "# Restaurando permissões "; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Seja paciente, vai demorar" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -750,29 +750,29 @@ fi
 function _gimp_pt()
 {
 (
-echo "14"; sleep 5
-echo "# Modificando permissões "; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modificando permissões "; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restaurando permissões "; sleep 5
+echo "86"; sleep 1
+echo "# Restaurando permissões "; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Seja paciente, vai demorar" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -785,41 +785,41 @@ fi
 function _photogimp_pt()
 {
 (
-echo "18"; sleep 5
-echo "# Modificando permissões "; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modificando permissões "; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modificando permissões "; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modificando permissões "; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restaurando permissões "; sleep 5
+echo "99"; sleep 1
+echo "# Restaurando permissões "; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Seja paciente, vai demorar " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -832,41 +832,41 @@ fi
 function _gimpshop_pt()
 {
 (
-echo "18"; sleep 5
-echo "# Modificando permissões "; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modificando permissões "; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modificando permissões "; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modificando permissões "; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restaurando permissões "; sleep 5
+echo "99"; sleep 1
+echo "# Restaurando permissões "; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -932,29 +932,29 @@ fi
 function _photoshop_fr()
 {
 (
-echo "14"; sleep 5
-echo "# Modifier les autorisations   "; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modifier /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modifier les autorisations   "; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modifier /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modifier /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modifier /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 5
-echo "# Modifier /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modifier /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modifier /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modifier /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "86"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurer " --text="Soyez patient, cela prendra du temps " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -967,29 +967,29 @@ fi
 function _gimp_fr()
 {
 (
-echo "14"; sleep 5
-echo "# Modifier les autorisations   "; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modifier /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modifier les autorisations   "; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modifier /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modifier /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modifier /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 5
-echo "# Modifier /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modifier /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modifier /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modifier /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "86"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurer " --text="Soyez patient, cela prendra du temps " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1002,41 +1002,41 @@ fi
 function _photogimp_fr()
 {
 (
-echo "18"; sleep 5
-echo "# Modifier les autorisations   "; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modifier /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modifier les autorisations   "; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modifier /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modifier /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modifier /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 5
-echo "# Modifier /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modifier /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modifier /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modifier /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modifier les autorisations   "; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modifier les autorisations   "; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "99"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurer " --text="Soyez patient, cela prendra du temps " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1049,41 +1049,41 @@ fi
 function _gimpshop_fr()
 {
 (
-echo "18"; sleep 5
-echo "# Modifier les autorisations   "; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modifier /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modifier les autorisations   "; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modifier /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modifier /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modifier /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 5
-echo "# Modifier /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modifier /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modifier /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modifier /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modifier les autorisations   "; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modifier les autorisations   "; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "99"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurer " --text="Soyez patient, cela prendra du temps " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1150,29 +1150,29 @@ fi
 function _photoshop_it ()
 {
 (
-echo "14"; sleep 5
-echo "# Modifica delle autorizzazioni "; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modifica /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modifica delle autorizzazioni "; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modifica /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modifica /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modifica /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 5
-echo "# Modifica /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modifica /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modifica /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modifica /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Ripristino delle autorizzazioni "; sleep 5
+echo "86"; sleep 1
+echo "# Ripristino delle autorizzazioni "; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Sii paziente, ci vorrà del tempo " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1185,29 +1185,29 @@ fi
 function _gimp_it ()
 {
 (
-echo "14"; sleep 5
-echo "# Modifica delle autorizzazioni "; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modifica /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modifica delle autorizzazioni "; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modifica /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modifica /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modifica /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 5
-echo "# Modifica /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modifica /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modifica /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modifica /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Ripristino delle autorizzazioni "; sleep 5
+echo "86"; sleep 1
+echo "# Ripristino delle autorizzazioni "; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Sii paziente, ci vorrà del tempo " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1220,41 +1220,41 @@ fi
 function _photogimp_it ()
 {
 (
-echo "18"; sleep 5
-echo "# Modifica delle autorizzazioni "; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modifica /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modifica delle autorizzazioni "; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modifica /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modifica /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modifica /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 5
-echo "# Modifica /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modifica /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modifica /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modifica /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modifica delle autorizzazioni "; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modifica delle autorizzazioni "; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Ripristino delle autorizzazioni "; sleep 5
+echo "99"; sleep 1
+echo "# Ripristino delle autorizzazioni "; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Sii paziente, ci vorrà del tempo " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1267,41 +1267,41 @@ fi
 function _gimpshop_it ()
 {
 (
-echo "18"; sleep 5
-echo "# Modifica delle autorizzazioni "; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modifica /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modifica delle autorizzazioni "; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modifica /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modifica /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modifica /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 5
-echo "# Modifica /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modifica /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modifica /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modifica /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modifica delle autorizzazioni "; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modifica delle autorizzazioni "; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Ripristino delle autorizzazioni "; sleep 5
+echo "99"; sleep 1
+echo "# Ripristino delle autorizzazioni "; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Sii paziente, ci vorrà del tempo " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1367,29 +1367,29 @@ fi
 function _photoshop_de()
 {
 (
-echo "14"; sleep 5
-echo "# Berechtigungen ändern    "; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Ändern /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Berechtigungen ändern    "; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Ändern /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Ändern /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Ändern /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 5
-echo "# Ändern /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Ändern /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Ändern /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Ändern /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Berechtigungen wiederherstellen"; sleep 5
+echo "86"; sleep 1
+echo "# Berechtigungen wiederherstellen"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Konfigurieren" --text="Sei geduldig, es wird einige Zeit dauern " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1402,29 +1402,29 @@ fi
 function _gimp_de()
 {
 (
-echo "14"; sleep 5
-echo "# Berechtigungen ändern    "; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Ändern /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Berechtigungen ändern    "; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Ändern /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Ändern /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Ändern /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 5
-echo "# Ändern /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Ändern /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Ändern /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Ändern /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Berechtigungen wiederherstellen"; sleep 5
+echo "86"; sleep 1
+echo "# Berechtigungen wiederherstellen"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Konfigurieren" --text="Sei geduldig, es wird einige Zeit dauern " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1437,41 +1437,41 @@ fi
 function _photogimp_de()
 {
 (
-echo "18"; sleep 5
-echo "# Berechtigungen ändern    "; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Ändern /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Berechtigungen ändern    "; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Ändern /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Ändern /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Ändern /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 5
-echo "# Ändern /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Ändern /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Ändern /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Ändern /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Berechtigungen ändern    "; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Kopieren  gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Berechtigungen ändern    "; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Kopieren  gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Kopieren  gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Kopieren  gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 5
-echo "# Kopieren  gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Kopieren  gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Berechtigungen wiederherstellen"; sleep 5
+echo "99"; sleep 1
+echo "# Berechtigungen wiederherstellen"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Konfigurieren" --text="Sei geduldig, es wird einige Zeit dauern " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1484,41 +1484,41 @@ fi
 function _gimpshop_de()
 {
 (
-echo "18"; sleep 5
-echo "# Berechtigungen ändern    "; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Ändern /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Berechtigungen ändern    "; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Ändern /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Ändern /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Ändern /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 5
-echo "# Ändern /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Ändern /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Ändern /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Ändern /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Berechtigungen ändern    "; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Kopieren  gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Berechtigungen ändern    "; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Kopieren  gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Kopieren  gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Kopieren  gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 5
-echo "# Kopieren  gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Kopieren  gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Berechtigungen wiederherstellen"; sleep 5
+echo "99"; sleep 1
+echo "# Berechtigungen wiederherstellen"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Konfigurieren" --text="Sei geduldig, es wird einige Zeit dauern " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1585,29 +1585,29 @@ fi
 function _photoshop_ru()
 {
 (
-echo "14"; sleep 5
-echo "# Modificando permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modificando permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "86"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Будьте терпеливы, это займет время  " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1620,29 +1620,29 @@ fi
 function _gimp_ru()
 {
 (
-echo "14"; sleep 5
-echo "# Modificando permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "29"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "14"; sleep 1
+echo "# Modificando permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "29"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "43"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "57"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "71"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "86"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Будьте терпеливы, это займет время  " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1655,41 +1655,41 @@ fi
 function _photogimp_ru()
 {
 (
-echo "18"; sleep 5
-echo "# Modificando permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modificando permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modificando permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modificando permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "99"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Будьте терпеливы, это займет время  " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -1702,41 +1702,41 @@ fi
 function _gimpshop_ru()
 {
 (
-echo "18"; sleep 5
-echo "# Modificando permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "27"; sleep 5
-echo "# Modificando /home/*/.config/GIMP"; sleep 5
+echo "18"; sleep 1
+echo "# Modificando permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "27"; sleep 1
+echo "# Modificando /home/*/.config/GIMP"; sleep 1
 sudo rm -rf /home/*/.config/GIMP
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 5
-echo "# Modificando /root/.config/GIMP "; sleep 5
+echo "36"; sleep 1
+echo "# Modificando /root/.config/GIMP "; sleep 1
 sudo rm -rf /root/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 5
-echo "# Modificando /usr/share/gimp"; sleep 5
+echo "45"; sleep 1
+echo "# Modificando /usr/share/gimp"; sleep 1
 sudo rm -rf /usr/share/gimp
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 5
-echo "# Modificando /etc/skel/.config/GIMP"; sleep 5
+echo "54"; sleep 1
+echo "# Modificando /etc/skel/.config/GIMP"; sleep 1
 sudo rm -rf /etc/skel/.config/GIMP
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 5
-echo "# Modificando permisos"; sleep 5
-sudo chmod 755 -R /home/
-echo "72"; sleep 5
-echo "# Copiano gimp-original-rc a /home"; sleep 5
+echo "63"; sleep 1
+echo "# Modificando permisos"; sleep 1
+sudo chmod 777 -R /home/
+echo "72"; sleep 1
+echo "# Copiando gimp-original-rc a /home"; sleep 1
 for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 5
-echo "# Copiano gimp-original-rc a /root"; sleep 5
+echo "81"; sleep 1
+echo "# Copiando gimp-original-rc a /root"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 5
-echo "# Copiano gimp-original-rc a /skel"; sleep 5
+echo "90"; sleep 1
+echo "# Copiando gimp-original-rc a /skel"; sleep 1
 sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 5
-echo "# Restaurando permisos"; sleep 5
+echo "99"; sleep 1
+echo "# Restaurando permisos"; sleep 1
 sudo chmod 755 -R /home/  
-echo "100"; sleep 5
+echo "100"; sleep 1
 )|
 zenity --progress --title="Configurando" --text="Будьте терпеливы, это займет время  " --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
