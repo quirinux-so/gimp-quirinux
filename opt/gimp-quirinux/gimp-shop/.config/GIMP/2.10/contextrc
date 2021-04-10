@@ -1,6 +1,6 @@
 # GIMP user context
 
-(tool "gimp-move-tool")
+(tool "gimp-crop-tool")
 (paint-info "gimp-paintbrush")
 (brush "2. Hardness 025")
 (dynamics "Pressure Opacity")
@@ -9,6 +9,6 @@
 (gradient "FG to BG (RGB)")
 (palette "Default")
 (font "Sans-serif")
-(tool-preset "16×10")
+(tool-preset "Core Pointer")
 
 # end of user context

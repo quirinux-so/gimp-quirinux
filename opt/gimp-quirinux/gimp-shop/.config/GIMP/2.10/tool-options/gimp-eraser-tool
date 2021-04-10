@@ -3,9 +3,8 @@
 (brush "2. Hardness 025")
 (dynamics "Pressure Opacity")
 (palette "Default")
-(brush-size 50)
-(brush-spacing 0.050000000000000003)
-(brush-hardness 0.25)
-(brush-force 1)
+(brush-size 51.000000)
+(brush-spacing 0.050000)
+(brush-hardness 0.250000)
 
 # end of gimp-eraser-tool options

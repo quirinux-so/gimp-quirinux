@@ -1,22 +1,15 @@
-Package: gimp-quirinux
-Version: 1.0
-Installed-Size: 87528
+Package: gimpquirinux
+Version: 1.0.0
 Maintainer: Charlie Martinez <cmartinez@quirinux.org>
 Section: graphics
 Source: https://github.com/quirinux-so
 Homepage: https://www.quirinux.org
 Architecture: amd64
 Priority: optional
+Installed-Size: 877765
 Depends: gimp, gimp-data
 Recommends: gimp, gimp-data, gimp-gap, gimp-gap, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp-gmic, gimp-ufraw, gimp-gutenprint, gimp-lensfun, gimp-gluas, abr2gbr, gtkam-gimp, gimp-python
-Description: Complemento Quirinux para GIMP | Ver. 1.0 (Junio 2020)
- Autor: Charlie Martinez, autor de los iconos clonados: anonimo, autores de GIMP: Peter Mattis y Spencer Kimball.
+Description: gimp-quirinux 1.0.0
+ Autor: Charlie Martínez
  .
- Modifica los iconos y/o atajos de teclado de GIMP para que se asemejen a su alternativa privativa mas famosa. 
- .
- Este paquete fue creado para el Sistema Operativo Quirinux GNU/Linux V.2.0 (Super-Guay) y es compatible con Debian, AV Linux, Mint LMDE4 y otras derivadas.
- .
- El mantenedor de este paquete de instalacion hace uso de su derecho de modificacion y distribucion, pero no guarda relacion con los autores de GIMP ni guarda relacion con el desarrollo del mismo.
- .
- IMPORTANTE: Algunos gestores de software como gnome-software detectan este paquete como "propietario" aunque en realidad no lo es. Licencia: GPLv3.
-
+ Configurar GIMP con los íconos y/o atajos de Photoshop.
