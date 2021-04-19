@@ -1,15 +1,16 @@
 Package: gimpquirinux
-Version: 1.0.0
+Version: 2.10.0
 Maintainer: Charlie Martinez <cmartinez@quirinux.org>
 Section: graphics
 Source: https://github.com/quirinux-so
 Homepage: https://www.quirinux.org
-Architecture: amd64
+Architecture: all
 Priority: optional
 Installed-Size: 877765
 Depends: gimp, gimp-data
+Replaces: gimp, gimp-data
 Recommends: gimp, gimp-data, gimp-gap, gimp-gap, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp-gmic, gimp-ufraw, gimp-gutenprint, gimp-lensfun, gimp-gluas, abr2gbr, gtkam-gimp, gimp-python
-Description: gimp-quirinux 1.0.0
+Description: Gimp Edición Quirinux 1.2.0
  Autor: Charlie Martínez
  .
- Configurar GIMP con los íconos y/o atajos de Photoshop.
+ Agrega al menú de aplicaciones la utilidad "Configurar GIMP" para elegir usar los íconos y/o atajos de Photoshop. Los cambios son reversibles.

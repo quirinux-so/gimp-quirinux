@@ -1,6 +1,6 @@
-de2ca8bbf2d493151329736130fafd23 etc/sudoers.d/gimp-quirinux-nopasswd
-62861f6ad7a0e0f830d7ff2a565cf7c0 usr/local/bin/gimp-quirinux
+a0e429a8171d915bf0c1f3fed979dae6 usr/local/bin/gimp-quirinux
 a99575e25f677df457d9043ddc1f5796 usr/share/applications/gimp-quirinux.desktop
+64061ae4202dc86479edf0c3c50f1f81 usr/share/applications/gimp.desktop
 97ff9683aa36f333c7d2295d6520090f usr/share/doc/gimp-quirinux/copyright
 e99ac1e10a4d109803a9e077ef12b32d usr/share/icons/gimp-quirinux.png
 cd44128c3248dfa4e0bb689b2e016fbe opt/gimp-quirinux/gimp-original-full/.config/GIMP/2.10/action-history
@@ -4075,7 +4075,7 @@ bef412716008ecbd7afafc214d6c25d3 opt/gimp-quirinux/gimp-original-full/usr/share/
 66e4d8271a688d8f0ac94b10f97339dd opt/gimp-quirinux/gimp-original-full/usr/share/gimp/2.0/ui/plug-ins/plug-in-metadata-editor.ui
 3c61e2c3b25d380a621ebae047d60243 opt/gimp-quirinux/gimp-original-full/usr/share/gimp/2.0/ui/plug-ins/plug-in-metadata-viewer.ui
 02b89b5106ba2ecacb03362e82f8d47b opt/gimp-quirinux/gimp-original-rc/.config/GIMP/2.10/menurc
-99e0060e6d9758538be9eeae4e1df46b opt/gimp-quirinux/gimp-quirinux.sh
+a0e429a8171d915bf0c1f3fed979dae6 opt/gimp-quirinux/gimp-quirinux.sh
 35b5cd99d1dc8c155a15e3a3d49c39df opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/action-history
 1cddd98a3068fd5ca7e6bd306dcbe51a opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/colorrc
 a06d08cd65015a7271e21de5c8c5b78d opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/contextrc
@@ -9126,3 +9126,4 @@ bef412716008ecbd7afafc214d6c25d3 opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/
 66e4d8271a688d8f0ac94b10f97339dd opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/ui/plug-ins/plug-in-metadata-editor.ui
 3c61e2c3b25d380a621ebae047d60243 opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/ui/plug-ins/plug-in-metadata-viewer.ui
 0b00f2198cebe1cc4b5739dbc9149469 opt/gimp-quirinux/gimp-shop-rc/.config/GIMP/2.10/menurc
+de2ca8bbf2d493151329736130fafd23 etc/sudoers.d/gimp-quirinux-nopasswd
