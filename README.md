@@ -1,33 +1,26 @@
 # gimp-quirinux 
 Autor: Charlie Martínez ®
 ## Acerca de este repositorio
-Complemento para Gimp que instala el programa Configurar Gimp en el menú Aplicaciones > Gráficos y el comando gimp-quirinux. 
-Permite modificar la apariencia y/o los atajos de teclado de Gimp para emular a los de Adobe Photoshop. 
+Gimp Edición Quirinux agrega a Gimp 2.10 el programa Configurar Gimp en el menú Aplicaciones > Gráficos y el comando gimp-quirinux. 
+Esto permite modificar la apariencia y/o los atajos de teclado de Gimp para emular a los de Adobe Photoshop. 
 A diferencia de complementos similares que modifican atajos e íconos de manera irreversible, gimp-quirinux permite modificar una cosa, la otra o ambas (atajos, íconos) y posibilita revertir los cambios en cualquier momento. 
 ### Dependencias
 gimp, gimp-data
 ### Recomendados
 gimp-gap, gimp-gap, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp-gmic, gimp-ufraw, gimp-gutenprint, gimp-lensfun, gimp-gluas, abr2gbr, gtkam-gimp, gimp-pytho
 ### Compatibilidad
-Probado con éxito en Debian 10.x / Devuan Beowulf / Ubuntu  20.x
+Compatible con Quirinux 2.0, Debian 10.x, Devuan Beowulf, Ubuntu  20.x y derivadas
 ### Requisitos
 Este complemento funciona sólo para Gimp instalado desde *repositorio oficial*. No válido para Snap, Flatpak ni Appimage.
-### Instrucciones para instalar Gimp desde repositorio oficial
-sudo apt-get install gimp gimp-data 
-### Instrucciones para instalar este complemento desde el código fuente
-sudo dpkg -b gimp-quirinux-1.0-q2_amd64</br>
-sudo dpkg -i gimp-quirinux-1.0-q2_amd64.deb</br>
-Ejecutar desde menú Aplicaciones > Gráficos > Configurar GIMP</br>
-ó con el comando:</br>
-gimp-quirinux 
-### Instalar este complemento desde binario .deb
-Luego de haber instalado Gimp desde repositorio oficial, la forma más sencilla de instalar este complemento es descargar el binario .deb
+### Instalación
+La forma más sencilla de instalar este complemento es descargar y ejecutar el binario .deb
 ### Instrucciones para instalar desde binario:
 Enlace de descarga: </br>
-https://github.com/quirinux-so/gimp-quirinux/releases/tag/v1.0-estable</br>
+https://github.com/quirinux-so/gimp-quirinux/releases/tag/v2.0-estable</br>
 Ejecutar con algún gestor como gdedebi, qapt-deb-installer, gnome-software, etc. o los siguientes comandos:</br>
-sudo dpkg -i gimp-quirinux-1.0-q2_amd64.deb</br>
-Iniciar desde menú Aplicaciones > Gráficos > Configurar GIMP</br>
+sudo apt ./install gimpquirinux_2.10.0_all.deb</br>
+Gimp 2.10 se instalará con los íconos y atajos de teclado de Photoshop.
+Puedes modificar esta configuración desde menú Aplicaciones > Gráficos > Configurar GIMP</br>
 ó con el comando:</br>
 gimp-quirinux
 #### Autores
