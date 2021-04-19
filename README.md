@@ -16,7 +16,7 @@ Este complemento funciona sólo para Gimp instalado desde *repositorio oficial*.
 La forma más sencilla de instalar este complemento es descargar y ejecutar el binario .deb
 ### Instrucciones para instalar desde binario:
 Enlace de descarga: </br>
-https://github.com/quirinux-so/gimp-quirinux/releases/tag/v2.0-estable</br>
+https://github.com/quirinux-so/gimp-quirinux/releases/tag/v2.10.0-estable</br>
 Ejecutar con algún gestor como gdedebi, qapt-deb-installer, gnome-software, etc. o los siguientes comandos:</br>
 sudo apt ./install gimpquirinux_2.10.0_all.deb</br>
 Gimp 2.10 se instalará con los íconos y atajos de teclado de Photoshop.
