@@ -3,7 +3,8 @@
 sudo chown root:root /etc/sudoers.d/gimp-quirinux-nopasswd
 sudo chmod 755 /etc/sudoers.d/gimp-quirinux-nopasswd
 
-sudo chmod 755 -R /home/
+for usuarios1 in /home/*; do sudo sudo chmod 755 -R $usuarios1; done
+
 
 sudo rm -rf /home/*/.config/GIMP
 sudo rm -rf /root/.config/GIMP 
@@ -16,6 +17,6 @@ sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/ 
 sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/
 
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+for usuarios1 in /home/*; do sudo sudo chmod 755 -R $usuarios1; done
+for usuarios1 in /home/*; do sudo chmod 777 -R $usuarios1"/.config"; done
 
