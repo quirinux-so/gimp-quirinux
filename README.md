@@ -1,36 +1,143 @@
-# gimp-quirinux 
-Autor: Charlie Martínez ®
-## Acerca de este repositorio
-Gimp Edición Quirinux agrega a Gimp 2.10 el programa Configurar Gimp en el menú Aplicaciones > Gráficos y el comando gimp-quirinux. 
-Esto permite modificar la apariencia y/o los atajos de teclado de Gimp para emular a los de Adobe Photoshop. 
-A diferencia de complementos similares que modifican atajos e íconos de manera irreversible, gimp-quirinux permite modificar una cosa, la otra o ambas (atajos, íconos) y posibilita revertir los cambios en cualquier momento. 
-### Dependencias
-gimp, gimp-data
-### Recomendados
-gimp-gap, gimp-gap, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp-gmic, gimp-ufraw, gimp-gutenprint, gimp-lensfun, gimp-gluas, abr2gbr, gtkam-gimp, gimp-pytho
-### Compatibilidad
-Compatible con Quirinux 2.0, Debian 10.x, Devuan Beowulf, Ubuntu  20.x y derivadas
-### Requisitos
-Este complemento funciona sólo para Gimp instalado desde *repositorio oficial*. No válido para Snap, Flatpak ni Appimage.
-### Instalación
-La forma más sencilla de instalar este complemento es descargar y ejecutar el binario .deb
-### Instrucciones para instalar desde binario:
-Enlace de descarga: </br>
-https://github.com/quirinux-so/gimp-quirinux/releases/</br>
-Ejecutar con algún gestor como gdedebi, qapt-deb-installer, gnome-software, etc. o los siguientes comandos:</br>
-sudo apt ./install gimpquirinux_2.10.0_all.deb</br>
-Gimp 2.10 se instalará con los íconos y atajos de teclado de Photoshop.
-Puedes modificar esta configuración desde menú Aplicaciones > Gráficos > Configurar GIMP</br>
-ó con el comando:</br>
-gimp-quirinux
-#### Autores
-Charlie Martínez, haciendo uso de la libertad de modificación y distribución de la licencia GPL, ha programado este complemento y no guarda relación alguna con los autores de GIMP (Peter Mattis y Spencer Kimball) ni con el autor de los componentes gráficos que incluye (íconos, hechos por un diseñador anónimo). 
-#### Avisos legales
-(p) y (c) 2020. Charlie Martínez y Quirinux son marcas registradas. Todo el software aquí publicado está protegido por Derechos de Autor y registrada en DNDA y se distribuye bajo licencia GPLv2.0, mientras que todo el contenido artistico que acompaña al software (íconos, wallpapers, etc) y el literario (manuales y textos en general) es distribuido bajo licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Reconocimiento 4.0 Internacional</a>. Windows, Mac, GitHub, Debian, TupiTube, OpenToonz, Ardour, Linux, GNU  y otras son marcas registradas por sus respectivo dueños.
-## Licencia GPLv2.0
-Puedes copiar y distribuir este material en cualquier medio y formato, remezclar, transformar y contruir nuevo material a partir del mismo para cualquier propósito, incluso comercialmente. Es necesario que indiques el nombre del autor original en los créditos, de manera adecuada y brindes un enlace a la licencia, indicando si se han realizado cambios. Puedes hacerlo en cualquier forma razonable, pero no de forma en que parezca que tu o que la implementación de este software cuenta con apoyo del licenciante. No puedes aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otras a hacer cualquier uso permitido por la licencia. 
-#### Renuncias
-Este repositorio de GitHub no es un respaldo a GitHub por parte de Charlie Martínez ni de Quirinux. Quirinux no mantiene ni distribuye el código base del motor de GitHub porque no está disponible bajo una licencia de código abierto y libre.
-El autor de Quirinux no forma parte del equipo de desarrollo de Debian y Quirinux no es una distribución oficial de Debian, sino una derivada construida en base a ella, sin relación colaborativa alguna. 
-El autor de Quirinux participa como usuario de pruebas y aporta sugerencias en proyectos como el fork de Systemback de Franco Conidi, OpenToonz y TupiTube, aplicaciones incluidas por defecto en Quirinux, sin embargo no forma parte del equipo de desarrollo de tales aplicaciones ni de ninguna otra salvo las que se indiquen específicamente en los repositorios.
+# 🎨 gimp-quirinux
 
+Autor: **Charlie Martínez - Quirinux GNU/Linux ®**  
+Licencia: **GPLv2.0**
+
+## 🇪🇸 Español  
+
+![gimp-quirinux](https://charliemartinez.com.ar/wp-content/uploads/2023/11/gimp-quirinux_charlie-martinez.jpg)
+
+**Gimp Edición Quirinux** agrega al clásico GIMP 2.10 una herramienta de configuración personalizada para adaptar su interfaz y atajos de teclado al estilo de Adobe Photoshop. A diferencia de otros complementos, **gimp-quirinux permite modificar íconos, atajos o ambos**, y revertir los cambios en cualquier momento.
+
+🧩 Añade al menú:  
+`Aplicaciones > Gráficos > Configurar GIMP`  
+Y el comando:  
+`gimp-quirinux`
+
+## ✅ Compatibilidad
+
+- Quirinux 2.0  
+- Debian 10.x / Devuan Beowulf  
+- Ubuntu 20.x y derivadas
+
+## 📦 Requisitos
+
+- GIMP instalado desde **repositorio oficial**  
+❌ No funciona con versiones Snap, Flatpak ni AppImage.
+
+### ⚙️ Dependencias:
+
+- `gimp`, `gimp-data`
+
+### ⭐ Recomendados:
+
+- `gimp-gap`, `gimp-data-extras`, `gimp-plugin-registry`, `gimp-gmic`, `gimp-ufraw`, `gimp-gutenprint`, `gimp-lensfun`, `gimp-gluas`, `abr2gbr`, `gtkam-gimp`, `gimp-python`, etc.
+
+---
+
+## 🧭 Instalación
+
+La forma más sencilla es usar el paquete `.deb` oficial.
+
+📥 Descarga:  
+🔗 https://github.com/quirinux-so/gimp-quirinux/releases/
+
+📦 Instalar con GDebi, Qapt, GNOME Software o desde terminal:
+
+```bash
+sudo apt install ./gimpquirinux_2.10.0_all.deb
+```
+
+📌 Una vez instalado, puedes lanzar el configurador desde:
+
+- Menú: Aplicaciones > Gráficos > Configurar GIMP  
+- Comando: `gimp-quirinux`
+
+---
+
+## 👥 Autores
+
+**Charlie Martínez** ha desarrollado este complemento haciendo uso de las libertades otorgadas por la **licencia GPL**.  
+No guarda relación con los autores de GIMP ni con el autor de los íconos incluidos (autor anónimo).
+
+---
+
+## ⚖️ Avisos legales
+
+(c) y (p) 2020 – Charlie Martínez y Quirinux son marcas registradas.  
+Este software está protegido por derechos de autor y distribuido bajo licencia **GPLv2.0**.  
+Los contenidos artísticos (íconos, wallpapers, etc.) y literarios (manuales y textos) se distribuyen bajo licencia  
+🔗 [Creative Commons Reconocimiento 4.0 Internacional](https://creativecommons.org/licenses/by/4.0/deed.es)
+
+**Nota:** Este repositorio no implica respaldo alguno por parte de GitHub, Debian u otras entidades mencionadas.  
+Quirinux es una distribución derivada de Debian, sin relación oficial ni colaborativa.
+
+---
+
+## 🇬🇧 English  
+
+![gimp-quirinux](https://charliemartinez.com.ar/wp-content/uploads/2023/11/gimp-quirinux_charlie-martinez.jpg)
+
+**Gimp Quirinux Edition** adds a customization tool to classic GIMP 2.10 that lets you adapt its appearance and keyboard shortcuts to mimic Adobe Photoshop. Unlike other tools, **gimp-quirinux lets you change icons, shortcuts, or both**, and revert them anytime.
+
+🧩 Added to menu:  
+`Applications > Graphics > Configure GIMP`  
+And the command:  
+`gimp-quirinux`
+
+## ✅ Compatibility
+
+- Quirinux 2.0  
+- Debian 10.x / Devuan Beowulf  
+- Ubuntu 20.x and derivatives
+
+## 📦 Requirements
+
+- GIMP must be installed from the **official repository**  
+❌ Not compatible with Snap, Flatpak, or AppImage versions.
+
+### ⚙️ Dependencies:
+
+- `gimp`, `gimp-data`
+
+### ⭐ Recommended:
+
+- `gimp-gap`, `gimp-data-extras`, `gimp-plugin-registry`, `gimp-gmic`, `gimp-ufraw`, `gimp-gutenprint`, `gimp-lensfun`, `gimp-gluas`, `abr2gbr`, `gtkam-gimp`, `gimp-python`, etc.
+
+---
+
+## 🧭 Installation
+
+The easiest way is to use the official `.deb` binary.
+
+📥 Download:  
+🔗 https://github.com/quirinux-so/gimp-quirinux/releases/
+
+📦 Install using GDebi, Qapt, GNOME Software or from terminal:
+
+```bash
+sudo apt install ./gimpquirinux_2.10.0_all.deb
+```
+
+📌 Once installed, launch the configurator from:
+
+- Menu: Applications > Graphics > Configure GIMP  
+- Command: `gimp-quirinux`
+
+---
+
+## 👥 Authors
+
+**Charlie Martínez** developed this tool under the **GPL license**, and is not affiliated with GIMP’s original authors or the anonymous creator of the icon set included.
+
+---
+
+## ⚖️ Legal notice
+
+(c) and (p) 2020 – Charlie Martínez and Quirinux are registered trademarks.  
+This software is protected by copyright and distributed under the **GPLv2.0 license**.  
+Artistic (icons, wallpapers) and literary content (manuals, documentation) is distributed under  
+🔗 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+
+**Disclaimer:** This repository is not endorsed by GitHub, Debian, or any mentioned entities.  
+Quirinux is a Debian-based distribution with no official affiliation.
