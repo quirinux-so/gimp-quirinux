@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Gimp Color Icon Theme</dc:title>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>many unknown and unnamed, Andrew Chadwick, Alexandre Prokoudine, Aryeom Han, Benoit Touchette, Jakub Steiner, Jehan, Johannes Matschke, Kevin Payne, Klaus Staedtler, Marek Dvoroznak, Michael Natterer</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Enhanced, extended tango-art-libre for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient8340">
+   <stop id="stop8342" stop-color="#fff" stop-opacity=".79608" offset="0"/>
+   <stop id="stop8344" stop-color="#fff" stop-opacity=".21569" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4271-9-3" x1="-32.495" x2="-14.705" y1="29.922" y2="29.922" gradientTransform="matrix(.91649 0 0 .91649 29.77 12.577)" gradientUnits="userSpaceOnUse">
+   <stop id="stop3075" style="stop-color:#030303" offset="0"/>
+   <stop id="stop3081" style="stop-color:#030303;stop-opacity:0" offset=".35135"/>
+   <stop id="stop3077" style="stop-color:#030303" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient8605-8" x1="9.6875" x2="9.4062" y1="31.344" y2="29.312" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient8340"/>
+  <linearGradient id="linearGradient8607-7" x1="9.6875" x2="9.4062" y1="31.344" y2="29.312" gradientTransform="matrix(-1 0 0 1 23.106 0)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient8340"/>
+  <linearGradient id="linearGradient8609-8" x1="11.453" x2="11.453" y1="34" y2="32.391" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient8340"/>
+ </defs>
+ <g id="gimp-prefs-controllers" transform="translate(-.14 -32)">
+  <circle id="path4252-1" cx="8.14" cy="40" r="7.2357" style="color-rendering:auto;color:#000000;fill:#d3d7cf;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5285;stroke:url(#linearGradient4271-9-3)"/>
+  <g id="g4245-1" transform="matrix(.82053 0 0 .82053 34.877 26.82)">
+   <g id="g5812-3" transform="translate(-42.512 -15.348)" style="opacity:.84337">
+    <g id="g4070" transform="matrix(.70601 0 0 .70601 4.9978 10.29)">
+     <path id="rect5775-0" transform="translate(42.512 15.348)" d="m-31.669 10.152c-0.74415 0-1.3438 0.53964-1.3438 1.2094v1.4906h-1.6562c-0.74415 0-1.3438 0.53964-1.3438 1.2094v0.99375c0 0.66974 0.5996 1.2094 1.3438 1.2094h1.6562v1.6781c0 0.66974 0.5996 1.2094 1.3438 1.2094h1.3125c0.74415 0 1.3438-0.53964 1.3438-1.2094v-1.6781h1.6562c0.74415 0 1.3438-0.53964 1.3438-1.2094v-0.99375c0-0.66974-0.5996-1.2094-1.3438-1.2094h-1.6562v-1.4906c0-0.66974-0.5996-1.2094-1.3438-1.2094z" style="color:#000000;stroke-width:.51786;stroke:#d3d7cf"/>
+     <path id="path5782-5" d="m7.0625 29.312s-0.03125 0.84375 0.5625 0.875h2.4062l-0.03125 0.875-2.3125-0.0625c-0.8125-0.0625-0.625-1.6875-0.625-1.6875z" style="color:#000000;fill:url(#linearGradient8605-8)"/>
+     <path id="path5798-7" d="m16.044 29.312s0.03125 0.84375-0.5625 0.875h-2.4062l0.03125 0.875 2.3125-0.0625c0.8125-0.0625 0.625-1.6875 0.625-1.6875z" style="color:#000000;fill:url(#linearGradient8607-7)"/>
+     <path id="path5802-6" d="m9.9375 32.719h3.0312c-0.04187 0.52461 0.07915 1.151-0.59375 1.2812h-1.75c-0.76391-0.13-0.63327-0.75698-0.6875-1.2812z" style="color:#000000;fill:url(#linearGradient8609-8)"/>
+    </g>
+   </g>
+  </g>
+  <g id="g4259" transform="matrix(.4555 0 0 .58611 19.333 23.008)">
+   <ellipse id="path115" cx="-30.361" cy="30.935" rx="1.3687" ry="1.0243" style="color:#000000;fill:#3465a4;stroke:#204a87"/>
+   <ellipse id="path131" cx="-30.35" cy="30.604" rx=".7592" ry=".33077" style="color:#000000;fill-opacity:.64375;fill:#fff"/>
+  </g>
+  <g id="g4239" transform="matrix(.44949 0 0 .6006 21.941 16.537)">
+   <ellipse id="path113" cx="-33.441" cy="32.984" rx="1.3687" ry="1.0243" style="color:#000000;fill:#ef2929;stroke:#c00"/>
+   <ellipse id="path133" cx="-33.43" cy="32.632" rx=".7592" ry=".33077" style="color:#000000;fill-opacity:.64375;fill:#fff"/>
+  </g>
+  <g id="g4243" transform="matrix(.46612 0 0 .58342 18.073 19.278)">
+   <ellipse id="path117" cx="-27.282" cy="32.984" rx="1.3687" ry="1.0243" style="color:#000000;fill:#73d216;stroke:#4e9a06"/>
+   <ellipse id="path135" cx="-27.25" cy="32.674" rx=".7592" ry=".33077" style="color:#000000;fill-opacity:.64375;fill:#fff"/>
+  </g>
+  <g id="g4247" transform="matrix(.46622 0 0 .57449 20.926 23.174)">
+   <ellipse id="path119" cx="-30.361" cy="35.032" rx="1.3687" ry="1.0243" style="color:#000000;fill:#edd400;stroke:#c4a000"/>
+   <ellipse id="path137" cx="-30.35" cy="34.702" rx=".7592" ry=".33077" style="color:#000000;fill-opacity:.64375;fill:#fff"/>
+  </g>
+ </g>
+</svg>

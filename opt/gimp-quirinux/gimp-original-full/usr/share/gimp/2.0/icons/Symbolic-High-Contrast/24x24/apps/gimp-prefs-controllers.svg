@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -99.352 781.04)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#ddd" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient8023" x1="55.011" x2="71" y1="-13.985" y2="-13.985" gradientTransform="matrix(1.5 0 0 1.5 1068.8 530.19)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient8025" x1="63" x2="65" y1="-14" y2="-14" gradientTransform="matrix(1.5 0 0 1.5 1068.8 529.69)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient8027" x1="104" x2="114" y1="478" y2="478" gradientTransform="matrix(1.2 0 0 1.2 1032.5 -53.468)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <g id="g4263">
+  <circle id="path12374" cx="12" cy="16" r="6" style="fill:url(#linearGradient8027)"/>
+  <path id="path12620" d="m11.719 0.09375c-1.6617 0.0045-3.3304 0.32271-4.8281 1.0312-5.9908 2.8342-8.5529 9.9935-5.7188 15.984 0.13635 0.28814 0.31305 0.5717 0.46875 0.84375-1.7782-5.0161 0.52314-10.659 5.4375-12.984 2.2059-1.0436 4.7128-1.2522 6.9219-0.75l1.3-3.9188c-0.82539-0.18028-1.469-0.11019-2.3625-0.15938-0.32036-0.02985-0.61738-0.0408-0.9375-0.0468-0.09585-0.0015-0.18552-2.85e-4 -0.28125 0zm5.9812 0.90625-1.7 4c1.4354 0.85383 3.6187 2.4998 4.5312 4l3.4688-1.5c-0.60531-2.4861-3.5532-5.1772-6.3-6.5z" style="fill:url(#linearGradient8023)"/>
+  <path id="path12636" d="m15 11.5v-6.5l-3 5z" style="fill:url(#linearGradient8025)"/>
+ </g>
+</svg>

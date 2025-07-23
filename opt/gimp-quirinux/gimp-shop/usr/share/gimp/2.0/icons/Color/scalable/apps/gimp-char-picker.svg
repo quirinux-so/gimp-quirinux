@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>many unknown and unnamed, Andrew Chadwick, Alexandre Prokoudine, Aryeom Han, Benoit Touchette, Jakub Steiner, Jehan, Johannes Matschke, Kevin Payne, Klaus Staedtler, Marek Dvoroznak, Michael Natterer</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Enhanced, extended tango-art-libre for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <radialGradient id="radialGradient4716" cx="24.5" cy="29.5" r="15.095" gradientTransform="matrix(.79378 0 0 .77382 -27.444 -12.511)" gradientUnits="userSpaceOnUse">
+   <stop id="stop4712" style="stop-color:#f2f4f1" offset="0"/>
+   <stop id="stop4714" style="stop-color:#d3d7cf" offset="1"/>
+  </radialGradient>
+  <linearGradient id="linearGradient4734" x1="24.095" x2="24.095" y1="12.595" y2="34.095" gradientTransform="matrix(.36616 0 0 .35695 -16.819 -.068958)" gradientUnits="userSpaceOnUse">
+   <stop id="stop4730" style="stop-color:#eeeeec" offset="0"/>
+   <stop id="stop4732" style="stop-color:#fff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="g4246">
+  <rect id="rect4256" x="-4.6259e-18" y="2.2563e-7" width="16" height="16" style="fill:none;opacity:.75;paint-order:stroke fill markers"/>
+  <rect id="rect2960" x="1.1819" y="1.1819" width="13.636" height="13.636" rx="1.6709" ry="1.6709" style="color:#000000;display:block;fill:#d3d7cf;stroke-width:.36383;stroke:#888a85"/>
+  <rect id="rect3835" transform="scale(-1,1)" x="-13.341" y="2.2512" width="10.689" height="10.42" rx="1.3097" ry="1.2768" style="color:#000000;display:block;fill:url(#radialGradient4716);stroke-width:.36383;stroke:url(#linearGradient4734)"/>
+  <path id="text4736" d="m11.107 10.367h-0.7732v-0.49344c-0.30822 0.39889-0.71475 0.59834-1.2196 0.59834-0.40387 0-0.72405-0.1062-0.96052-0.3186-0.23382-0.21499-0.35073-0.50121-0.35073-0.85866-4e-7 -0.24348 0.047826-0.45458 0.14348-0.63331 0.098311-0.17872 0.24445-0.32378 0.43841-0.43516 0.19662-0.11138 0.4517-0.18649 0.76523-0.22535l1.1837-0.15541c-3e-6 -0.30564-0.066434-0.53488-0.19928-0.6877-0.1302-0.15282-0.32549-0.22923-0.58588-0.22923-0.21522 3.7e-6 -0.44506 0.040152-0.68951 0.12045-0.24179 0.0803-0.45834 0.19686-0.64965 0.34968v-0.76541c0.49687-0.24348 0.96451-0.36522 1.4029-0.36522 0.48358 3.9e-6 0.85291 0.13081 1.108 0.39242 0.25773 0.26162 0.3866 0.63202 0.3866 1.1112v2.5954m-0.7732-1.5036v-0.45458c-0.66427 0.082888-1.0389 0.13081-1.1239 0.14376-0.08237 0.012954-0.18467 0.04533-0.30689 0.097133-0.11957 0.051806-0.20459 0.12045-0.25508 0.20592-0.047828 0.085478-0.071741 0.20981-0.07174 0.37299-1.1e-6 0.18391 0.066426 0.33414 0.19928 0.4507 0.13551 0.11397 0.3122 0.17096 0.53008 0.17095 0.27102 1e-6 0.51015-0.094543 0.7174-0.28363 0.20725-0.18909 0.31087-0.4235 0.31088-0.70324m0.33479-4.3671-1.0721 1.2744h-0.53008l0.86487-1.2744h0.73733"/>
+  <rect id="rect4740" x="1.5319" y="1.5319" width="12.936" height="12.936" rx="1.3036" ry="1.2708" style="color:#000000;display:block;fill:none;opacity:.48889;stroke-width:.36383;stroke:#fff"/>
+ </g>
+</svg>

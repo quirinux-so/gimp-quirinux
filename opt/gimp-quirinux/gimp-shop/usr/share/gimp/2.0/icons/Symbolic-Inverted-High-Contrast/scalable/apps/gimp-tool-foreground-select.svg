@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 6.6481 524.04)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#222" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient10698-8" x1="47" x2="52" y1="342.5" y2="342.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10692-9" x1="163" x2="172" y1="249" y2="249" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10704-2" x1="-76" x2="-64" y1="24.5" y2="24.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9790-0" x1="161" x2="162" y1="240.5" y2="240.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9788-2" x1="163" x2="164" y1="240.5" y2="240.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9786-3" x1="165" x2="166" y1="240.5" y2="240.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9784-7" x1="167" x2="168" y1="240.5" y2="240.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9782-5" x1="169" x2="170" y1="240.5" y2="240.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9780-9" x1="171" x2="172" y1="240.5" y2="240.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9778-2" x1="173" x2="174" y1="240.5" y2="240.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9776-2" x1="-68" x2="-67" y1="25.5" y2="25.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9774-8" x1="-68" x2="-67" y1="27.5" y2="27.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9772-9" x1="-68" x2="-67" y1="29.5" y2="29.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9770-7" x1="-68" x2="-67" y1="31.5" y2="31.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9768-3" x1="-68" x2="-67" y1="33.5" y2="33.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9764-6" x1="171" x2="172" y1="252.5" y2="252.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9762-1" x1="169" x2="170" y1="252.5" y2="252.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9766-2" x1="-68" x2="-67" y1="35.5" y2="35.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9744-9" x1="-80" x2="-79" y1="25.5" y2="25.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9746-3" x1="-80" x2="-79" y1="27.5" y2="27.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9748-1" x1="-80" x2="-79" y1="29.5" y2="29.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9750-9" x1="-80" x2="-79" y1="31.5" y2="31.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9752-4" x1="-80" x2="-79" y1="33.5" y2="33.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9754-7" x1="-80" x2="-79" y1="35.5" y2="35.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9756-8" x1="-78" x2="-77" y1="35.5" y2="35.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9758-4" x1="-76" x2="-75" y1="35.5" y2="35.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient9760-5" x1="-74" x2="-73" y1="35.5" y2="35.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <g id="gimp-tool-foreground-select" transform="translate(-161 -237)">
+  <rect id="rect16643" transform="translate(241 217)" x="-80" y="20" width="16" height="16" style="opacity:0"/>
+  <path id="path20580-1" transform="translate(118 -98)" d="m52 342.5a2.5 2.5 0 0 1-2.5 2.5 2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5z" style="color:#222222;fill:url(#linearGradient10698-8)"/>
+  <path id="path78052" d="m165 247c-1 0-2 0-2 1v3h9v-3c0-1-1-1-2-1v1h-5z" style="fill:url(#linearGradient10692-9)"/>
+  <path id="rect16664" transform="translate(241 217)" d="m-76 20v2h10v7h2v-9z" style="fill:url(#linearGradient10704-2);opacity:.5"/>
+  <rect id="rect16666" x="161" y="240" width="1" height="1" style="fill:url(#linearGradient9790-0)"/>
+  <rect id="rect16668" x="163" y="240" width="1" height="1" style="fill:url(#linearGradient9788-2)"/>
+  <rect id="rect16670" x="165" y="240" width="1" height="1" style="fill:url(#linearGradient9786-3)"/>
+  <rect id="rect16672" x="167" y="240" width="1" height="1" style="fill:url(#linearGradient9784-7)"/>
+  <rect id="rect16674" x="169" y="240" width="1" height="1" style="fill:url(#linearGradient9782-5)"/>
+  <rect id="rect16676" x="171" y="240" width="1" height="1" style="fill:url(#linearGradient9780-9)"/>
+  <rect id="rect16678" x="173" y="240" width="1" height="1" style="fill:url(#linearGradient9778-2)"/>
+  <rect id="rect16682" transform="translate(241 217)" x="-68" y="25" width="1" height="1" style="fill:url(#linearGradient9776-2)"/>
+  <rect id="rect16684" transform="translate(241 217)" x="-68" y="27" width="1" height="1" style="fill:url(#linearGradient9774-8)"/>
+  <rect id="rect16686" transform="translate(241 217)" x="-68" y="29" width="1" height="1" style="fill:url(#linearGradient9772-9)"/>
+  <rect id="rect16688" transform="translate(241 217)" x="-68" y="31" width="1" height="1" style="fill:url(#linearGradient9770-7)"/>
+  <rect id="rect16690" transform="translate(241 217)" x="-68" y="33" width="1" height="1" style="fill:url(#linearGradient9768-3)"/>
+  <rect id="rect16692" x="171" y="252" width="1" height="1" style="fill:url(#linearGradient9764-6)"/>
+  <rect id="rect16694" x="169" y="252" width="1" height="1" style="fill:url(#linearGradient9762-1)"/>
+  <rect id="rect16696" transform="translate(241 217)" x="-68" y="35" width="1" height="1" style="fill:url(#linearGradient9766-2)"/>
+  <rect id="rect16700" transform="translate(241 217)" x="-80" y="25" width="1" height="1" style="fill:url(#linearGradient9744-9)"/>
+  <rect id="rect16702" transform="translate(241 217)" x="-80" y="27" width="1" height="1" style="fill:url(#linearGradient9746-3)"/>
+  <rect id="rect16704" transform="translate(241 217)" x="-80" y="29" width="1" height="1" style="fill:url(#linearGradient9748-1)"/>
+  <rect id="rect16706" transform="translate(241 217)" x="-80" y="31" width="1" height="1" style="fill:url(#linearGradient9750-9)"/>
+  <rect id="rect16708" transform="translate(241 217)" x="-80" y="33" width="1" height="1" style="fill:url(#linearGradient9752-4)"/>
+  <rect id="rect16710" transform="translate(241 217)" x="-80" y="35" width="1" height="1" style="fill:url(#linearGradient9754-7)"/>
+  <rect id="rect16712" transform="translate(241 217)" x="-78" y="35" width="1" height="1" style="fill:url(#linearGradient9756-8)"/>
+  <rect id="rect16714" transform="translate(241 217)" x="-76" y="35" width="1" height="1" style="fill:url(#linearGradient9758-4)"/>
+  <rect id="rect16716" transform="translate(241 217)" x="-74" y="35" width="1" height="1" style="fill:url(#linearGradient9760-5)"/>
+ </g>
+</svg>

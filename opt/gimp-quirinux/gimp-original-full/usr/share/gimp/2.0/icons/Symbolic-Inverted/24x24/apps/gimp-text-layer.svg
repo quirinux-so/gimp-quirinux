@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg30571" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata30576">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1028.4)">
+  <g id="g4245">
+   <rect id="rect11723" y="1028.4" width="24" height="24" style="fill:none;opacity:.3"/>
+   <path id="path11725" d="m1.5 1040.4-1.5 11 22.406-0.098 1.5938-10.901-4-9e-4 1.9375 5h-6.9375l-1-5h-2l-1.5 5h-6.5625l1.0625-5z" style="fill:#414141"/>
+   <path id="path11731" d="m11 1029.4-5 14h3l1.533-5h4.533l1.9339 5h3l-5-14zm1.894 2.2848 1.6999 5.7152h-3.3998z" style="fill:#414141"/>
+  </g>
+ </g>
+</svg>

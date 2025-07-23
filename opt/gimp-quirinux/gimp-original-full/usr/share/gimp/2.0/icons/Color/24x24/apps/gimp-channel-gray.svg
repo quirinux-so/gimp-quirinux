@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg11300" width="24" height="24" version="1.0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs3">
+  <linearGradient id="linearGradient3233">
+   <stop id="stop3235" style="stop-color:#eeeeec" offset="0"/>
+   <stop id="stop3237" style="stop-color:#a3a398" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3594" x1="24" x2="23.434" y1="17.246" y2="8.0477" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3233"/>
+  <linearGradient id="linearGradient3592" x1="17.16" x2="37.969" y1="14.004" y2="56.576" gradientTransform="matrix(.59373 0 0 .5903 7.2534 .78257)" gradientUnits="userSpaceOnUse">
+   <stop id="stop3249" style="stop-color:#fff" offset="0"/>
+   <stop id="stop3251" style="stop-color:#fff;stop-opacity:0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient8095" cx="24.226" cy="30.48" r="13.354" gradientTransform="matrix(1.8409 0 0 .82128 -20.451 -6.1823)" gradientUnits="userSpaceOnUse">
+   <stop id="stop8091" style="stop-opacity:.27835" offset="0"/>
+   <stop id="stop8093" style="stop-color:#a8a8a8;stop-opacity:0" offset="1"/>
+  </radialGradient>
+  <linearGradient id="linearGradient3588" x1="23.434" x2="23.434" y1="15.759" y2="8.0477" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3233"/>
+ </defs>
+ <metadata id="metadata4">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title/>
+     </cc:Agent>
+    </dc:creator>
+    <dc:source>http://jimmac.musichall.cz</dc:source>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/"/>
+    <dc:title/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
+    <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="g4314" transform="matrix(1.5 0 0 1.4997 -4.9158e-5 .0044699)">
+  <g id="g4006" transform="matrix(.6345 0 0 .69459 -5.6696 -3.473)">
+   <path id="path3068" d="m21.465 5.4978c-4.8949 0-8.875 1.7334-8.875 3.8658v14.304c0 2.1324 3.9801 3.8658 8.875 3.8658 4.8949 0 9.0335-1.7334 9.0335-3.8658v-14.304c0-2.1324-4.1386-3.8658-9.0335-3.8658z" style="color:#000000;display:block;fill:#7d7d7d;stroke-miterlimit:10;stroke-width:1.0041;stroke:#767973"/>
+   <ellipse id="path3241" transform="matrix(.61236 0 0 .50902 6.9302 16.538)" cx="24" cy="14.071" rx="12.857" ry="5.5" style="color:#000000;display:block;fill:#d3d7cf;opacity:.23626;stroke-miterlimit:10;stroke-width:1.7911;stroke:url(#linearGradient3594)"/>
+   <path id="path4174" d="m21.471 6.5c-4.3507 0-7.8883 1.5424-7.8883 3.4398v13.061c0 1.8974 3.5376 3.4398 7.8883 3.4398 4.3507 0 8.0291-1.5424 8.0291-3.4398v-13.061c0-1.8974-3.6784-3.4398-8.0291-3.4398z" style="color:#000000;display:block;fill:none;opacity:.5443;stroke-miterlimit:10;stroke:url(#linearGradient3592)"/>
+   <ellipse id="path3364" transform="matrix(.62222 0 0 .54546 6.5667 1.8247)" cx="24" cy="14.071" rx="12.857" ry="5.5" style="color:#000000;display:block;fill:url(#radialGradient8095);opacity:.7732;stroke-miterlimit:10;stroke-width:1.7165;stroke:url(#linearGradient3588)"/>
+  </g>
+  <rect id="rect4060" x=".34068" y=".34068" width="15.319" height="15.319" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:0;shape-rendering:auto;solid-color:#000000;stroke-width:.68137"/>
+ </g>
+</svg>

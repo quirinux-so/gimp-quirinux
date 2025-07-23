@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg11300" width="16" height="16" version="1.0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata4">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Jakub Steiner</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:source>http://jimmac.musichall.cz</dc:source>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/"/>
+    <dc:title/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
+    <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1">
+  <g id="g4501">
+   <rect id="rect4071" x=".020249" width="15.979" height="16" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:0;shape-rendering:auto;solid-color:#000000;stroke-width:.49967"/>
+   <path id="rect10513" d="m0.21097 0.26984v10.519h1.0578v-0.02671c3.1535-0.03167 6.4071 0.02787 9.5203 0.02671v-10.519h-10.578zm1.0578 1.0519h8.4624v8.4153h-8.4624z" style="fill:#3465a4;stroke-width:.42194;stroke:#204a87"/>
+   <path id="path10526" d="m10.769 10.864 4.597 4.6468 0.35914-1.1082-4.8972-4.6736z" style="fill:#729fcf;stroke-width:.42529;stroke:#204a87"/>
+   <path id="path10519" d="m0.22025 1.8083 5 4.8366v-1.469l-5.0076-4.8436z" style="fill:#729fcf;stroke-linejoin:round;stroke-width:.42529;stroke:#3565a4"/>
+   <path id="path10521" d="m10.863 1.5 4.8373 4.9c0.03027-0.34443 0.06229-0.63315 0.05-1.2l-4.904-4.9z" style="fill:#729fcf;stroke-linecap:round;stroke-linejoin:round;stroke-width:.42572;stroke:#204a87"/>
+   <path id="path10523" d="m0.22025 11.421 5 4.3212 0.033389-1.282-5.0334-4.333z" style="fill:#729fcf;stroke-linejoin:round;stroke-width:.42529;stroke:#3565a4"/>
+   <path id="rect10505" d="m5.2102 5.2102v10.568h1.0453l-1.0601 0.01163c7.309-0.02652 7.6748-0.01163 10.59-0.01163-0.01327-3.5098 0.01244-7.0196 1e-5 -10.529-3.4362-0.039839-7.2236 0.014374-10.576-0.038465zm1.0453 1.0568h8.3627l-0.06115 8.3774-8.3015 0.07693z" style="fill:#3465a4;stroke-width:.42042;stroke:#204a87"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,9 @@
+# GIMP gimp-perspective-clone-tool options
+
+(brush "2. Hardness 100")
+(dynamics "Pressure Opacity")
+(pattern "Pine")
+(palette "Default")
+(brush-size 51.000000)
+
+# end of gimp-perspective-clone-tool options

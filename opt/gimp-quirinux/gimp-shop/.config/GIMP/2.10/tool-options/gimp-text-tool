@@ -1,0 +1,8 @@
+# GIMP gimp-text-tool options
+
+(palette "Default")
+(font "Segoe UI")
+(font-size 32.000000)
+(justify center)
+
+# end of gimp-text-tool options

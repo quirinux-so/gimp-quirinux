@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg6361" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata4">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:date/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title/>
+     </cc:Agent>
+    </dc:creator>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>help</rdf:li>
+      <rdf:li>browser</rdf:li>
+      <rdf:li>documentation</rdf:li>
+      <rdf:li>docs</rdf:li>
+      <rdf:li>man</rdf:li>
+      <rdf:li>info</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title/>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:source>http://tigert.com</dc:source>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0,-24)">
+  <g id="g4238" transform="matrix(1.5 0 0 1.5 3.7253e-8 -24)">
+   <circle id="path2093" cx="8" cy="40" r="7.8212" style="fill:#3465a4;stroke-width:.35752;stroke:#204a87"/>
+   <ellipse id="path2209" cx="7.9995" cy="40.001" rx="7.1267" ry="7.1258" style="fill:none;opacity:.96023;stroke-width:.98729;stroke:#fff"/>
+   <g id="text3947" transform="scale(1.454 .68776)" style="fill:#fff;stroke-opacity:0" aria-label="i">
+    <path id="path4234" d="m4.585 55.252h1.834v10.663h-1.834zm0-4.8467h1.834v2.908h-1.834z" style="fill:#fff"/>
+   </g>
+  </g>
+ </g>
+</svg>

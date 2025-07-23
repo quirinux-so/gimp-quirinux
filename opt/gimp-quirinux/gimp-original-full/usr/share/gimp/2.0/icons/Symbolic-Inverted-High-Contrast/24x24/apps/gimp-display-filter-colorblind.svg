@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg30571" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata30576">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1028.4)">
+  <g id="g4272">
+   <rect id="rect3975" transform="rotate(90)" x="1046.4" y="-12" width="5" height="11" style="fill:#b3b3b3"/>
+   <rect id="rect3975-5" transform="rotate(90)" x="1029.4" y="-12" width="4.9999" height="11" style="fill:#888"/>
+   <rect id="rect3975-1" transform="rotate(90)" x="1034.4" y="-12" width="4" height="11" style="fill:#474747"/>
+   <rect id="rect3975-2" transform="rotate(90)" x="1038.4" y="-12" width="4" height="11"/>
+   <rect id="rect3975-50" transform="rotate(90)" x="1042.4" y="-12" width="4" height="11" style="fill:#a1a1a1"/>
+   <rect id="rect3975-23" transform="rotate(90)" x="1046.4" y="-23" width="5" height="11" style="fill:#7c7c7c"/>
+   <rect id="rect3975-5-4" transform="rotate(90)" x="1029.4" y="-23" width="4.9999" height="11" style="fill:#5f5f5f"/>
+   <rect id="rect3975-1-1" transform="rotate(90)" x="1034.4" y="-23" width="4" height="11" style="fill:#111"/>
+   <rect id="rect3975-2-4" transform="rotate(90)" x="1038.4" y="-23" width="4" height="11"/>
+   <rect id="rect3975-50-4" transform="rotate(90)" x="1042.4" y="-23" width="4" height="11" style="fill:#404040"/>
+   <path id="rect28283-2" d="m1.5 1028.4c-0.98168 0-1.5-0.097-1.5 1.4998v20.998c0 1.5968 0.51832 1.4999 1.5 1.4999h21c0.95021 0 1.451 0.024 1.5-1.4999v-20.998c-0.04899-1.5234-0.54979-1.4998-1.5-1.4998h-10.5zm3 0.9988h15c2.3959 0 3.5 1.1433 3.5 3.8007v14.399c0 2.7017-0.92734 3.8007-3.5 3.8007h-15c-2.4196 0-3.5-1.1538-3.5-4.2506v-13.499c0-3.1878 1.0599-4.2507 3.5-4.2507z" style="fill:#222"/>
+  </g>
+ </g>
+</svg>

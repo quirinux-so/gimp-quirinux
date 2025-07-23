@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg7384" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Gnome Symbolic Icon Theme</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title id="title9167">Gnome Symbolic Icon Theme</title>
+ <g id="g4276" transform="matrix(.36361 0 0 .36359 -.72518 .002945)">
+  <path id="path9480" d="m15.591 0.49192h17.085l12.821 13.094v17.894l-12.649 12.017h-17.43l-12.924-12.839v-17.194z" style="fill-rule:evenodd;fill:#c00;stroke:#860000"/>
+  <path id="path2787" d="m16.767 10.5-4.2672 4.2672 7.5351 7.5351-7.5351 7.5351 4.2672 4.2672 7.5351-7.5351 7.5351 7.5351 4.2672-4.2672-7.5351-7.5351 7.5351-7.5351-4.2672-4.2672-7.5351 7.5351z" style="fill-rule:evenodd;fill:#fff;stroke-linecap:round;stroke-linejoin:round;stroke:#860000"/>
+ </g>
+</svg>

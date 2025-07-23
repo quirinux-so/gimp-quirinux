@@ -1,0 +1,1 @@
+/usr/share/color-palettes/install.sh
