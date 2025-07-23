@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo chmod 755 -R /home/
+
+sudo rm -rf /home/*/.config/GIMP
+sudo rm -rf /root/.config/GIMP 
+sudo rm -rf /usr/share/gimp 
+sudo rm -rf /etc/skel/.config/GIMP 
