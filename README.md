@@ -2,10 +2,9 @@
 
 Autor: **Charlie Martínez - Quirinux GNU/Linux ®**  
 Licencia: **GPLv2.0**
+![gimp-quirinux](https://charliemartinez.com.ar/wp-content/uploads/2023/11/gimp-quirinux_charlie-martinez.jpg)
 
 ## 🇪🇸 Español  
-
-![gimp-quirinux](https://charliemartinez.com.ar/wp-content/uploads/2023/11/gimp-quirinux_charlie-martinez.jpg)
 
 **Gimp Edición Quirinux** agrega al clásico GIMP 2.10 una herramienta de configuración personalizada para adaptar su interfaz y atajos de teclado al estilo de Adobe Photoshop. A diferencia de otros complementos, **gimp-quirinux permite modificar íconos, atajos o ambos**, y revertir los cambios en cualquier momento.
 
@@ -75,8 +74,6 @@ Quirinux es una distribución derivada de Debian, sin relación oficial ni colab
 ---
 
 ## 🇬🇧 English  
-
-![gimp-quirinux](https://charliemartinez.com.ar/wp-content/uploads/2023/11/gimp-quirinux_charlie-martinez.jpg)
 
 **Gimp Quirinux Edition** adds a customization tool to classic GIMP 2.10 that lets you adapt its appearance and keyboard shortcuts to mimic Adobe Photoshop. Unlike other tools, **gimp-quirinux lets you change icons, shortcuts, or both**, and revert them anytime.
 
