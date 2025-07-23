@@ -57,22 +57,19 @@ sudo apt install ./gimpquirinux_2.10.0_all.deb
 
 ---
 
-## 👥 Autores
+### ⚠️ Aviso legal  
 
 **Charlie Martínez** ha desarrollado este complemento haciendo uso de las libertades otorgadas por la **licencia GPL**.  
 No guarda relación con los autores de GIMP ni con el autor de los íconos incluidos (autor anónimo).
 
----
+Este proyecto forma parte del ecosistema **Quirinux**, pero es compatible con cualquier distribución moderna de GNU/Linux.  
 
-## ⚖️ Avisos legales
+Publicado bajo licencia **GPLv2**.  
 
-(c) y (p) 2020 – Charlie Martínez y Quirinux son marcas registradas.  
-Este software está protegido por derechos de autor y distribuido bajo licencia **GPLv2.0**.  
-Los contenidos artísticos (íconos, wallpapers, etc.) y literarios (manuales y textos) se distribuyen bajo licencia  
-🔗 [Creative Commons Reconocimiento 4.0 Internacional](https://creativecommons.org/licenses/by/4.0/deed.es)
+Autor: Charlie Martinez <cmartinez@quirinux.org>
 
-**Nota:** Este repositorio no implica respaldo alguno por parte de GitHub, Debian u otras entidades mencionadas.  
-Quirinux es una distribución derivada de Debian, sin relación oficial ni colaborativa.
+ℹ️ Más información:  
+🔗 [https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
 
 ---
 
@@ -126,18 +123,15 @@ sudo apt install ./gimpquirinux_2.10.0_all.deb
 
 ---
 
-## 👥 Authors
+### ⚠️ Legal notice  
 
 **Charlie Martínez** developed this tool under the **GPL license**, and is not affiliated with GIMP’s original authors or the anonymous creator of the icon set included.
 
----
+This project is part of the **Quirinux** ecosystem but compatible with any modern GNU/Linux distribution.  
 
-## ⚖️ Legal notice
+Released under the **GPLv2 license**.  
 
-(c) and (p) 2020 – Charlie Martínez and Quirinux are registered trademarks.  
-This software is protected by copyright and distributed under the **GPLv2.0 license**.  
-Artistic (icons, wallpapers) and literary content (manuals, documentation) is distributed under  
-🔗 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+Author: Charlie Martinez <cmartinez@quirinux.org>
 
-**Disclaimer:** This repository is not endorsed by GitHub, Debian, or any mentioned entities.  
-Quirinux is a Debian-based distribution with no official affiliation.
+ℹ️ More info:  
+🔗 [https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
