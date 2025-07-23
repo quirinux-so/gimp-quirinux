@@ -141,3 +141,4 @@ Artistic (icons, wallpapers) and literary content (manuals, documentation) is di
 
 **Disclaimer:** This repository is not endorsed by GitHub, Debian, or any mentioned entities.  
 Quirinux is a Debian-based distribution with no official affiliation.
+
