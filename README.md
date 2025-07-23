@@ -40,7 +40,7 @@ Y el comando:
 La forma más sencilla es usar el paquete `.deb` oficial.
 
 📥 Descarga:  
-🔗 https://github.com/quirinux-so/gimp-quirinux/releases/
+🔗 [https://github.com/quirinux-so/gimp-quirinux/releases/](https://repo.quirinux.org/pool/main/g/gimp-quirinux/)
 
 📦 Instalar con GDebi, Qapt, GNOME Software o desde terminal:
 
@@ -111,7 +111,7 @@ And the command:
 The easiest way is to use the official `.deb` binary.
 
 📥 Download:  
-🔗 https://github.com/quirinux-so/gimp-quirinux/releases/
+🔗 [https://github.com/quirinux-so/gimp-quirinux/releases/](https://repo.quirinux.org/pool/main/g/gimp-quirinux/)
 
 📦 Install using GDebi, Qapt, GNOME Software or from terminal:
 
