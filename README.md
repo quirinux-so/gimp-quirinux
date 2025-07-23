@@ -1,4 +1,4 @@
-# 🎨 gimp-quirinux
+# gimp-quirinux
 
 Autor: **Charlie Martínez - Quirinux GNU/Linux ®**  
 Licencia: **GPLv2.0**
@@ -16,7 +16,7 @@ Y el comando:
 
 ## ✅ Compatibilidad
 
-- Quirinux 2.0  
+- Quirinux 2.x  
 - Debian 10.x / Devuan Beowulf  
 - Ubuntu 20.x y derivadas
 
@@ -87,7 +87,7 @@ And the command:
 
 ## ✅ Compatibility
 
-- Quirinux 2.0  
+- Quirinux 2.x  
 - Debian 10.x / Devuan Beowulf  
 - Ubuntu 20.x and derivatives
 
