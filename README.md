@@ -2,6 +2,7 @@
 
 Autor: **Charlie Martínez - Quirinux GNU/Linux ®**  
 Licencia: **GPLv2.0**
+
 ![gimp-quirinux](https://charliemartinez.com.ar/wp-content/uploads/2023/11/gimp-quirinux_charlie-martinez.jpg)
 
 ## 🇪🇸 Español  
