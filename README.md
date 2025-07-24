@@ -1,6 +1,5 @@
-<img width="64" height="64" alt="gimp-quirinux" src="https://github.com/user-attachments/assets/796c3242-2c32-4a55-9c10-f3cb4a1a184b" /> 
 
-# gimp-quirinux
+# <img width="32" height="32" alt="gimp-quirinux" src="https://github.com/user-attachments/assets/796c3242-2c32-4a55-9c10-f3cb4a1a184b" /> gimp-quirinux
 
 Autor: **Charlie Martínez - Quirinux GNU/Linux ®**  
 Licencia: **GPLv2.0**
