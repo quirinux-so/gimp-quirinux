@@ -1,128 +1,137 @@
+# gimp-quirinux
 
-# <img width="32" height="32" alt="gimp-quirinux" src="https://github.com/user-attachments/assets/796c3242-2c32-4a55-9c10-f3cb4a1a184b" /> gimp-quirinux
+**Autor / Author:** Charlie Martínez – Quirinux GNU/Linux®  
+**Licencia / License:** GPLv2.0
 
-Autor: **Charlie Martínez - Quirinux GNU/Linux ®**  
-Licencia: **GPLv2.0**
+![gimp-quirinux screenshot](https://charliemartinez.com.ar/wp-content/uploads/2023/11/gimp-quirinux_charlie-martinez.jpg)
 
-![gimp-quirinux](https://charliemartinez.com.ar/wp-content/uploads/2023/11/gimp-quirinux_charlie-martinez.jpg)
+---
 
-## 🇪🇸 Español  
+## 🧭 Descripción general / Overview
 
-**Gimp Edición Quirinux** agrega al clásico GIMP 2.10 una herramienta de configuración personalizada para adaptar su interfaz y atajos de teclado al estilo de Adobe Photoshop. A diferencia de otros complementos, **gimp-quirinux permite modificar íconos, atajos o ambos**, y revertir los cambios en cualquier momento.
+**ES:**  
+`gimp-quirinux` es un complemento de configuración para GIMP 2.10 que introduce una interfaz personalizable y un esquema de atajos de teclado similar al de Adobe Photoshop. A diferencia de herramientas similares, permite modificar íconos, atajos o ambos, con la posibilidad de revertir los cambios en cualquier momento.
 
-🧩 Añade al menú:  
-`Aplicaciones > Gráficos > Configurar GIMP`  
-Y el comando:  
-`gimp-quirinux`
+**EN:**  
+`gimp-quirinux` is a configuration plugin for GIMP 2.10 that provides a customizable interface and keyboard shortcut scheme inspired by Adobe Photoshop. Unlike similar tools, it allows modification of icons, shortcuts, or both — with the ability to revert changes at any time.
 
-## ✅ Compatibilidad
+---
 
+## ✔️ Funciones principales / Feature Summary
+
+**ES:**
+- Personalización de la interfaz y atajos de teclado
+- Estilo visual y de uso tipo Photoshop
+- Modificación opcional del conjunto de íconos
+- Reversión segura de cambios
+- Integración en menú y línea de comandos
+
+**EN:**
+- Interface and keyboard shortcut customization
+- Photoshop-style layout and behavior
+- Optional icon set adjustments
+- Safe rollback functionality
+- Integration with system menu and CLI
+
+---
+
+## 📁 Integración del sistema / System Integration
+
+**ES:**  
+Una vez instalado, el complemento se encuentra disponible en:
+
+- **Ruta de menú:** `Aplicaciones > Gráficos > Configurar GIMP`  
+- **Comando:** `gimp-quirinux`
+
+**EN:**  
+Once installed, the plugin is accessible from:
+
+- **Menu path:** `Applications > Graphics > Configure GIMP`  
+- **Command-line:** `gimp-quirinux`
+
+---
+
+## 🖥️ Compatibilidad / Compatibility
+
+**ES:**
 - Quirinux 2.x  
 - Debian 10.x / Devuan Beowulf  
 - Ubuntu 20.x y derivadas
 
-## 📦 Requisitos
-
-- GIMP instalado desde **repositorio oficial**  
-❌ No funciona con versiones Snap, Flatpak ni AppImage.
-
-### ⚙️ Dependencias:
-
-- `gimp`, `gimp-data`
-
-### ⭐ Recomendados:
-
-- `gimp-gap`, `gimp-data-extras`, `gimp-plugin-registry`, `gimp-gmic`, `gimp-ufraw`, `gimp-gutenprint`, `gimp-lensfun`, `gimp-gluas`, `abr2gbr`, `gtkam-gimp`, `gimp-python`, etc.
-
----
-
-## 🧭 Instalación
-
-La forma más sencilla es usar el paquete `.deb` oficial.
-
-📥 Descarga:  
-🔗 https://repo.quirinux.org/pool/main/g/gimp-quirinux/
-
-📦 Instalar con GDebi, Qapt, GNOME Software o desde terminal.
-
-📌 Una vez instalado, puedes lanzar el configurador desde:
-
-- Menú: Aplicaciones > Gráficos > Configurar GIMP  
-- Comando: `gimp-quirinux`
-
----
-
-### ⚠️ Aviso legal  
-
-**Charlie Martínez** ha desarrollado este complemento haciendo uso de las libertades otorgadas por la **licencia GPL**.  
-No guarda relación con los autores de GIMP ni con el autor de los íconos incluidos (autor anónimo).
-
-Este proyecto forma parte del ecosistema **Quirinux**, pero es compatible con cualquier distribución moderna de GNU/Linux.  
-
-Publicado bajo licencia **GPLv2**.  
-
-Autor: Charlie Martinez <cmartinez@quirinux.org>
-
-ℹ️ Más información:  
-🔗 [https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
-
----
-
-## 🇬🇧 English  
-
-**Gimp Quirinux Edition** adds a customization tool to classic GIMP 2.10 that lets you adapt its appearance and keyboard shortcuts to mimic Adobe Photoshop. Unlike other tools, **gimp-quirinux lets you change icons, shortcuts, or both**, and revert them anytime.
-
-🧩 Added to menu:  
-`Applications > Graphics > Configure GIMP`  
-And the command:  
-`gimp-quirinux`
-
-## ✅ Compatibility
-
+**EN:**
 - Quirinux 2.x  
 - Debian 10.x / Devuan Beowulf  
 - Ubuntu 20.x and derivatives
 
-## 📦 Requirements
+---
 
-- GIMP must be installed from the **official repository**  
-❌ Not compatible with Snap, Flatpak, or AppImage versions.
+## 📦 Requisitos / Requirements
 
-### ⚙️ Dependencies:
+**ES:**  
+GIMP debe estar instalado desde los **repositorios oficiales**.  
+**No es compatible** con versiones Snap, Flatpak ni AppImage.
 
-- `gimp`, `gimp-data`
+**EN:**  
+GIMP must be installed from the **official distribution repositories**.  
+**Not compatible** with Snap, Flatpak, or AppImage versions.
 
-### ⭐ Recommended:
+### 📋 Dependencias / Dependencies
 
-- `gimp-gap`, `gimp-data-extras`, `gimp-plugin-registry`, `gimp-gmic`, `gimp-ufraw`, `gimp-gutenprint`, `gimp-lensfun`, `gimp-gluas`, `abr2gbr`, `gtkam-gimp`, `gimp-python`, etc.
+**ES/EN:**
+- `gimp`  
+- `gimp-data`
+
+### 🔧 Recomendados / Recommended (optional)
+
+**ES/EN:**
+- `gimp-gap`, `gimp-data-extras`, `gimp-plugin-registry`, `gimp-gmic`, `gimp-ufraw`,  
+  `gimp-gutenprint`, `gimp-lensfun`, `gimp-gluas`, `abr2gbr`, `gtkam-gimp`, `gimp-python`, etc.
 
 ---
 
-## 🧭 Installation
+## 📌 Instalación / Installation
 
-The easiest way is to use the official `.deb` binary.
+**ES:**  
+La forma recomendada de instalación es mediante el paquete `.deb` oficial.
 
-📥 Download:  
-🔗 https://repo.quirinux.org/pool/main/g/gimp-quirinux/
+**EN:**  
+The recommended installation method is via the official `.deb` package.
 
-📦 Install using GDebi, Qapt, GNOME Software or from terminal.
+**Descarga / Download:**  
+[https://repo.quirinux.org/pool/main/g/gimp-quirinux/](https://repo.quirinux.org/pool/main/g/gimp-quirinux/)
 
-📌 Once installed, launch the configurator from:
-
-- Menu: Applications > Graphics > Configure GIMP  
-- Command: `gimp-quirinux`
+**Métodos de instalación / Installation methods:**  
+- GDebi  
+- Qapt  
+- GNOME Software  
+- Terminal (`dpkg`, `apt`)
 
 ---
 
-### ⚠️ Legal notice  
+## ⚖️ Aviso legal / Legal Notice
 
-**Charlie Martínez** developed this tool under the **GPL license**, and is not affiliated with GIMP’s original authors or the anonymous creator of the icon set included.
+**ES:**  
+`gimp-quirinux` ha sido desarrollado por **Charlie Martínez** bajo los términos de la licencia **GNU GPLv2.0**.  
+No está afiliado al equipo de desarrollo de GIMP ni al autor original (anónimo) de los íconos incluidos.
 
-This project is part of the **Quirinux** ecosystem but compatible with any modern GNU/Linux distribution.  
+Aunque forma parte del ecosistema **Quirinux**, es compatible con cualquier distribución moderna de GNU/Linux.
 
-Released under the **GPLv2 license**.  
+**Autor:** Charlie Martínez  
+📧 <cmartinez@quirinux.org>
 
-Author: Charlie Martinez <cmartinez@quirinux.org>
+Más información legal:  
+[https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
 
-ℹ️ More info:  
-🔗 [https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
+---
+
+**EN:**  
+`gimp-quirinux` was developed by **Charlie Martínez** under the terms of the **GNU GPLv2.0** license.  
+It is not affiliated with the GIMP development team nor with the original (anonymous) author of the included icon themes.
+
+Although part of the **Quirinux** ecosystem, it is compatible with any modern GNU/Linux distribution.
+
+**Author:** Charlie Martínez  
+📧 <cmartinez@quirinux.org>
+
+More legal information:  
+[https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
