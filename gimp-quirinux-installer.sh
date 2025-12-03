@@ -32,7 +32,6 @@ URLS=(
 "https://repo.quirinux.org/pool/main/g/gutenprint/libgutenprintui2-2_5.3.4.20220624T01008808d602-1_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gutenprint/gimp-gutenprint_5.3.4.20220624T01008808d602-1_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gimplensfun/gimp-lensfun_0.2.5-1.1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimp-paint-studio/gimp-paint-studio_2.0-2_all.deb"
 "https://repo.quirinux.org/pool/main/g/gimp-plugin-registry/gimp-plugin-registry_9.20200928+b1_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gtkam/gtkam-gimp_1.0-3+b1_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gimp-gap/gimp-gap_2.6.1_amd64.deb"
@@ -48,6 +47,7 @@ done
 
 # 3) Instalar los .deb:
 echo "====> Instalando paquetes..."
+apt install gimp -y
 apt install mplayer -y
 apt install -y /tmp/gimp-quirinux/*.deb
 
