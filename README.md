@@ -53,15 +53,12 @@ Once installed, the plugin is accessible from:
 
 ## 🖥️ Compatibilidad / Compatibility
 
-**ES:**
 - Quirinux 2.x  
-- Debian 10.x / Devuan Beowulf  
-- Ubuntu 20.x y derivadas
-
-**EN:**
-- Quirinux 2.x  
-- Debian 10.x / Devuan Beowulf  
-- Ubuntu 20.x and derivatives
+- Debian 10 Buster / Devuan 3 Beowulf
+- Debian 11 Bullseye / Devuan 4 Chimaera
+- Debian 12 Bookworm / Devuan 5 Daeldalus
+- Debian 13 Trixie / Devuan 6 Excalibur
+- Experimental: Ubuntu 20.04 Focal Fossa, Ubuntu 22.04 Jammy Jellyfish, Ubuntu 24.04 Noble Numbat
 
 ---
 
