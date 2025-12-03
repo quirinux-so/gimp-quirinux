@@ -47,9 +47,9 @@ done
 
 # 3) Instalar los .deb:
 echo "====> Instalando paquetes..."
-apt install gimp -y
-apt install mplayer -y
-apt install -y /tmp/gimp-quirinux/*.deb
+apt install gimp --reinstall -y
+apt install mplayer --reinstall -y
+apt install --reinstall -y /tmp/gimp-quirinux/*.deb
 
 echo ""
 echo "==========================================================="
