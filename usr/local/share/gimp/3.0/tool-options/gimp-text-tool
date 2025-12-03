@@ -1,0 +1,7 @@
+# GIMP gimp-text-tool options
+
+(palette "Default")
+(font "Sans-serif")
+(font-size 50.000000)
+
+# end of gimp-text-tool options

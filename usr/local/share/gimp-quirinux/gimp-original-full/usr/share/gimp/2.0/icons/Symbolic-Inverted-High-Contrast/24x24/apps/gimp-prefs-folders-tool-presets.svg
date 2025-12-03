@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg30571" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs30573">
+  <linearGradient id="linearGradient8286" x1="15" x2="31" y1="-32" y2="-32" gradientTransform="matrix(1.5,0,0,1.5,-22.5,60)" gradientUnits="userSpaceOnUse">
+   <stop id="stop19284-0" style="stop-color:#222" offset="0"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata30576">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1028.4)">
+  <g id="gimp-prefs-folders" transform="matrix(1.5 0 0 1.5 -22.5 1088.4)">
+   <path id="rect3845" transform="matrix(.66667 0 0 .66667 15 -40)" d="m0.79688 0c-0.4337 0-0.79688 0.36318-0.79688 0.79688v22.406c0 0.44775 0.34896 0.79688 0.79688 0.79688h22.406c0.4479 0 0.79688-0.34898 0.79688-0.79688v-14.453c0-0.43365-0.36318-0.75-0.79688-0.75h-18.203v12.25c0 0.4155-0.5845 0.75-1 0.75s-1-0.3345-1-0.75v-13.5c0-0.4155 0.3345-0.75 0.75-0.75h4.4531 12.797v-2.1094c0-0.4908-0.39999-0.89062-0.89062-0.89062h-11.109v-2.2031c0-0.43372-0.36318-0.79688-0.79688-0.79688h-7.4062zm14.172 9c0.25163 0 0.63155 0.1656 0.79492 0.37891l0.88477 1.3711h5.3516v8.75h-1.75l0.875 3.5h-0.875l-0.4375-1.75h-9.625l-0.4375 1.75h-0.875l0.875-3.5h-1.75v-8.75h5.4434l0.73633-1.2832c0.047949-0.18953 0.53336-0.4668 0.78906-0.4668zm0.03125 0.875-0.4375 0.875h0.875l-0.4375-0.875zm-6.125 1.75v7h12.25v-7h-12.25zm1.75 7.875v0.875h8.75v-0.875h-8.75z" style="fill:url(#linearGradient8286)"/>
+  </g>
+ </g>
+</svg>

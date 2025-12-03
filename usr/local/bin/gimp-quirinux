@@ -4,145 +4,65 @@
 # Autor:	Charlie Martínez® <cmartinez@quirinux.org>
 # Licencia:	https://www.gnu.org/licenses/gpl-3.0.txt
 # Descripción:	Complento que permite definir el aspecto de GIMP y revertir los cambios.
-# Versión:	2.0
+# Versión:	6.0.0
 
 # =========================================================================================
 # INICIO / FIN (IDIOMAS) [CÓDIGO REUTILIZABLE]
 # =========================================================================================
 
-# Alemán
-function _inicio_de() # Verifica si está instalado zenity
-{
-if [ -e "/usr/bin/zenity" ]; then # Está instalado, continúa
-_menuPrincipal_de
-else # No está instalado zenity, lo instala y continúa
-_instalarZenity
-_menuPrincipal_de
-fi
-}
+
+
 function _fin_de()
 {
-zenity --info *text "Einstellungen vorgenommen. Sie können sie jederzeit umkehren. "
+zenity --info --text "Einstellungen vorgenommen. Sie können sie jederzeit umkehren. "\;
+gimp
 }
 
-# Inglés
-function _inicio_en() # Verifica si está instalado zenity
-{
-if [ -e "/usr/bin/zenity" ]; then # Está instalado, continúa
-_menuPrincipal_en
-else # No está instalado zenity, lo instala y continúa
-_instalarZenity
-_menuPrincipal_en
-fi
-}
 function _fin_en()
 {
-zenity --info *text "Settings made. You can always reverse them."
+zenity --info --text "Settings made. You can always reverse them."\;
+gimp
 }
 
-# Castellano
-function _inicio_es() # Verifica si está instalado zenity
-{
-if [ -e "/usr/bin/zenity" ]; then # Está instalado, continúa
-_menuPrincipal_es
-else # No está instalado zenity, lo instala y continúa
-_instalarZenity
-_menuPrincipal_es
-fi
-}
 function _fin_es()
 {
-zenity --info *text "Configuraciones realizadas. Siempre puedes revertirlas."
+zenity --info --text "Configuraciones realizadas. Siempre puedes revertirlas."\;
+gimp
 }
 
-# Francés
-function _inicio_fr() # Verifica si está instalado zenity
-{
-if [ -e "/usr/bin/zenity" ]; then # Está instalado, continúa
-_menuPrincipal_fr
-else # No está instalado zenity, lo instala y continúa
-_instalarZenity
-_menuPrincipal_fr
-fi
-}
 function _fin_fr()
 {
-zenity --info *text "Paramètres définis. Vous pouvez toujours les inverser. "
+zenity --info --text "Paramètres définis. Vous pouvez toujours les inverser. "\;
+gimp
 }
 
-# Galego
-function _inicio_gl() # Verifica si está instalado zenity
-{
-if [ -e "/usr/bin/zenity" ]; then # Está instalado, continúa
-_menuPrincipal_gl
-else # No está instalado zenity, lo instala y continúa
-_instalarZenity
-_menuPrincipal_gl
-fi
-}
 function _fin_gl()
 {
-zenity --info *text "Configuración feita. Sempre os podes reverter."
+zenity --info --text "Configuración feita. Sempre os podes reverter."\;
+gimp
 }
 
-# Italiano
-function _inicio_it () # Verifica si está instalado zenity
-{
-if [ -e "/usr/bin/zenity" ]; then # Está instalado, continúa
-_menuPrincipal_it
-else # No está instalado zenity, lo instala y continúa
-_instalarZenity
-_menuPrincipal_it 
-fi
-}
 function _fin_it ()
 {
-zenity --info *text "Impostazioni effettuate. Puoi sempre invertirli. "
+zenity --info --text "Impostazioni effettuate. Puoi sempre invertirli. "\;
+gimp
 }
 
-# Portugués
-function _inicio_pt() # Verifica si está instalado zenity
-{
-if [ -e "/usr/bin/zenity" ]; then # Está instalado, continúa
-_menuPrincipal_pt
-else # No está instalado zenity, lo instala y continúa
-_instalarZenity
-_menuPrincipal_pt
-fi
-}
 function _fin_pt()
 {
-zenity --info *text "Configurações feitas. Você sempre pode revertê-los."
+zenity --info --text "Configurações feitas. Você sempre pode revertê-los."\;
+gimp
 }
 
-# Ruso
-function _inicio_ru() # Verifica si está instalado zenity
-{
-if [ -e "/usr/bin/zenity" ]; then # Está instalado, continúa
-_menuPrincipal_ru
-else # No está instalado zenity, lo instala y continúa
-_instalarZenity
-_menuPrincipal_ru
-fi
-}
 function _fin_ru()
 {
-zenity --info *text "Настройки сделаны. Вы всегда можете отменить их.  "
-}
-
-# =========================================================================================
-# INSTALAR ZENITY [CÓDIGO REUTILIZABLE]
-# =========================================================================================
-
-function _instalarZenity()
-{
-sudo apt-get install zenity -y
+zenity --info --text "Настройки сделаны. Вы всегда можете отменить их.  "\;
+gimp
 }
 
 # =========================================================================================
 # SALIR [CÓDIGO REUTILIZABLE]
 # =========================================================================================
-
 
 function _salir()
 {
@@ -163,38 +83,38 @@ IDIOMA=$(echo $LANG | cut -d_ -f1) # Idioma del sistema
 
 if [[ $IDIOMA = "es" ]]
 then
-_inicio_es
+_menuPrincipal_es
 
 elif [[ $IDIOMA = "en" ]]
 then
-_inicio_en
+_menuPrincipal_en
 
 elif [[ $IDIOMA = "gl" ]]
 then
-_inicio_gl
+_menuPrincipal_gl
 
 elif [[ $IDIOMA = "pt" ]]
 then
-_inicio_pt
+_menuPrincipal_pt
 
 elif [[ $IDIOMA = "fr" ]]
 then
-_inicio_fr
+_menuPrincipal_fr
 
 elif [[ $IDIOMA = "it" ]]
 then
-_inicio_it
+_menuPrincipal_it
 
 elif [[ $IDIOMA = "de" ]]
 then
-_inicio_de
+_menuPrincipal_de
 
 elif [[ $IDIOMA = "ru" ]]
 then
-_inicio_ru
+_menuPrincipal_ru
 
 else
-_inicio_en
+_menuPrincipal_en
 fi
 
 }
@@ -224,7 +144,7 @@ _fin_es
 fi
 if [[ $opPrincipal == "Usar iconos de Photoshop y atajos de GIMP" ]]; then
 _photogimp_es
-_fin_Es
+_fin_es
 fi
 if [[ $opPrincipal == "Usar iconos de GIMP y atajos de Photoshop" ]]; then
 _gimpshop_es
@@ -235,36 +155,83 @@ _salir
 fi
 }
 
-# PHOTOSHOP ICONOS Y ATAJOS
+function _file() {
+
+FILE="$HOME/.config/GIMP"
+
+if [ ! -e "$FILE" ]; then
+    mkdir -p "$FILE"
+fi
+
+}
+
+# ICONOS Y ATAJOS DE PHOTOSHOP
+function _photoshop() {
+_file
+
+cp -rf /usr/local/share/gimp-quirinux/gimp-shop/.config/* $HOME/.config/
+cp -rf /usr/local/share/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/* /usr/share/gimp/2.0/
+cp -rf /usr/local/share/gimp-quirinux/gimp-shop/usr/share/gimp/3.0/* /usr/share/gimp/3.0/
+
+
+}
+
+# ICONOS Y ATAJOS DE GIMP
+function _gimp() {
+_file
+
+cp -rf /usr/local/share/gimp-quirinux/gimp-original-full/.config/* $HOME/.config/
+cp -rf /usr/local/share/gimp-quirinux/gimp-original-full/usr/share/gimp/2.0/* /usr/share/gimp/2.0/
+cp -rf /usr/local/share/gimp-quirinux/gimp-original-full/usr/share/gimp/3.0/* /usr/share/gimp/3.0/
+
+
+}
+
+# ICONOS DE PHOTOSHOP Y ATAJOS DE GIMP
+function _photogimp() {
+_file
+
+cp -rf /usr/local/share/gimp-quirinux/gimp-shop/.config/* $HOME/.config/
+cp -rf /usr/local/share/gimp-quirinux/gimp-original-rc/.config/* $HOME/.config/
+cp -rf /usr/local/share/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/* /usr/share/gimp/2.0/
+cp -rf /usr/local/share/gimp-quirinux/gimp-shop/usr/share/gimp/3.0/* /usr/share/gimp/3.0/
+
+}
+
+# ICONOS DE GIMP Y ATAJOS DE PHOTOSHOP
+function _gimpshop() {
+_file
+
+cp -rf /usr/local/share/gimp-quirinux/gimp-original-full/.config/* $HOME/.config/
+cp -rf /usr/local/share/gimp-quirinux/gimp-shop-rc/.config/* $HOME/.config/
+cp -rf /usr/local/share/gimp-quirinux/gimp-original-full/usr/share/gimp/2.0/* /usr/share/gimp/2.0/
+cp -rf /usr/local/share/gimp-quirinux/gimp-original-full/usr/share/gimp/3.0/* /usr/share/gimp/3.0/
+
+}
+
+function _borrar() {
+_file
+rm -rf ~/.config/GIMP
+
+}
+
+# ÍCONOS Y ATAJOS DE PHOTOSHOP
 
 function _photoshop_es()
+
 {
+
 (
-echo "14"; sleep 1
+
+_borrar
+echo "50"; sleep 1
 echo "# Procesando"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Procesando"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_photoshop
 echo "100"; sleep 1
-echo "# Procesando"; sleep 1
+echo "# Procesando"; sleep 1  
+
+  
 )|
 zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -272,85 +239,20 @@ zenity --error --text="Configuración cancelada"
 fi
 }
 
-# GIMP ICONOS Y ATAJOS
+# ÍCONOS Y ATAJOS DE GIMP
 
 function _gimp_es()
 {
 (
-echo "14"; sleep 1
+_borrar
+echo "50"; sleep 1
 echo "# Procesando"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Procesando"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
-echo "100"; sleep 1
-echo "# Procesando"; sleep 1
-)|
-zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
-if [ "$?" = -1 ] ; then
-zenity --error --text="Configuración cancelada"
-fi
-}
 
-# ICONOS DE PHOTOSHOP Y ATAJOS DE GIMP
-
-function _photogimp_es()
-{
-(
-echo "18"; sleep 1
-echo "# Procesando"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Procesando"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Procesando"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Procesando"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 1
-echo "# Procesando"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Procesando"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+_gimp
 echo "100"; sleep 1
-echo "# Procesando"; sleep 1
+echo "# Procesando"; sleep 1    
+
+  
 )|
 zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
@@ -363,49 +265,49 @@ fi
 function _gimpshop_es()
 {
 (
-echo "18"; sleep 1
+_borrar
+echo "50"; sleep 1
 echo "# Procesando"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Procesando"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Procesando"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Procesando"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Procesando"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 1
-echo "# Procesando"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Procesando"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_gimpshop
 echo "100"; sleep 1
 echo "# Procesando"; sleep 1
+
+
+  
 )|
 zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
 zenity --error --text="Configuración cancelada"
 fi
 }
+
+
+
+# ICONOS DE PHOTOSHOP Y ATAJOS DE GIMP
+
+function _photogimp_es()
+{
+(
+
+_borrar
+echo "50"; sleep 1
+echo "# Procesando"; sleep 1
+
+_photogimp
+echo "100"; sleep 1
+echo "# Procesando"; sleep 1
+
+  
+) |
+zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
+if [ "$?" = -1 ] ; then
+zenity --error --text="Configuración cancelada"
+fi
+}
+
+
+
 
 # =========================================================================================
 # INGLÉS
@@ -443,177 +345,97 @@ _salir
 fi
 }
 
-# PHOTOSHOP ICONOS Y ATAJOS
+# ÍCONOS Y ATAJOS DE PHOTOSHOP
 
 function _photoshop_en()
 {
 (
-echo "14"; sleep 1
+
+_borrar
+echo "50"; sleep 1
 echo "# Processing"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Processing"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_photoshop
 echo "100"; sleep 1
-echo "# Processing"; sleep 1
+echo "# Processing"; sleep 1  
+
+  
 )|
-zenity --progress --title="Configuring" --text="Be patient, it will take time" --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Configuring" --text="Please wait, this will take some time" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
 zenity --error --text="Configuration canceled"
 fi
 }
 
-# GIMP ICONOS Y ATAJOS
+# ÍCONOS Y ATAJOS DE GIMP
 
 function _gimp_en()
 {
 (
-echo "14"; sleep 1
+
+_borrar
+echo "50"; sleep 1
 echo "# Processing"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Processing"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_gimp
 echo "100"; sleep 1
-echo "# Processing"; sleep 1
+echo "# Processing"; sleep 1    
+
+  
 )|
-zenity --progress --title="Configuring" --text="Be patient, it will take time" --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Configuring" --text="Please be patient, this will take some time" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
 zenity --error --text="Configuration canceled"
 fi
 }
+
 
 # ICONOS DE PHOTOSHOP Y ATAJOS DE GIMP
 
 function _photogimp_en()
 {
 (
-echo "18"; sleep 1
+
+_borrar
+echo "50"; sleep 1
 echo "# Processing"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Processing"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Processing"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Processing"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 1
-echo "# Processing"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Processing"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_photogimp
 echo "100"; sleep 1
 echo "# Processing"; sleep 1
-)|
-zenity --progress --title="Configuring" --text="Be patient, it will take time" --percentage=0 --auto-close --auto-kill
+
+  
+) |
+zenity --progress --title="Configuring" --text="Please be patient, it will take some time" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
 zenity --error --text="Configuration canceled"
 fi
 }
+
 
 # ICONOS DE GIMP Y ATAJOS DE PHOTOSHOP
 
 function _gimpshop_en()
 {
 (
-echo "18"; sleep 1
+
+_borrar
+echo "50"; sleep 1
 echo "# Processing"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Processing"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Processing"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Processing"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Processing"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 1
-echo "# Processing"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Processing"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_gimpshop
 echo "100"; sleep 1
 echo "# Processing"; sleep 1
-)|
-zenity --progress --title="Configuring" --text="Be patient, it will take time" --percentage=0 --auto-close --auto-kill
+
+
+  
+) |
+zenity --progress --title="Configuring" --text="Please wait, it will take some time" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
 zenity --error --text="Configuration canceled"
 fi
 }
+
 
 # =========================================================================================
 # GALLEGO
@@ -656,118 +478,63 @@ fi
 function _photoshop_gl()
 {
 (
-echo "14"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+
+_photoshop
 echo "100"; sleep 1
+echo "# Procesando"; sleep 1  
+
+  
 )|
-zenity --progress --title="Configuring" --text="Sexa paciente, levará tempo" --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Configurando" --text="Ten paciencia, levará tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
 zenity --error --text="Configuración cancelada"
 fi
 }
+
 
 # GIMP ICONOS Y ATAJOS
 
 function _gimp_gl()
 {
 (
-echo "14"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Procesando"; sleep 1
+
+_gimp
 echo "100"; sleep 1
-echo "# Procesamento"; sleep 1
+echo "# Procesando"; sleep 1    
+
+  
 )|
-zenity --progress --title="Configuring" --text="Sexa paciente, levará tempo" --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Configurando" --text="Ten paciencia, levará tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
 zenity --error --text="Configuración cancelada"
 fi
 }
+
 
 # ICONOS DE PHOTOSHOP Y ATAJOS DE GIMP
 
 function _photogimp_gl()
 {
 (
-echo "18"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Procesamento"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Procesando"; sleep 1
+
+_photogimp
 echo "100"; sleep 1
-echo "# Procesamento"; sleep 1
-)|
-zenity --progress --title="Configuring" --text="Sexa paciente, levará tempo" --percentage=0 --auto-close --auto-kill
+echo "# Procesando"; sleep 1
+
+  
+) |
+zenity --progress --title="Configurando" --text="Por favor, agarda, levará tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
 zenity --error --text="Configuración cancelada"
 fi
@@ -778,49 +545,23 @@ fi
 function _gimpshop_gl()
 {
 (
-echo "18"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Procesamento"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Procesamento"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Procesando"; sleep 1
+
+_gimpshop
 echo "100"; sleep 1
-echo "# Procesamento"; sleep 1
-)|
-zenity --progress --title="Configurando" --text="Sexa paciente, levará tempo" --percentage=0 --auto-close --auto-kill
+echo "# Procesando"; sleep 1
+
+
+) |
+zenity --progress --title="Configurando" --text="Por favor, agarda, levará tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
 zenity --error --text="Configuración cancelada"
 fi
 }
+
 
 # =========================================================================================
 # PORTUGUES
@@ -863,172 +604,92 @@ fi
 function _photoshop_pt()
 {
 (
-echo "14"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Processando"; sleep 1
+
+_photoshop
 echo "100"; sleep 1
-echo "# Em processamento"; sleep 1
+echo "# Processando"; sleep 1  
+
+  
 )|
-zenity --progress --title="Configurando" --text="Seja paciente, vai demorar" --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Configurando" --text="Por favor, aguarde, isso levará algum tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuração cancelada "
+zenity --error --text="Configuração cancelada"
 fi
 }
+
 
 # GIMP ICONOS Y ATAJOS
 
 function _gimp_pt()
 {
 (
-echo "14"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Processando"; sleep 1
+
+_gimp
 echo "100"; sleep 1
-echo "# Em processamento"; sleep 1
+echo "# Processando"; sleep 1    
+
+  
 )|
-zenity --progress --title="Configurando" --text="Seja paciente, vai demorar" --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Configurando" --text="Por favor, tenha paciência, isso levará algum tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuração cancelada "
+zenity --error --text="Configuração cancelada"
 fi
 }
+
 
 # ICONOS DE PHOTOSHOP Y ATAJOS DE GIMP
 
 function _photogimp_pt()
 {
 (
-echo "18"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Em processamento"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Processando"; sleep 1
+
+_photogimp
 echo "100"; sleep 1
-echo "# Em processamento"; sleep 1
-)|
-zenity --progress --title="Configurando" --text="Seja paciente, vai demorar " --percentage=0 --auto-close --auto-kill
+echo "# Processando"; sleep 1
+
+  
+) |
+zenity --progress --title="Configurando" --text="Por favor, aguarde, isso levará algum tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuração cancelada "
+zenity --error --text="Configuração cancelada"
 fi
 }
+
 
 # ICONOS DE GIMP Y ATAJOS DE PHOTOSHOP
 
 function _gimpshop_pt()
 {
 (
-echo "18"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Em processamento"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Em processamento"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Processando"; sleep 1
+
+_gimpshop
 echo "100"; sleep 1
-echo "# Em processamento"; sleep 1
-)|
-zenity --progress --title="Configurando" --text="Ten paciencia, llevará tiempo" --percentage=0 --auto-close --auto-kill
+echo "# Processando"; sleep 1
+
+  
+) |
+zenity --progress --title="Configurando" --text="Por favor, aguarde, isso levará algum tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuração cancelada "
+zenity --error --text="Configuração cancelada"
 fi
 }
+
 
 # =========================================================================================
 # FRANCÉS
@@ -1071,172 +732,92 @@ fi
 function _photoshop_fr()
 {
 (
-echo "14"; sleep 1
-echo "# Traitement"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Traitement"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Traitement en cours"; sleep 1
+
+_photoshop
 echo "100"; sleep 1
-echo "# Traitement"; sleep 1
+echo "# Traitement en cours"; sleep 1  
+
+  
 )|
-zenity --progress --title="Configurer " --text="Soyez patient, cela prendra du temps " --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Configuration" --text="Veuillez patienter, cela prendra un certain temps" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuration annulée "
+zenity --error --text="Configuration annulée"
 fi
 }
+
 
 # GIMP ICONOS Y ATAJOS
 
 function _gimp_fr()
 {
 (
-echo "14"; sleep 1
-echo "# Traitement"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Traitement"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# En cours de traitement"; sleep 1
+
+_gimp
 echo "100"; sleep 1
-echo "# Traitement"; sleep 1
+echo "# En cours de traitement"; sleep 1    
+
+  
 )|
-zenity --progress --title="Configurer " --text="Soyez patient, cela prendra du temps " --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Configuration" --text="Veuillez patienter, cela prendra du temps" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuration annulée "
+zenity --error --text="Configuration annulée"
 fi
 }
+
 
 # ICONOS DE PHOTOSHOP Y ATAJOS DE GIMP
 
 function _photogimp_fr()
 {
 (
-echo "18"; sleep 1
-echo "# Traitement"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Traitement"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Traitement"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Traitement"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 1
-echo "# Traitement"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Traitement"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Traitement en cours"; sleep 1
+
+_photogimp
 echo "100"; sleep 1
-echo "# Traitement"; sleep 1
-)|
-zenity --progress --title="Configurer " --text="Soyez patient, cela prendra du temps " --percentage=0 --auto-close --auto-kill
+echo "# Traitement en cours"; sleep 1
+
+  
+) |
+zenity --progress --title="Configuration" --text="Veuillez patienter, cela prendra du temps" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuration annulée "
+zenity --error --text="Configuration annulée"
 fi
 }
+
 
 # ICONOS DE GIMP Y ATAJOS DE PHOTOSHOP
 
 function _gimpshop_fr()
 {
 (
-echo "18"; sleep 1
-echo "# Traitement"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Traitement"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Traitement"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Traitement"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Traitement"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 1
-echo "# Traitement"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Traitement"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# En cours de traitement"; sleep 1
+
+_gimpshop
 echo "100"; sleep 1
-echo "# Traitement"; sleep 1
-)|
-zenity --progress --title="Configurer " --text="Soyez patient, cela prendra du temps " --percentage=0 --auto-close --auto-kill
+echo "# En cours de traitement"; sleep 1
+
+  
+) |
+zenity --progress --title="Configuration" --text="Veuillez patienter, cela prendra du temps" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuration annulée "
+zenity --error --text="Configuration annulée"
 fi
 }
+
 
 
 # =========================================================================================
@@ -1277,175 +858,94 @@ fi
 
 # PHOTOSHOP ICONOS Y ATAJOS
 
-function _photoshop_it ()
+function _photoshop_it()
 {
 (
-echo "14"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Elaborazione in corso"; sleep 1
+
+_photoshop
 echo "100"; sleep 1
-echo "# in lavorazione"; sleep 1
+echo "# Elaborazione in corso"; sleep 1  
+
+  
 )|
-zenity --progress --title="Configurando" --text="Sii paziente, ci vorrà del tempo " --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Configurazione" --text="Attendere, ciò richiederà del tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configurazione annullata "
+zenity --error --text="Configurazione annullata"
 fi
 }
+
 
 # GIMP ICONOS Y ATAJOS
 
-function _gimp_it ()
+function _gimp_it()
 {
 (
-echo "14"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Elaborazione in corso"; sleep 1
+
+_gimp
 echo "100"; sleep 1
-echo "# in lavorazione"; sleep 1
+echo "# Elaborazione in corso"; sleep 1    
+
+  
 )|
-zenity --progress --title="Configurando" --text="Sii paziente, ci vorrà del tempo " --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Configurazione" --text="Per favore, attendi, ciò richiederà del tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configurazione annullata "
+zenity --error --text="Configurazione annullata"
 fi
 }
+
 
 # ICONOS DE PHOTOSHOP Y ATAJOS DE GIMP
 
-function _photogimp_it ()
+function _photogimp_it()
 {
 (
-echo "18"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# in lavorazione"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Elaborazione in corso"; sleep 1
+
+_photogimp
 echo "100"; sleep 1
-echo "# in lavorazione"; sleep 1
-)|
-zenity --progress --title="Configurando" --text="Sii paziente, ci vorrà del tempo " --percentage=0 --auto-close --auto-kill
+echo "# Elaborazione in corso"; sleep 1
+
+  
+) |
+zenity --progress --title="Configurazione" --text="Per favore, attendi, ci vorrà del tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configurazione annullata "
+zenity --error --text="Configurazione annullata"
 fi
 }
+
 
 # ICONOS DE GIMP Y ATAJOS DE PHOTOSHOP
 
-function _gimpshop_it ()
+function _gimpshop_it()
 {
 (
-echo "18"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# in lavorazione"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# in lavorazione"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Elaborazione in corso"; sleep 1
+
+_gimpshop
 echo "100"; sleep 1
-echo "# in lavorazione"; sleep 1
-)|
-zenity --progress --title="Configurando" --text="Sii paziente, ci vorrà del tempo " --percentage=0 --auto-close --auto-kill
+echo "# Elaborazione in corso"; sleep 1
+  
+) |
+zenity --progress --title="Configurazione" --text="Attendere, potrebbe richiedere del tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configurazione annullata "
+zenity --error --text="Configurazione annullata"
 fi
 }
+
 # =========================================================================================
 # ALEMAN
 # =========================================================================================
@@ -1487,172 +987,89 @@ fi
 function _photoshop_de()
 {
 (
-echo "14"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+_borrar
+echo "50"; sleep 1
+echo "# Verarbeitung läuft"; sleep 1
+
+_photoshop
 echo "100"; sleep 1
-echo "# Verarbeitung"; sleep 1
+echo "# Verarbeitung läuft"; sleep 1  
+
+  
 )|
-zenity --progress --title="Konfigurieren" --text="Sei geduldig, es wird einige Zeit dauern " --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Konfiguration" --text="Bitte warten Sie, dies wird einige Zeit dauern" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuración cancelada"
+zenity --error --text="Konfiguration abgebrochen"
 fi
 }
+
 
 # GIMP ICONOS Y ATAJOS
 
 function _gimp_de()
 {
 (
-echo "14"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Verarbeitung läuft"; sleep 1
+
+_gimp
 echo "100"; sleep 1
-echo "# Verarbeitung"; sleep 1
+echo "# Verarbeitung läuft"; sleep 1    
+
+  
 )|
-zenity --progress --title="Konfigurieren" --text="Sei geduldig, es wird einige Zeit dauern " --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Konfiguration" --text="Bitte habe Geduld, dies wird einige Zeit dauern" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuración cancelada"
+zenity --error --text="Konfiguration abgebrochen"
 fi
 }
+
 
 # ICONOS DE PHOTOSHOP Y ATAJOS DE GIMP
 
-function _photogimp_de()
+function _photogimp_it()
 {
 (
-echo "18"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Verarbeitung"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+_borrar
+echo "50"; sleep 1
+echo "# Elaborazione in corso"; sleep 1
+
+_photogimp
 echo "100"; sleep 1
-echo "# Verarbeitung"; sleep 1
-)|
-zenity --progress --title="Konfigurieren" --text="Sei geduldig, es wird einige Zeit dauern " --percentage=0 --auto-close --auto-kill
+echo "# Elaborazione in corso"; sleep 1
+
+  
+) |
+zenity --progress --title="Configurazione" --text="Per favore, attendi, ci vorrà del tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuración cancelada"
+zenity --error --text="Configurazione annullata"
 fi
 }
+
 
 # ICONOS DE GIMP Y ATAJOS DE PHOTOSHOP
 
 function _gimpshop_de()
 {
 (
-echo "18"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Verarbeitung"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Verarbeitung"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Verarbeitung läuft"; sleep 1
+
+_gimpshop
 echo "100"; sleep 1
-echo "# Verarbeitung"; sleep 1
-)|
-zenity --progress --title="Konfigurieren" --text="Sei geduldig, es wird einige Zeit dauern " --percentage=0 --auto-close --auto-kill
+echo "# Verarbeitung läuft"; sleep 1
+  
+) |
+zenity --progress --title="Konfiguration" --text="Bitte warten, es wird einige Zeit dauern" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Configuración cancelada"
+zenity --error --text="Konfiguration abgebrochen"
 fi
 }
+
 
 # =========================================================================================
 # RUSO
@@ -1695,172 +1112,91 @@ fi
 function _photoshop_ru()
 {
 (
-echo "14"; sleep 1
+
+_borrar
+echo "50"; sleep 1
 echo "# Обработка"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "57"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Обработка"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_photoshop
 echo "100"; sleep 1
-echo "# Обработка"; sleep 1
+echo "# Обработка"; sleep 1  
+
+  
 )|
-zenity --progress --title="Настройка" --text="Будьте терпеливы, это займет время  " --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Настройка" --text="Пожалуйста, подождите, это займет некоторое время" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Конфигурация отменена"
+zenity --error --text="Настройка отменена"
 fi
 }
+
 
 # GIMP ICONOS Y ATAJOS
 
 function _gimp_ru()
 {
 (
-echo "14"; sleep 1
+
+_borrar
+echo "50"; sleep 1
 echo "# Обработка"; sleep 1
-sudo chmod 777 -R /home/
-echo "29"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "43"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "57"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "71"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "86"; sleep 1
-echo "# Обработка"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_gimpshop
 echo "100"; sleep 1
-echo "# Обработка"; sleep 1
+echo "# Обработка"; sleep 1    
+
+  
 )|
-zenity --progress --title="Настройка" --text="Будьте терпеливы, это займет время  " --percentage=0 --auto-close --auto-kill
+zenity --progress --title="Настройка" --text="Пожалуйста, подождите, это займет некоторое время" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Конфигурация отменена"
+zenity --error --text="Настройка отменена"
 fi
 }
+
 
 # ICONOS DE PHOTOSHOP Y ATAJOS DE GIMP
 
-function _photogimp_ru()
+function _photogimp_it()
 {
 (
-echo "18"; sleep 1
-echo "# Обработка"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/  
-echo "45"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Обработка"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Обработка"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Обработка"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /root/
-echo "90"; sleep 1
-echo "# Обработка"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Обработка"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_borrar
+echo "50"; sleep 1
+echo "# Elaborazione in corso"; sleep 1
+
+_photogimp
 echo "100"; sleep 1
-echo "# Обработка"; sleep 1
-)|
-zenity --progress --title="Настройка" --text="Будьте терпеливы, это займет время  " --percentage=0 --auto-close --auto-kill
+echo "# Elaborazione in corso"; sleep 1
+
+  
+) |
+zenity --progress --title="Configurazione" --text="Per favore, attendi, ci vorrà del tempo" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
-zenity --error --text="Конфигурация отменена"
+zenity --error --text="Configurazione annullata"
 fi
 }
+
 
 # ICONOS DE GIMP Y ATAJOS DE PHOTOSHOP
 
 function _gimpshop_ru()
 {
 (
-echo "18"; sleep 1
+
+_borrar
+echo "50"; sleep 1
 echo "# Обработка"; sleep 1
-sudo chmod 777 -R /home/
-echo "27"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /home/*/.config/GIMP
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-original-full/.config $usuarios; done
-echo "36"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /root/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /root/  
-echo "45"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /usr/share/gimp
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/usr/share /usr/ 
-echo "54"; sleep 1
-echo "# Обработка"; sleep 1
-sudo rm -rf /etc/skel/.config/GIMP
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-original-full/.config /etc/skel/
-echo "63"; sleep 1
-echo "# Обработка"; sleep 1
-sudo chmod 777 -R /home/
-echo "72"; sleep 1
-echo "# Обработка"; sleep 1
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config $usuarios; done
-echo "81"; sleep 1
-echo "# Обработка"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /root/
-echo "90"; sleep 1
-echo "# Обработка"; sleep 1
-sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop-rc/.config /etc/skel/
-echo "99"; sleep 1
-echo "# Обработка"; sleep 1
-sudo chmod 755 -R /home/
-sudo chmod 777 -R /home/*/.config
+
+_gimpshop
 echo "100"; sleep 1
-)|
-zenity --progress --title="Настройка" --text="Будьте терпеливы, это займет время " --percentage=0 --auto-close --auto-kill
+echo "# Обработка"; sleep 1
+
+  
+) |
+zenity --progress --title="Конфигурация" --text="Пожалуйста, подождите, это займет некоторое время" --percentage=0 --auto-close --auto-kill
 if [ "$?" = -1 ] ; then
 zenity --error --text="Конфигурация отменена"
 fi
 }
 
-# =========================================================================================
 
 _idioma

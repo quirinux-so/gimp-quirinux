@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>many unknown and unnamed, Andrew Chadwick, Alexandre Prokoudine, Aryeom Han, Benoit Touchette, Jakub Steiner, Jehan, Johannes Matschke, Kevin Payne, Klaus Staedtler, Marek Dvoroznak, Michael Natterer</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Enhanced, extended tango-art-libre for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="g4298" transform="matrix(.66667 0 0 .66667 2.0065e-6 -16)">
+  <ellipse id="path2407" cx="12" cy="45" rx="5.6794" ry="2.6794" style="color:#000000;fill-rule:evenodd;fill:#adb0aa;stroke-width:.64122;stroke:#4b4d4a"/>
+  <path id="rect2404" d="m2.0824 24.31h19.835c0.53818 0 0.95912 0.37987 0.98428 0.91248l0.78662 16.652c0.03437 0.72768-0.53211 1.3153-1.1931 1.3153h-20.991c-0.66096 0-1.2274-0.5876-1.1931-1.3153l0.78662-16.652c0.023788-0.5036 0.32332-0.91248 0.98428-0.91248z" style="color:#000000;fill-rule:evenodd;fill:#dde1d9;stroke-width:.62005;stroke:#8f8f8f"/>
+  <path id="path2377" d="m2.4761 25.665-0.81126 14.67h20.67l-0.87188-14.608z" style="fill-rule:evenodd;fill:#3465a4;stroke-linejoin:round;stroke-width:.32962;stroke:#204a87"/>
+ </g>
+</svg>

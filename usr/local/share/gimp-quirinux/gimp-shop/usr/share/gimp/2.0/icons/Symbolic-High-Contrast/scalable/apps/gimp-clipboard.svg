@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -113.35 142.04)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#ddd" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient10150" x1="-200" x2="-187" y1="411.5" y2="411.5" gradientTransform="translate(706.45 -184.97)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10154" x1="45" x2="50" y1="622.5" y2="622.5" gradientTransform="matrix(.98291 0 0 1.0208 457.66 -410.39)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10194" x1="-175" x2="-165" y1="172" y2="172" gradientTransform="rotate(180 -281.73 3.2394)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10196" x1="62" x2="72" y1="385" y2="385" gradientTransform="matrix(-.9 0 0 -.875 -289.71 195.54)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <g id="g4287" transform="matrix(1.2206 0 0 1.1429 0 -2.2857)">
+  <rect id="rect6874" x="4.0955" y="2" width="4.9146" height="3.0625" rx=".52127" ry=".54138" style="fill:url(#linearGradient10154)"/>
+  <path id="path6977" d="m0.61432 2.875c-0.57797 0.0093087-0.40075 0.39077-0.61041 0.64062-1.7117e-4 0.0055561-0.0039062 0.010027-0.0039062 0.015625v11.938c0 0.2938 0.23745 0.53125 0.53125 0.53125h12.043c0.2938 0 0.53125-0.23745 0.53125-0.53125v-11.938c0-0.00559-0.0037-0.010077-0.0039-0.015625 0.06243-0.3489-0.32518-0.64062-0.61042-0.64062h-2.662v0.875h1.7451c0.27304 0 0.68182 0.45785 0.71216 0.72266v9.9961c-0.0027 0.29379-0.52383 0.65625-0.81763 0.65625h-9.832c-0.2938 0-0.76803-0.36246-0.77075-0.65625l-0.046875-10c0.032125-0.26287 0.44049-0.71875 0.71216-0.71875h1.7451v-0.875z" style="fill:url(#linearGradient10150)"/>
+ </g>
+ <path id="rect4993" d="m14 14v-7h-9v7zm-1-1h-7v-5h7z" style="fill:url(#linearGradient10196)"/>
+ <path id="path4998" d="m4 12v-1h-1v-6h7v1h1v-2h-9v8z" style="fill:url(#linearGradient10194)"/>
+</svg>

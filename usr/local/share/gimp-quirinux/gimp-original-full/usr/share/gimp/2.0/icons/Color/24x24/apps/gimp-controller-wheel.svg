@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>many unknown and unnamed, Andrew Chadwick, Alexandre Prokoudine, Aryeom Han, Benoit Touchette, Jakub Steiner, Jehan, Johannes Matschke, Kevin Payne, Klaus Staedtler, Marek Dvoroznak, Michael Natterer</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Enhanced, extended tango-art-libre for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient11627" x1="23.991" x2="23.991" y1="6.5837" y2="15.069" gradientTransform="matrix(1.5511 0 0 1.4994 868.22 220.12)" gradientUnits="userSpaceOnUse">
+   <stop id="stop11623" style="stop-color:#b1b1b1" offset="0"/>
+   <stop id="stop11629" style="stop-color:#dfdfdf" offset=".2"/>
+   <stop id="stop11625" style="stop-color:#565656" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="g4165">
+  <path id="path5634-1" d="m0.59257 7.2681c-0.85026 2.1887-0.53568 4.7791-0.53568 7.4314v9.3005h23.877v-9.3005c0-2.5201 0.32752-5.2734-0.47423-7.4802-3.3968-9.3496-18.996-9.9147-22.867 0.04881z" style="color:#000000;fill:#c1c1c1"/>
+  <path id="path5634-0" d="m1.5432 7.6625c-0.7794 2.0063-0.49104 4.3808-0.49104 6.8121l5e-7 8.5255h21.887v-8.5255c0-2.3101 0.30022-4.8339-0.43471-6.8568-3.1138-8.5705-17.413-9.0885-20.961 0.044743z" style="color:#000000;fill:#555753"/>
+  <ellipse id="path11617" cx="12.041" cy="12.571" rx="6.4585" ry="10.097" style="color:#000000;fill-rule:evenodd;fill:#eeeeec"/>
+  <ellipse id="path11619" cx="12" cy="9.5" rx="3.3687" ry="7.1187" style="color:#000000;fill-rule:evenodd;fill:url(#linearGradient11627);stroke-width:.76252;stroke:#595959"/>
+ </g>
+</svg>

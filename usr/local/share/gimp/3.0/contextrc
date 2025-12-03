@@ -1,0 +1,14 @@
+# GIMP user context
+
+(tool "gimp-move-tool")
+(paint-info "gimp-paintbrush")
+(brush "2. Hardness 025")
+(dynamics "Pressure Opacity")
+(mybrush "Standard")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Default")
+(font "Sans-serif")
+(tool-preset "16×10")
+
+# end of user context

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Gimp Color Icon Theme</dc:title>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>many unknown and unnamed, Andrew Chadwick, Alexandre Prokoudine, Aryeom Han, Benoit Touchette, Jakub Steiner, Jehan, Johannes Matschke, Kevin Payne, Klaus Staedtler, Marek Dvoroznak, Michael Natterer</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Enhanced, extended tango-art-libre for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient11627" x1="23.991" x2="23.991" y1="6.5837" y2="15.069" gradientTransform="translate(560.01 146.51)" gradientUnits="userSpaceOnUse">
+   <stop id="stop11623" style="stop-color:#b1b1b1" offset="0"/>
+   <stop id="stop11629" style="stop-color:#dfdfdf" offset=".2"/>
+   <stop id="stop11625" style="stop-color:#565656" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="stock" transform="translate(-198.97 4.2792)">
+  <g id="gimp-controller-wheel" transform="translate(198.97 -4.2792)">
+   <path id="path5634-1" d="m0.39505 4.8454c-0.56684 1.4591-0.35712 3.1861-0.35712 4.9542v6.2003h15.918v-6.2003c0-1.6801 0.21834-3.5156-0.31615-4.9868-2.2646-6.2331-12.664-6.6098-15.245 0.03254z" style="color:#000000;fill:#c1c1c1"/>
+   <path id="path5634-0" d="m0.72338 5.0973c-0.53716 1.3668-0.33842 2.9845-0.33842 4.6408 3.7e-7 5.8081 3.7e-7 5.8081 3.7e-7 5.8081h15.085v-5.8081c0-1.5738 0.20691-3.2932-0.2996-4.6713-2.146-5.8388-12.001-6.1917-14.447 0.030482z" style="color:#000000;fill:#555753"/>
+   <ellipse id="path11617" cx="8.0273" cy="8.3805" rx="4.3056" ry="6.7313" style="color:#000000;fill-rule:evenodd;fill:#eeeeec"/>
+   <ellipse id="path11619" cx="8.0033" cy="6.0408" rx="2.1718" ry="4.7477" style="color:#000000;fill-rule:evenodd;fill:url(#linearGradient11627);stroke-width:.5;stroke:#595959"/>
+  </g>
+ </g>
+</svg>

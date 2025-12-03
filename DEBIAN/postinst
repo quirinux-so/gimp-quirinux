@@ -1,22 +1,64 @@
 #!/bin/bash
 
-sudo chown root:root /etc/sudoers.d/gimp-quirinux-nopasswd
-sudo chmod 755 /etc/sudoers.d/gimp-quirinux-nopasswd
+# Verifica si /usr/share/gimp ya existe
+if [ ! -d /usr/share/gimp ]; then
+    mkdir -p /usr/share/gimp
+fi
 
-for usuarios1 in /home/*; do sudo sudo chmod 755 -R $usuarios1; done
+if [ ! -d /usr/share/gimp/2.0 ]; then
+    mkdir -p /usr/share/gimp/2.0
+fi
+
+if [ ! -d /usr/share/gimp/3.0 ]; then
+    mkdir -p /usr/share/gimp/3.0
+fi
+
+# Verifica si /etc/skel/.config ya existe
+if [ ! -d /etc/skel/.config ]; then
+    mkdir -p /etc/skel/.config
+fi
+
+# Cambia los permisos de /usr/share/gimp a 4755
+chmod 4755 /usr/share/gimp
+chmod 4755 /usr/share/gimp/2.0
+chmod 4755 /usr/share/gimp/3.0
+chmod +t /usr/share/gimp
+chmod +t /usr/share/gimp/2.0
+chmod +t /usr/share/gimp/3.0
+
+# Copia los archivos de configuración a /etc/skel/.config
+cp -rf /usr/local/share/gimp-quirinux/gimp-shop/.config/* /etc/skel/.config/
+
+# Copia los archivos de /usr/local/share/gimp-quirinux/gimp-shop/usr/share/gimp/2.0 a /usr/share/gimp/2.0
+cp -rf /usr/local/share/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/* /usr/share/gimp/2.0/
+cp -rf /usr/local/share/gimp-quirinux/gimp-shop/usr/share/gimp/3.0/* /usr/share/gimp/3.0/
+
+# Cambia los permisos de /usr/share/gimp a 4755
+chmod 4755 /usr/share/gimp
+chmod 4755 /usr/share/gimp/2.0
+chmod 4755 /usr/share/gimp/3.0
+chmod +t /usr/share/gimp
+chmod +t /usr/share/gimp/2.0
+chmod +t /usr/share/gimp/3.0
 
 
-sudo rm -rf /home/*/.config/GIMP
-sudo rm -rf /root/.config/GIMP 
-sudo rm -rf /usr/share/gimp 
-sudo rm -rf /etc/skel/.config/GIMP 
+if [ -d /home/quirinux/ ]; then
+    
+   if [ ! -d /home/quirinux/.config/GIMP ]; then
+        mkdir -p /home/quirinux/.config/GIMP
+    fi
+    
+    cp -rf /etc/skel/.config/GIMP/* /home/quirinux/.config/GIMP/
+    
+    chown -R quirinux:quirinux /home/quirinux/.config/GIMP
+fi
 
-for usuarios in /home/*; do sudo yes | sudo cp -r /opt/gimp-quirinux/gimp-shop/.config $usuarios; done
 
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /root/ 
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/.config /etc/skel/ 
-sudo yes | sudo cp -rf /opt/gimp-quirinux/gimp-shop/usr/share /usr/
 
-for usuarios1 in /home/*; do sudo sudo chmod 755 -R $usuarios1; done
-for usuarios1 in /home/*; do sudo chmod 777 -R $usuarios1"/.config"; done
+
+
+
+
+	
+
 

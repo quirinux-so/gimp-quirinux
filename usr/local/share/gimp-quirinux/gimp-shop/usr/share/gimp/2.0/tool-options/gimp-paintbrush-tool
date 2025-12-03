@@ -1,0 +1,12 @@
+# GIMP gimp-paintbrush-tool options
+
+(brush "2. Hardness 025")
+(dynamics "Pressure Opacity")
+(gradient "FG to BG (RGB)")
+(palette "Default")
+(brush-size 50.000000)
+(brush-spacing 0.050000)
+(brush-hardness 0.250000)
+(brush-force 1.000000)
+
+# end of gimp-paintbrush-tool options

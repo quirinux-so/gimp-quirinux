@@ -1,0 +1,6 @@
+# GIMP gimp-ellipse-select-tool options
+
+(overridden-fixed-aspect yes)
+(operation subtract)
+
+# end of gimp-ellipse-select-tool options

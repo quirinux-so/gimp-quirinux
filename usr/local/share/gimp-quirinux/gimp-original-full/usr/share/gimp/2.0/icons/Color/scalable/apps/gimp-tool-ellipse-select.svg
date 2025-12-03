@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg11300" width="16" height="16" version="1.0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata4">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Jakub Steiner</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:source>http://jimmac.musichall.cz</dc:source>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/"/>
+    <dc:title/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
+    <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1">
+  <g id="g4083">
+   <ellipse id="path4051-5" cx="8.0127" cy="8.146" rx="7.5109" ry="5.3884" style="fill:none;stroke-width:.95369;stroke:#000"/>
+   <g id="g4004" transform="matrix(1.025 0 0 1.0267 -.18762 -.21329)" style="fill:#ef2929;opacity:.494">
+    <rect id="rect4002" x=".20775" y=".20775" width="15.584" height="15.584" style="color-rendering:auto;color:#000000;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:0;shape-rendering:auto;solid-color:#000000;stroke-width:.41551"/>
+   </g>
+   <rect id="rect4032-1" transform="matrix(.99995 .0098968 -.0098655 .99995 0 0)" x="7.3724" y="2.1973" width=".99757" height="1" style="fill:#fff"/>
+   <rect id="rect4032-8-9-5" x="15.002" y="7.5773" width=".99757" height="1" style="fill:#fff"/>
+   <rect id="rect4032-8-9-7" y="7.5519" width="1.0229" height="1" style="fill:#fff"/>
+   <rect id="rect4032-8-9-5-0" x="7.5046" y="13.03" width=".99757" height="1" style="fill:#fff"/>
+   <ellipse id="path4051" cx="8" cy="8.05" rx="6.4019" ry="4.1519" style="fill:#d3d7cf;stroke-width:.19613;stroke:#fff"/>
+   <rect id="rect4032" transform="matrix(.75458 -.65621 .65502 .75561 0 0)" x="-1.769" y="4.5183" width=".99825" height=".99932" style="fill:#fff"/>
+   <rect id="rect4032-5" transform="matrix(.89641 -.44323 .4421 .89697 0 0)" x="1.5443" y="4.5016" width=".99788" height=".99969" style="fill:#fff"/>
+   <rect id="rect4032-10" transform="matrix(.48099 -.87672 .87608 .48216 0 0)" x="-5.3842" y="3.3761" width=".99878" height=".99878" style="fill:#fff"/>
+   <rect id="rect4032-5-6" transform="matrix(.97667 -.21472 .21408 .97682 0 0)" x="4.5572" y="3.6873" width=".99764" height=".99993" style="fill:#fff"/>
+   <rect id="rect4032-8" transform="matrix(.75521 .65548 .6543 -.75624 0 0)" x="8.891" y="-7.779" width=".99825" height=".99932" style="fill:#fff"/>
+   <rect id="rect4032-5-4" transform="matrix(.89684 .44236 .44124 -.89739 0 0)" x="8.7394" y="-10.113" width=".99788" height=".99969" style="fill:#fff"/>
+   <rect id="rect4032-10-4" transform="matrix(.48183 .87626 .87562 -.48301 0 0)" x="8.8761" y="-4.4659" width=".99878" height=".99879" style="fill:#fff"/>
+   <rect id="rect4032-5-6-3" transform="matrix(.97688 .21378 .21314 -.97702 0 0)" x="8.0407" y="-12.257" width=".99764" height=".99993" style="fill:#fff"/>
+   <rect id="rect4032-9" transform="matrix(-.77228 -.63528 -.63408 .77327 0 0)" x="-13.857" y="-5.6203" width=".99821" height=".99936" style="fill:#fff"/>
+   <rect id="rect4032-5-5" transform="matrix(-.90823 -.41848 -.41738 .90873 0 0)" x="-12.706" y="-2.2603" width=".99785" height=".99972" style="fill:#fff"/>
+   <rect id="rect4032-10-6" transform="matrix(-.50481 -.86323 -.86253 .506 0 0)" x="-13.217" y="-10.317" width=".99875" height=".99882" style="fill:#fff"/>
+   <rect id="rect4032-5-6-5" transform="matrix(-.9822 -.18785 -.18727 .98231 0 0)" x="-10.889" y=".5228" width=".99762" height=".99994" style="fill:#fff"/>
+   <rect id="rect4032-86" transform="matrix(-.76036 .6495 -.64831 -.76137 0 0)" x="-3.2706" y="-18.249" width=".99824" height=".99933" style="fill:#fff"/>
+   <rect id="rect4032-5-2" transform="matrix(-.9003 .43527 -.43415 -.90084 0 0)" x="-5.6825" y="-17.14" width=".99787" height=".9997" style="fill:#fff"/>
+   <rect id="rect4032-10-8" transform="matrix(-.48872 .87244 -.87178 -.4899 0 0)" x="1.0461" y="-18.517" width=".99877" height=".9988" style="fill:#fff"/>
+   <rect id="rect4032-5-6-39" transform="matrix(-.97854 .20606 -.20544 -.97867 0 0)" x="-7.6412" y="-15.613" width=".99764" height=".99993" style="fill:#fff"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg30571" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs30573">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -482.62 330.96)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#414141" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient7261" x1="318.05" x2="326.05" y1="152.67" y2="152.67" gradientTransform="matrix(1.5015 0 0 1.5015 -477.55 817.63)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7253" x1="161" x2="168" y1="220.5" y2="220.5" gradientTransform="matrix(1.5 0 0 1.5 -241.5 702.86)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7247" x1="161" x2="176.88" y1="222" y2="222" gradientTransform="matrix(1.5118 0 0 1.5118 -243.4 700.18)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <metadata id="metadata30576">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1028.4)">
+  <g id="g9103" transform="translate(-.0625)">
+   <rect id="rect4820" x=".000164" y="1028.4" width="24" height="24" style="fill:none"/>
+   <path id="path4834" d="m7 1042.4v3h-7v3h7v3l5-4.5z" style="fill:url(#linearGradient7261)"/>
+   <path id="rect4845" d="m1.617e-4 1028.4v11h9.9999l-9e-5 -11z" style="fill:url(#linearGradient7253);opacity:.5"/>
+   <path id="path4855" d="m1.617e-4 1028.4 13 15h11l-13-15z" style="fill:url(#linearGradient7247)"/>
+  </g>
+ </g>
+</svg>

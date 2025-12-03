@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg9286" width="16" height="16" version="1.1" viewBox="0 0 4.2333 4.2333" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title id="title13765">GIMP Clip-Warning Display Filter</title>
+ <metadata id="metadata9283">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>GIMP Clip-Warning Display Filter</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Ell</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -292.77)">
+  <g id="gimp-display-filter-clip-warning">
+   <g id="g22265">
+    <path id="rect28283-2-7" d="m0.26458 292.77c-0.17316 0-0.26458-0.01719-0.26458 0.26459v3.7042c0 0.28168 0.091427 0.26459 0.26458 0.26459h3.7042c0.16761 0 0.25594 4e-3 0.26458-0.26459v-3.7042c-0.0086413-0.26874-0.096977-0.26459-0.26458-0.26459h-1.8521zm0.52917 0.26459h2.6458c0.17316 0 0.52917 0.3004 0.52917 0.58208v2.54c0 0.28168-0.35601 0.58208-0.52917 0.58208h-2.6458c-0.17316 0-0.52917-0.37978-0.52917-0.66145v-2.3812c0-0.28168 0.35724-0.6821 0.52917-0.66146z" style="fill:#414141"/>
+    <g id="g22210" transform="translate(0 292.77)">
+     <g id="g22147">
+      <path id="path22131" d="m0.26458 0.26458 0.52917 0.52917-0.52917 0.52917z" style="fill-rule:evenodd;fill:#414141"/>
+      <path id="path22135" d="m1.3229 1.3229 0.52917 0.52917-1.5875 1.5875v-1.0583z" style="fill-rule:evenodd;fill:#414141"/>
+      <path id="path22137" d="m2.3812 2.3812 0.52917 0.52917-1.0583 1.0583h-1.0583z" style="fill-rule:evenodd;fill:#414141"/>
+      <path id="path22141" d="m3.4396 3.4396 0.52917 0.52917h-1.0583z" style="fill-rule:evenodd;fill:#414141"/>
+     </g>
+     <g id="g22159">
+      <path id="path22150" d="m0.79375 0.79375 0.52917 0.52917 1.0583-1.0583h-1.0583z" style="fill-rule:evenodd;fill:#414141"/>
+      <path id="path22152" d="m1.8521 1.8521 0.52917 0.52917 1.5875-1.5875v-0.52917h-0.52917z" style="fill-rule:evenodd;fill:#414141"/>
+      <path id="path22154" d="m2.9104 2.9104 0.52917 0.52917 0.52917-0.52917v-1.0583z" style="fill-rule:evenodd;fill:#414141"/>
+     </g>
+    </g>
+   </g>
+   <rect id="rect22267" y="292.77" width="4.2333" height="4.2333" style="fill:none"/>
+  </g>
+ </g>
+</svg>
