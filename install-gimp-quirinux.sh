@@ -57,3 +57,4 @@ echo " >>> Menu Aplicaciones > Configuración > Configurar GIMP"
 echo ""
 echo "==========================================================="
 echo ""
+
