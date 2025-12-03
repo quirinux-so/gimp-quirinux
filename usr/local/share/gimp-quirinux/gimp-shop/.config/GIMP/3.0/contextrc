@@ -1,0 +1,14 @@
+# GIMP user context
+
+(tool "gimp-unified-transform-tool")
+(paint-info "gimp-paintbrush")
+(brush "2. Hardness 100")
+(dynamics "Pressure Opacity")
+(mybrush "Standard")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Default")
+(font "Segoe UI")
+(tool-preset "Core Pointer")
+
+# end of user context

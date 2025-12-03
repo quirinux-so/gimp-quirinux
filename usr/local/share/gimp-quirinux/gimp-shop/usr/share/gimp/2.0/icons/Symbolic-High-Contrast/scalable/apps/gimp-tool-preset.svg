@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -70.09 664.08)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#ddd" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient7524" x1="84.262" x2="100.26" y1="104.96" y2="104.96" gradientTransform="translate(457.81 167.03)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7262-6" x1="-95" x2="-84" y1="188.5" y2="188.5" gradientTransform="translate(602.27 -49.251)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <g id="stock" transform="translate(-84.262 -96.963)">
+  <path id="gimp-tool-options" transform="translate(84.262 96.963)" d="m7.9629 0c-0.29223 0-0.84559 0.31659-0.90039 0.5332l-0.8418 1.4668h-6.2207v10h2l-1 4h1l0.5-2h11l0.5 2h1l-1-4h2v-8.0001l-1 1v6.0001h-6l-1 1h5v1h-10v-1h1v-1h-3v-8h10l1-1h-2.1172l-1.0098-1.5664c-0.18671-0.24378-0.62258-0.43359-0.91016-0.43359zm0.037109 1 0.5 1h-1z" style="fill:url(#linearGradient7524);stroke-width:.08724"/>
+ </g>
+ <path id="path2273-6-2-3" d="m14 0.99987-1 1 2 2 1-1c0-1-1-2-2-2zm-2.3977 2.3977-6.6023 6.6022v2h2l6.6023-6.6022z" style="fill-rule:evenodd;fill:url(#linearGradient7262-6)"/>
+</svg>

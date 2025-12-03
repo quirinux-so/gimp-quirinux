@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="SVGRoot" width="16px" height="16px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata5">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 20.5)">
+  <g id="gimp-color-space-linear">
+   <rect id="rect1373" x="1" y="-19.5" width="14" height="14" style="color:#000000;fill-rule:evenodd;fill:#fff;paint-order:normal"/>
+   <path id="path1377" d="m1-13.5h8v8h-1v-7h-7z" style="fill-rule:evenodd;fill:#bebebe"/>
+   <g id="g2676" style="fill:#2d2d2d">
+    <path id="path819" d="m1-5.5 14-14" style="fill-rule:evenodd;fill:#2d2d2d;stroke-width:1px;stroke:#dc0000"/>
+    <path id="rect814" d="m0-20.5v16h16v-16zm1 1h14v14h-14z" style="color:#000000;fill-rule:evenodd;fill:#2d2d2d;paint-order:normal"/>
+   </g>
+  </g>
+ </g>
+</svg>

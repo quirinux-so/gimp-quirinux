@@ -1,0 +1,68 @@
+# GIMP gimprc
+# 
+# This is your personal gimprc file.  Any variable defined in this file takes
+# precedence over the value defined in the system-wide gimprc:
+# /etc/gimp/2.0/gimprc
+# Most values can be set within GIMP by changing some options in the
+# Preferences dialog.
+
+(use-opencl yes)
+(language "en_US")
+(interpolation-type nohalo)
+(mypaint-brush-path "${gimp_installation_dir}\\share\\mypaint-data\\1.0\\brushes")
+(mypaint-brush-path-writable "${gimp_installation_dir}\\share\\mypaint-data\\1.0\\brushes")
+(global-gradient no)
+(default-grid
+    (style solid)
+    (fgcolor (color-rgba 0 0 0 1))
+    (bgcolor (color-rgba 1 1 1 1))
+    (xspacing 0)
+    (yspacing 0)
+    (spacing-unit inches)
+    (xoffset 0)
+    (yoffset 0)
+    (offset-unit inches))
+(import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-darktable/file-darktable")
+(monitor-xresolution 125)
+(monitor-yresolution 125)
+(default-fullscreen-view
+    (show-menubar yes)
+    (show-statusbar yes)
+    (show-rulers yes)
+    (show-scrollbars yes)
+    (show-selection yes)
+    (show-layer-boundary no)
+    (show-canvas-boundary no)
+    (show-guides yes)
+    (show-grid no)
+    (show-sample-points yes)
+    (snap-to-guides yes)
+    (snap-to-grid no)
+    (snap-to-canvas no)
+    (snap-to-path no)
+    (padding-mode default)
+    (padding-color (color-rgb 1 1 1))
+    (padding-in-show-all no))
+(icon-theme "Gimps")
+(fill-options
+    (style solid)
+    (antialias yes)
+    (feather no)
+    (feather-radius 10))
+(stroke-options
+    (style solid)
+    (antialias yes)
+    (feather no)
+    (feather-radius 10)
+    (method line)
+    (width 6)
+    (unit pixels)
+    (cap-style butt)
+    (join-style miter)
+    (miter-limit 10)
+    (dash-offset 0)
+    (dash-info 0)
+    (emulate-brush-dynamics no))
+
+
+# end of gimprc

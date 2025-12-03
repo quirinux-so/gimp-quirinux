@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -119.35 741.04)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#ddd" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient8334" x1="35" x2="51" y1="28" y2="28" gradientTransform="translate(898.15 399.52)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7379" x1="43" x2="46" y1="30.734" y2="30.734" gradientTransform="translate(898.15 337.1)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <g id="preferences" transform="translate(-284.82 -241.52)">
+  <g id="gimp-prefs-folders-interp" transform="translate(249.82 221.52)">
+   <g id="g736" transform="translate(20)">
+    <g id="g738" transform="translate(0,60)">
+     <path id="path15678" transform="translate(-20,-60)" d="m35.531 20c-0.28913 0-0.53125 0.24212-0.53125 0.53125v14.938c0 0.2985 0.23264 0.53125 0.53125 0.53125h14.938c0.2986 0 0.53125-0.23265 0.53125-0.53125v-9.9375c0-0.2891-0.24212-0.53125-0.53125-0.53125h-12.469v8.5c0 0.277-0.223 0.5-0.5 0.5s-0.5-0.223-0.5-0.5v-9c0-0.277 0.223-0.5 0.5-0.5h2.9688 8.5312v-1.4062c0-0.3272-0.26666-0.59375-0.59375-0.59375h-7.4062v-1.4688c0-0.28915-0.24212-0.53125-0.53125-0.53125zm6.5312 6 1.5 1.2188c0.62774-0.1844 1.2473-0.1844 1.875 0l1.5-1.2188 2.0625 2.0938-1.2188 1.4688c0.18296 0.6327 0.18296 1.3048 0 1.9375l1.2188 1.4688-2.0625 2.0938-1.5-1.2188c-0.62774 0.1844-1.2473 0.1844-1.875 0l-1.5 1.2188-2.0625-2.0938 1.2188-1.4688c-0.18296-0.6327-0.18296-1.3048 0-1.9375l-1.2188-1.4688z" style="fill:url(#linearGradient8334)"/>
+    </g>
+   </g>
+   <ellipse id="path15832" transform="matrix(1 0 0 1.1852 0 -5.9259)" cx="44.5" cy="30.734" rx="1.5" ry="1.2656" style="fill:url(#linearGradient7379)"/>
+  </g>
+ </g>
+</svg>

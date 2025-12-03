@@ -53,15 +53,12 @@ Once installed, the plugin is accessible from:
 
 ## 🖥️ Compatibilidad / Compatibility
 
-**ES:**
 - Quirinux 2.x  
-- Debian 10.x / Devuan Beowulf  
-- Ubuntu 20.x y derivadas
-
-**EN:**
-- Quirinux 2.x  
-- Debian 10.x / Devuan Beowulf  
-- Ubuntu 20.x and derivatives
+- Debian 10 Buster / Devuan 3 Beowulf
+- Debian 11 Bullseye / Devuan 4 Chimaera
+- Debian 12 Bookworm / Devuan 5 Daeldalus
+- Debian 13 Trixie / Devuan 6 Excalibur
+- Experimental: Ubuntu 20.04 Focal Fossa, Ubuntu 22.04 Jammy Jellyfish, Ubuntu 24.04 Noble Numbat
 
 ---
 
@@ -73,32 +70,50 @@ GIMP debe estar instalado desde los **repositorios oficiales**.
 
 **EN:**  
 GIMP must be installed from the **official distribution repositories**.  
-**Not compatible** with Snap, Flatpak, or AppImage versions.
-
-### 📋 Dependencias / Dependencies
-
-**ES/EN:**
-- `gimp`  
-- `gimp-data`
-
-### 🔧 Recomendados / Recommended (optional)
-
-**ES/EN:**
-- `gimp-gap`, `gimp-data-extras`, `gimp-plugin-registry`, `gimp-gmic`, `gimp-ufraw`,  
-  `gimp-gutenprint`, `gimp-lensfun`, `gimp-gluas`, `abr2gbr`, `gtkam-gimp`, `gimp-python`, etc.
 
 ---
 
 ## 📌 Instalación / Installation
 
 **ES:**  
-La forma recomendada de instalación es mediante el paquete `.deb` oficial.
+
+0. Instalar wget (si aún no lo tenemos):
+
+```apt-get update```
+
+```apt-get install wget -y```
+
+2. Descargar el script instalador:
+
+```wget https://repo.quirinux.org/extras/scripts/gimp-quirinux-installer.sh```
+
+2. Dar permisos de ejecución:
+
+```chmod +x ./gimp-quirinux-installer.sh```
+
+3. Ejecutar con permisos de administrador
+
+```./gimp-quirinux-installer.sh```
 
 **EN:**  
-The recommended installation method is via the official `.deb` package.
 
-**Descarga / Download:**  
-[https://repo.quirinux.org/pool/main/g/gimp-quirinux/](https://repo.quirinux.org/pool/main/g/gimp-quirinux/)
+0. Install wget (if you don’t already have it):
+
+```apt-get update```
+
+```apt-get install wget -y```
+
+1. Download the installer script:
+
+```https://repo.quirinux.org/extras/scripts/gimp-quirinux-installer.sh```
+
+2. Grant execution permissions:
+
+```chmod +x ./gimp-quirinux-installer.sh```
+
+3. Run with administrator privileges:
+
+```./gimp-quirinux-installer.sh```
 
 **Métodos de instalación / Installation methods:**  
 - GDebi  

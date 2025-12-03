@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg30571" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs30573">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -482.62 330.96)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#414141" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient10598" x1="104" x2="114.28" y1="225" y2="225" gradientTransform="matrix(1.4588 0 0 1.5 -148.21 702.86)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10604" x1="-131" x2="-125" y1="13" y2="13" gradientTransform="matrix(1.5 0 0 1.5 209 1028.4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10610" x1="102" x2="108" y1="230" y2="230" gradientTransform="matrix(1.5 0 0 1.5 -152.5 702.86)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10628" x1="-133" x2="-132" y1="5.5" y2="5.5" gradientTransform="matrix(2 0 0 2 276 1025.4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10626" x1="108" x2="109" y1="220.5" y2="220.5" gradientTransform="matrix(2 0 0 2 -206 592.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10624" x1="-133" x2="-132" y1="1.5" y2="1.5" gradientTransform="matrix(2 0 0 2 276 1027.4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10622" x1="-131" x2="-130" y1="1.5" y2="1.5" gradientTransform="matrix(2 0 0 2 275 1027.4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10620" x1="-129" x2="-128" y1="1.5" y2="1.5" gradientTransform="matrix(2 0 0 2 274 1027.4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10618" x1="-127" x2="-126" y1="1.5" y2="1.5" gradientTransform="matrix(2 0 0 2 273 1027.4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient10616" x1="-125" x2="-124" y1="1.5" y2="1.5" gradientTransform="matrix(2 0 0 2 272 1027.4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <metadata id="metadata30576">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1028.4)">
+  <g id="g10586">
+   <rect id="rect11780" y="1028.4" width="24" height="24" style="fill:none"/>
+   <path id="rect4875" d="m4.8701 1032.9c-1.3255 0.575-1.7581 1.8258-0.99286 2.8216l5.5255 7.5568-2.1829 2.4575 1.7676 2.1641 2.0125-2.5784 1.9734 2.5784 1.7514-2.0723-2.1276-2.5493 5.5255-7.5568c0.7653-0.9958 0.33266-2.2466-0.99288-2.8216l-6.1298 8.3027z" style="fill:url(#linearGradient10598)"/>
+   <path id="path12605" d="m17 1043.4c-2.4853 0-4.5 2.0147-4.5 4.5s2.0147 4.5 4.5 4.5 4.5-2.0147 4.5-4.5-2.0147-4.5-4.5-4.5zm0 2.5a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2z" style="fill:url(#linearGradient10604)"/>
+   <path id="path12608" d="m5 1043.4c-2.4853 0-4.5 2.0147-4.5 4.5s2.0147 4.5 4.5 4.5 4.5-2.0147 4.5-4.5-2.0147-4.5-4.5-4.5zm0 2.5a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2z" style="fill:url(#linearGradient10610)"/>
+   <rect id="rect12610" x="10" y="1035.4" width="2" height="2" style="fill:url(#linearGradient10628)"/>
+   <rect id="rect12612" x="10" y="1032.4" width="2" height="2" style="fill:url(#linearGradient10626)"/>
+   <rect id="rect12614" x="10" y="1029.4" width="2" height="2" style="fill:url(#linearGradient10624)"/>
+   <rect id="rect12616" x="13" y="1029.4" width="2" height="2" style="fill:url(#linearGradient10622)"/>
+   <rect id="rect12618" x="16" y="1029.4" width="2" height="2" style="fill:url(#linearGradient10620)"/>
+   <rect id="rect12620" x="19" y="1029.4" width="2" height="2" style="fill:url(#linearGradient10618)"/>
+   <rect id="rect12622" x="22" y="1029.4" width="2" height="2" style="fill:url(#linearGradient10616)"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient10250" x1="4" x2="16" y1="1049.9" y2="1049.9" gradientTransform="translate(403.12 -929.28)" gradientUnits="userSpaceOnUse">
+   <stop id="stop19284-0" style="stop-color:#bebebe" offset="0"/>
+  </linearGradient>
+ </defs>
+ <g id="g4292">
+  <path id="rect28071" d="m4 11v5h12v-5zm2.5714 0.7143h0.85714v3.5714h-0.85714v-2.8571l-0.85714 0.7143v-0.7143zm3 0c0.71229 0 1.2857 0.4779 1.2857 1.0715v1.4284c0 0.5936-0.57343 1.0715-1.2857 1.0715-0.71229 0-1.2857-0.4779-1.2857-1.0715v-1.4284c0-0.5936 0.57343-1.0715 1.2857-1.0715zm3.9286-0.2143 1.5 1.5h-3zm-3.9286 0.9286c-0.23743 0-0.42857 0.1592-0.42857 0.3572v1.4284c0 0.198 0.19114 0.3572 0.42857 0.3572 0.23743 0 0.42857-0.1592 0.42857-0.3572v-1.4284c0-0.198-0.19114-0.3572-0.42857-0.3572zm2.4286 1.5714h3l-1.5 1.5z" style="fill:url(#linearGradient10250)"/>
+  <path id="path4" d="m9.45 6.4433-3.5775-6.1642c0.525-0.11194 1.065-0.1791 1.6275-0.1791 1.8 0 3.45 0.63433 4.74 1.6791l-2.745 4.7388zm-9.105-1.1194c0.69-2.1791 2.3625-3.9254 4.5-4.7313l2.745 4.7313zm-0.195 0.74627h5.6175l-0.2175 0.37313-3.57 6.1567c-1.23-1.3284-1.98-3.0896-1.98-5.0373 0-0.51493 0.0525-1.0075 0.15-1.4925zm9.945 1.4925 2.925-5.0373c1.2225 1.3284 1.98 3.0896 1.98 5.0373 0 0.51493-0.0525 1.0075-0.15 1.4925h-5.6175z" style="fill:#bebebe;stroke-width:.74813"/>
+ </g>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg7854" width="24" height="24" version="1.0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs7856">
+  <linearGradient id="linearGradient5146" x1="12" x2="12" y1="1.2684" y2="21.252" gradientTransform="matrix(1.0003 0 0 .98528 -.0037372 .98899)" gradientUnits="userSpaceOnUse">
+   <stop id="stop5142" style="stop-color:#eeeeec" offset="0"/>
+   <stop id="stop5144" style="stop-color:#d4d4cf" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata7859">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Jakub Steiner</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:source>http://jimmac.musichall.cz</dc:source>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/GPL/2.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+    <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/SourceCode"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1">
+  <g id="g4289">
+   <rect id="rect4559" x=".49189" y=".49189" width="23.016" height="23.016" rx="1.4056" ry="1.5408" style="color:#000000;fill-rule:evenodd;fill:url(#linearGradient5146);stroke-width:.98378;stroke:#888a85"/>
+   <rect id="rect4547" x="2.8336" y="18" width="3.0277" height="3.0277" style="color:#000000;fill-rule:evenodd;fill:#2e3436"/>
+   <rect id="rect4549" x="5.8614" y="18" width="3.0277" height="3.0277" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+   <rect id="rect4551" x="8.8891" y="18" width="3.0277" height="3.0277" style="color:#000000;fill-rule:evenodd;fill:#888a85"/>
+   <rect id="rect4553" x="11.917" y="18" width="3.0277" height="3.0277" style="color:#000000;fill-rule:evenodd;fill:#babdb6"/>
+   <rect id="rect4555" x="14.945" y="18" width="3.0277" height="3.0277" style="color:#000000;fill-rule:evenodd;fill:#d3d7cf"/>
+   <rect id="rect4557" x="17.972" y="18" width="3.0277" height="3.0277" style="color:#000000;fill-rule:evenodd;fill:#eeeeec"/>
+   <path id="path5195" d="m5.4375 14.5 13.125-11.062" style="color:#000000;fill:none;stroke-linecap:round;stroke:#babdb6"/>
+   <path id="path4561" d="m5.4471 14.553c5.9596-1.7343 10.516-5.2808 13.106-11.106" style="color:#000000;fill:none;stroke-linecap:round;stroke-width:.89427;stroke:#000"/>
+   <rect id="rect5148" x="1.4368" y="1.4512" width="21.126" height="21.098" rx=".64013" ry=".62965" style="color:#000000;fill:none;stroke-width:.90239;stroke:#fff"/>
+   <g id="g5166" transform="translate(-17)">
+    <circle id="path5150" transform="matrix(1.6162 0 0 1.6162 -12.643 -1.5756)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5152" transform="matrix(1.6162 0 0 1.6162 -12.643 .42443)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5154" transform="matrix(1.6162 0 0 1.6162 -12.643 2.4244)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5156" transform="matrix(1.6162 0 0 1.6162 -12.643 4.4244)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5158" transform="matrix(1.6162 0 0 1.6162 -12.643 6.4244)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5160" transform="matrix(1.6162 0 0 1.6162 -12.643 8.4244)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5162" transform="matrix(1.6162 0 0 1.6162 -12.643 10.424)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5164" transform="matrix(1.6162 0 0 1.6162 -12.643 12.424)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+   </g>
+   <g id="g5176" transform="rotate(-90,20,17)">
+    <circle id="path5178" transform="matrix(1.6162 0 0 1.6162 -12.643 -1.5756)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5180" transform="matrix(1.6162 0 0 1.6162 -12.643 .42443)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5182" transform="matrix(1.6162 0 0 1.6162 -12.643 2.4244)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5184" transform="matrix(1.6162 0 0 1.6162 -12.643 4.4244)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5186" transform="matrix(1.6162 0 0 1.6162 -12.643 6.4244)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5188" transform="matrix(1.6162 0 0 1.6162 -12.643 8.4244)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5190" transform="matrix(1.6162 0 0 1.6162 -12.643 10.424)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+    <circle id="path5192" transform="matrix(1.6162 0 0 1.6162 -12.643 12.424)" cx="20.506" cy="2.5216" r=".30936" style="color:#000000;fill-rule:evenodd;fill:#555753"/>
+   </g>
+  </g>
+ </g>
+</svg>

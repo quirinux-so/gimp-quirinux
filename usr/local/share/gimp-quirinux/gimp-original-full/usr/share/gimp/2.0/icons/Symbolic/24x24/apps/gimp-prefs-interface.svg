@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Barbara Muraus, Jakub Steiner, Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Images originally created as the "Art Libre" icon set. Extended and adopted for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient19282-4" gradientTransform="matrix(.34683 0 0 .30621 -19.352 761.04)" osb:paint="solid">
+   <stop id="stop19284-0" style="stop-color:#bebebe" offset="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient7468" x1="135" x2="142" y1="6" y2="6" gradientTransform="matrix(1.4286 0 0 1.5 934.51 533.95)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+  <linearGradient id="linearGradient7470" x1="138" x2="151" y1="10" y2="10" gradientTransform="matrix(1.5385 0 0 1.5833 1005.8 562.28)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282-4"/>
+ </defs>
+ <g id="g4258">
+  <path id="rect28732-9" d="m11 4v2h11v2h-11v11h-7v5h20v-20z" style="fill:url(#linearGradient7470)"/>
+  <path id="rect15227" d="m0 5e-6v18h10v-18zm1 1h8v2h-8zm1.2321 3.5h1.25c0.44517 0 0.80357 0.37631 0.80357 0.84375v1.3125c0 0.46744-0.3584 0.84375-0.80357 0.84375h-1.25c-0.44517 0-0.80357-0.37631-0.80357-0.84375v-1.3125c0-0.46744 0.3584-0.84375 0.80357-0.84375zm4.2857 0h1.25c0.44517 0 0.80357 0.37631 0.80357 0.84375v1.3125c0 0.46744-0.3584 0.84375-0.80357 0.84375h-1.25c-0.44517 0-0.80357-0.37631-0.80357-0.84375v-1.3125c0-0.46744 0.3584-0.84375 0.80357-0.84375zm-4.2857 4.5h1.25c0.44517 0 0.80357 0.37631 0.80357 0.84375v1.3125c0 0.46744-0.3584 0.84375-0.80357 0.84375h-1.25c-0.44517 0-0.80357-0.37631-0.80357-0.84375v-1.3125c0-0.46744 0.3584-0.84375 0.80357-0.84375zm4.2857 0h1.25c0.44517 0 0.80357 0.37631 0.80357 0.84375v1.3125c0 0.46744-0.3584 0.84375-0.80357 0.84375h-1.25c-0.44517 0-0.80357-0.37631-0.80357-0.84375v-1.3125c0-0.46744 0.3584-0.84375 0.80357-0.84375zm-4.2857 4.5h1.25c0.44517 0 0.80357 0.37631 0.80357 0.84375v1.3125c0 0.46744-0.3584 0.84375-0.80357 0.84375h-1.25c-0.44517 0-0.80357-0.37631-0.80357-0.84375v-1.3125c0-0.46744 0.3584-0.84375 0.80357-0.84375zm4.2857 0h1.25c0.44517 0 0.80357 0.37631 0.80357 0.84375v1.3125c0 0.46744-0.3584 0.84375-0.80357 0.84375h-1.25c-0.44517 0-0.80357-0.37631-0.80357-0.84375v-1.3125c0-0.46744 0.3584-0.84375 0.80357-0.84375z" style="fill:url(#linearGradient7468)"/>
+ </g>
+</svg>

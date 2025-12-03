@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg30571" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata30576">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Klaus Staedtler</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1036.4)">
+  <g id="g34">
+   <rect id="rect6884" y="1036.4" width="16" height="16" style="fill:none;opacity:.3"/>
+   <path id="rect6886" d="m0 1036.4v16h16v-16zm1 1h14v14h-14z" style="fill:#bebebe"/>
+   <path id="rect3938" d="m1 1044.4v7h7v-7zm0.92188 0.7832h0.79492l1.5176 2.2481 1.5039-2.2481h0.79492l-1.9336 2.8633v2.6035h-0.74414v-2.6035z" style="fill:#bebebe"/>
+   <path id="rect3938-6" transform="translate(0 1036.4)" d="m1 1v7h7v-7zm3.5898 0.49609c0.32715 0 0.63574 0.042969 0.92383 0.13086 0.29053 0.085449 0.5625 0.21533 0.81641 0.38867v0.78125c-0.24902-0.23193-0.51562-0.40674-0.79883-0.52148-0.28076-0.11475-0.5791-0.17188-0.89648-0.17188-0.625 0-1.1035 0.19287-1.4355 0.57617-0.33203 0.38086-0.49805 0.93164-0.49805 1.6543 0 0.72021 0.16602 1.2729 0.49805 1.6562 0.33203 0.38086 0.81055 0.57031 1.4355 0.57031 0.31738 0 0.61572-0.057129 0.89648-0.17188 0.2832-0.11475 0.5498-0.2876 0.79883-0.51953v0.77148c-0.25879 0.17578-0.53369 0.30859-0.82422 0.39648-0.28809 0.087891-0.59375 0.13086-0.91602 0.13086-0.82764 0-1.479-0.25244-1.9551-0.75781-0.47607-0.50781-0.71289-1.1997-0.71289-2.0762 0-0.87891 0.23682-1.5708 0.71289-2.0762 0.47607-0.50781 1.1274-0.76172 1.9551-0.76172z" style="fill:#bebebe;opacity:.75"/>
+   <rect id="rect3938-6-3" x="8" y="1037.4" width="7" height="7" style="fill:#bebebe;opacity:.508"/>
+   <rect id="rect3938-6-3-5" x="8" y="1044.4" width="7" height="7" style="fill:#bebebe;opacity:.25"/>
+   <text id="text4003" x="8.1875" y="1043.7997" style="fill:#bebebe;font-family:sans-serif;font-size:7.5px;letter-spacing:0px;line-height:125%;stroke-width:1px;word-spacing:0px" xml:space="preserve"><tspan id="tspan4005" x="8.1875" y="1043.7997">M</tspan></text>
+   <text id="text4007" x="8.1875" y="1050.4872" style="fill:#bebebe;font-family:sans-serif;font-size:7.5px;letter-spacing:0px;line-height:125%;stroke-width:1px;word-spacing:0px" xml:space="preserve"><tspan id="tspan4009" x="8.1875" y="1050.4872">K</tspan></text>
+  </g>
+ </g>
+</svg>

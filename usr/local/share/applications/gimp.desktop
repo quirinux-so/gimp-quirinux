@@ -1,0 +1,60 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=GIMP
+
+
+Comment=Graphic editor similar to Adobe Photoshop (RGB)
+Comment[de]=Grafikeditor ähnlich wie Adobe Photoshop (RGB)
+Comment[es]=Editor gráfico similar a Adobe Photoshop (RGB)
+Comment[gl]=Editor gráfico similar a Adobe Photoshop (RGB)
+Comment[fr]=Éditeur graphique similaire à Adobe Photoshop (RGB)
+Comment[pt]=Editor gráfico semelhante ao Adobe Photoshop (RGB)
+Comment[it]=Editor grafico simile ad Adobe Photoshop (RGB)
+Comment[ru]=Графический редактор, аналогичный Adobe Photoshop (RGB)
+
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=GIMP;graphic;design;illustration;painting;
+Keywords[ar]=GIMP;graphic;design;illustration;painting;
+Keywords[ca]=GIMP;gràfics;disseny;il·lustració;pintura;
+Keywords[ca@valencia]=GIMP;gràfic;disseny;il·lustració;pintura;
+Keywords[cs]=GIMP;grafika;design;ilustrace;malování;
+Keywords[da]=GIMP;grafisk;design;illustration;male;tegne;
+Keywords[de]=GIMP;Grafik;Design;Illustration;Malen;
+Keywords[el]=GIMP;γραφικό;σχεδίαση;επεξήγηση;βαφή;
+Keywords[en_GB]=GIMP;graphic;design;illustration;painting;
+Keywords[es]=GIMP;gráfico;diseño;ilustración;dibujo;
+Keywords[eu]=GIMP;irudia;diseinua;ilustrazioa;margotzea;
+Keywords[fi]=GIMP;grafiikka;maalaus;suunnittelu;valokuva;kuva;
+Keywords[fr]=GIMP;graphisme;conception;design;illustration;image;peinture;
+Keywords[gl]=GIMP;gráfico;deseño;ilustración;debuxo;
+Keywords[hr]=GIMP;grafika;dizajn;ilustracija;slikanje;
+Keywords[hu]=GIMP;grafika;dizájn;tervezés;illusztráció;festés;
+Keywords[is]=GIMP;mynd;hönnun;myndskreyting;málun;myndvinnsla;
+Keywords[it]=GIMP;grafica;design;illustrazioni;disegno;fotoritocco;
+Keywords[ka]=GIMP;graphic;design;illustration;painting;
+Keywords[lt]=GIMP;grafika;dizainas;iliustracijos;paišymas;
+Keywords[lv]=GIMP;grafika;dizains;ilustrācija;glezna;
+Keywords[mr]=गिम्पसाठी;ग्राफिक्स;रचना;उदाहरण;चित्रकला;
+Keywords[nl]=GIMP;grafisch;ontwerp;illustratie;tekenen;
+Keywords[pl]=GIMP;grafika;graficzny;design;dizajn;projektowanie;wzornictwo;ilustracja;ilustrowanie;rysunek;rysowanie;rysownictwo;malowanie;malarstwo;obrazy;obrazki;fotografia;zdjęcia;retuszowanie;renderowanie;wtyczki;
+Keywords[pt]=GIMP;gráficos;design;desenho;ilustração;pintura;
+Keywords[pt_BR]=GIMP;gráficos;design;ilustração;pintura;
+Keywords[ro]=GIMP;graphic;design;illustration;painting;
+Keywords[ru]=GIMP;графика;дизайн;иллюстрация;рисование;
+Keywords[sk]=GIMP;grafika;grafický;návrh;dizajn;ilustrácia;kresba;maľovanie;maľba;
+Keywords[sl]=GIMP;grafika;oblikovanje;ilustracija;slikanje;
+Keywords[sr]=Гимп;обрада фотографија;графика;дизајн;илустрација;цртање;obrada fotografija;grafika;dizajn;ilustracija;crtanje;GIMP;graphic;design;illustration;painting;
+Keywords[sr@latin]=Gimp;obrada fotografija;grafika;dizajn;ilustracija;crtanje;obrada fotografija;grafika;dizajn;ilustracija;crtanje;GIMP;graphic;design;illustration;painting;
+Keywords[sv]=GIMP;grafik;design;illustrera;målning;rita;
+Keywords[tr]=GIMP;grafik;tasarım;örnekleme;boyama;illüstrasyon;resimleme;
+Keywords[uk]=GIMP;graphic;design;illustration;painting;гімп;ґімп;графіка;дизайн;ілюстрації;малювання;
+Keywords[vi]=GIMP;graphic;design;illustration;painting;đồ họa;do hoa;thiết kế;thiet ke;vẽ;ve;minh họa;minh hoa;hội họa;hoi hoa;
+Keywords[zh_CN]=GIMP;图形;设计;绘画;graphic;design;illustration;painting;
+Keywords[zh_TW]=GIMP;圖像;設計;插畫;繪畫;
+Exec=iniciar-gimp
+Icon=gimp
+Terminal=false
+Categories=Graphics;2DGraphics;RasterGraphics;GTK;
+StartupNotify=true
+MimeType=image/bmp;image/g3fax;image/gif;image/x-fits;image/x-pcx;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-psd;image/x-sgi;image/x-tga;image/x-xbitmap;image/x-xwindowdump;image/x-xcf;image/x-compressed-xcf;image/x-gimp-gbr;image/x-gimp-pat;image/x-gimp-gih;image/x-sun-raster;image/tiff;image/jpeg;image/x-psp;application/postscript;image/png;image/x-icon;image/x-xpixmap;image/x-exr;image/webp;image/x-webp;image/heif;image/heic;image/avif;image/jxl;image/svg+xml;application/pdf;image/x-wmf;image/jp2;image/x-xcursor;

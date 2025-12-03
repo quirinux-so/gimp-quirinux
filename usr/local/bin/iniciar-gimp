@@ -1,0 +1,21 @@
+#!/bin/bash
+
+function _configurar() {
+    mkdir -p "$HOME/.config/GIMP"
+    cp -rf /usr/local/share/gimp-quirinux/gimp-shop/.config/* $HOME/.config/
+    cp -rf /usr/local/share/gimp-quirinux/gimp-shop/usr/share/gimp/2.0 /usr/share/gimp/2.0
+}
+
+function _check() {
+    if [ ! -d "$HOME/.config/GIMP" ]; then
+        _configurar
+    fi
+}
+
+function _iniciar() {
+    # Pasamos todos los argumentos recibidos a gimp
+    gimp "$@"
+}
+
+_check
+_iniciar "$@"

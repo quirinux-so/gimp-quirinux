@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg11300" width="24" height="24" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata4">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Jakub Steiner</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:source>http://jimmac.musichall.cz</dc:source>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/GPL/2.0/"/>
+    <dc:title/>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>window</rdf:li>
+      <rdf:li>management</rdf:li>
+      <rdf:li>decoration</rdf:li>
+      <rdf:li>behavior</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+    <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/SourceCode"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0,2)">
+  <g id="g4214">
+   <g id="g4179-9" transform="translate(-5 -6)">
+    <g id="g4175-0">
+     <rect id="rect4828-1" x="5.5963" y="4.5963" width="17.807" height="16.807" rx="1.184" ry="1.1947" style="color:#000000;fill-rule:evenodd;fill:#eeeeec;stroke-width:1.1925;stroke:#8d8d8d"/>
+     <rect id="rect4830-8" x="7" y="7" width="14.5" height="2" rx=".21342" ry=".14818" style="color:#000000;fill-rule:evenodd;fill:#3465a4"/>
+    </g>
+    <rect id="rect4958-9" x="6.5557" y="5.7884" width="15.645" height="14.414" rx=".2774" ry=".2563" style="color:#000000;fill:none;stroke-opacity:.54545;stroke-width:1.1991;stroke:#fff"/>
+   </g>
+   <g id="g4179">
+    <g id="g4175">
+     <rect id="rect4828" x="5.5963" y="4.5963" width="17.807" height="16.807" rx="1.184" ry="1.1947" style="color:#000000;fill-rule:evenodd;fill:#eeeeec;stroke-width:1.1925;stroke:#8d8d8d"/>
+     <rect id="rect4830" x="7" y="7" width="14.5" height="2" rx=".21342" ry=".14818" style="color:#000000;fill-rule:evenodd;fill:#3465a4"/>
+    </g>
+    <rect id="rect4958" x="6.5557" y="5.7884" width="15.645" height="14.414" rx=".2774" ry=".2563" style="color:#000000;fill:none;stroke-opacity:.54545;stroke-width:1.1991;stroke:#fff"/>
+   </g>
+  </g>
+ </g>
+</svg>

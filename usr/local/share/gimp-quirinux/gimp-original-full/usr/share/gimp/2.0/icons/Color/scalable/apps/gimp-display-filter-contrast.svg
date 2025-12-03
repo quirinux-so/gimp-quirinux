@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg7854" width="16" height="16" version="1.0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs7856">
+  <linearGradient id="linearGradient5146" x1="12" x2="12" y1="1.2684" y2="21.252" gradientTransform="matrix(.65324 0 0 .64342 .16117 .80945)" gradientUnits="userSpaceOnUse">
+   <stop id="stop5142" style="stop-color:#eeeeec" offset="0"/>
+   <stop id="stop5144" style="stop-color:#d4d4cf" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata7859">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Jakub Steiner</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:source>http://jimmac.musichall.cz</dc:source>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/GPL/2.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+    <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/SourceCode"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1">
+  <g id="g3974" transform="matrix(.99912 0 0 .99909 .0070538 .0075308)">
+   <rect id="rect4559" x=".48483" y=".48483" width="15.03" height="15.03" rx="1.4056" ry="1.5408" style="color:#000000;fill-rule:evenodd;fill:url(#linearGradient5146);stroke-width:.98378;stroke:#888a85"/>
+   <rect id="rect5148" x="1.4333" y="1.4422" width="13.133" height="13.116" rx=".64013" ry=".62965" style="color:#000000;fill:none;stroke-width:.90239;stroke:#fff"/>
+   <rect id="rect5215" x="2" y="2" width="6" height="12" style="color:#000000;fill-rule:evenodd"/>
+   <g id="g19" transform="matrix(1.0011 0 0 1.0009 -.0045333 -.010949)">
+    <circle id="path5217" cx="7.9955" cy="8.0044" r="3.999" style="color:#000000;fill-rule:evenodd"/>
+    <path id="rect5224" d="m7.9875 4.0034c-2.2075 0-3.991 1.8015-3.991 4.0089 0 2.2075 1.7836 3.991 3.991 3.991 0.00599 0 0.011916 2.7e-5 0.017897 0v-8c-0.00598-2.63e-5 -0.01191 0-0.017897 0z" style="color:#000000;fill-rule:evenodd;fill:#eeeeec"/>
+   </g>
+  </g>
+ </g>
+</svg>

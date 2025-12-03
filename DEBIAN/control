@@ -1,15 +1,14 @@
 Package: gimp-quirinux
-Version: 2.1.6
+Version: 6.5.4
 Maintainer: Charlie Martinez <cmartinez@quirinux.org>
 Section: graphics
 Homepage: https://www.quirinux.org
 Architecture: all
+Triggers: gimp-quirinux-trigger
 Priority: optional
 Installed-Size: 877765
-Depends: gimp, gimp-data
-Replaces: gimp, gimp-data
-Recommends: gimp, gimp-data, gimp-gap, gimp-gap, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp-gmic, gimp-ufraw, gimp-gutenprint, gimp-lensfun, gimp-gluas, abr2gbr, gtkam-gimp, gimp-python
-Description: Gimp Edición Quirinux 2.1.5
+Depends: gimp, gimp-data, gimp-data-extras, gimp-plugin-registry, gimp-texturize, gimp-gmic, gimp-gutenprint, gimp-lensfun, gimp-gluas, abr2gbr, gtkam-gimp,  zenity, gimp-gap
+Description: Configurar Gimp para modificar interface
  Autor: Charlie Martínez
  .
- Agrega al menú de aplicaciones la utilidad "Configurar GIMP" para elegir usar los íconos y/o atajos de Photoshop. Los cambios son reversibles.
+ Metainstalador para gimp+plugins que grega al menú de aplicaciones la utilidad "Configurar GIMP" para elegir usar los íconos y/o atajos de Photoshop. Los cambios son reversibles.

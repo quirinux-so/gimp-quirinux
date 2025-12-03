@@ -1,0 +1,13 @@
+# settings
+
+(GimpGegl-gegl-saturation-config "2021-08-16 21:09:32"
+    (time 1629140972)
+    (scale 0.571000))
+(GimpGegl-gegl-saturation-config "2021-08-16 21:04:24"
+    (time 1629140664)
+    (scale 1.429000))
+(GimpGegl-gegl-saturation-config "2021-08-16 19:07:30"
+    (time 1629133650)
+    (scale 1.376000))
+
+# end of settings

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Verifica si /usr/share/gimp ya existe
+if [ ! -d /usr/share/gimp ]; then
+    mkdir -p /usr/share/gimp
+fi
+    
+if [ ! -d /usr/share/gimp/2.0 ]; then
+    mkdir -p /usr/share/gimp/2.0
+fi
+
+if [ ! -d /usr/share/gimp/3.0 ]; then
+    mkdir -p /usr/share/gimp/3.0
+fi
+
+    # Cambia los permisos de /usr/share/gimp a 4755
+	chmod 4755 /usr/share/gimp
+	chmod 4755 /usr/share/gimp/2.0
+	chmod 4755 /usr/share/gimp/3.0
+	chmod +t /usr/share/gimp
+	chmod +t /usr/share/gimp/2.0
+	chmod +t /usr/share/gimp/3.0
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Gimp Color Icon Theme</dc:title>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>many unknown and unnamed, Andrew Chadwick, Alexandre Prokoudine, Aryeom Han, Benoit Touchette, Jakub Steiner, Jehan, Johannes Matschke, Kevin Payne, Klaus Staedtler, Marek Dvoroznak, Michael Natterer</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Enhanced, extended tango-art-libre for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient2160" x1="17.248" x2="39.904" y1="6.376" y2="38.876" gradientTransform="matrix(.33964 0 0 .3803 768.35 90.897)" gradientUnits="userSpaceOnUse">
+   <stop id="stop5139-6" stop-color="#eeeeec" offset="0"/>
+   <stop id="stop5141" stop-color="#e6e6e3" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient2157" cx="24.006" cy="32.997" r="19" gradientTransform="matrix(.42845 0 0 .29602 766.39 91.716)" gradientUnits="userSpaceOnUse">
+   <stop id="stop5235" stop-color="#729fcf" offset="0"/>
+   <stop id="stop5237" stop-color="#326194" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g id="g4185" transform="matrix(.99897 0 0 1.0011 .0080814 -.0084687)">
+  <path id="path2096" d="m4.65 12.38s0.42297 1.8766-1.3404 1.8942c-0.84474 0.0083-0.67171 1.5346-0.67171 1.5346l10.722-0.011931s0.14544-1.4814-0.7029-1.4988c-1.7336-0.03504-1.3245-1.9419-1.3245-1.9419l-6.6824 0.02386z" style="color:#000000;fill-rule:evenodd;fill:#eeeeec;stroke-width:.36358;stroke:#888a85"/>
+  <path id="path2098" d="m1.3525 0.19015h13.253c0.70391 0 1.2169 0.54293 1.2169 1.379l0.0038 9.9652c0 0.64349-0.18365 0.84244-0.70723 0.84244l-14.238-0.007201c-0.4099-0.01095-0.70164-0.18812-0.70715-0.76793l0.005275-10.104c0-0.67458 0.53508-1.3076 1.1734-1.3076z" style="fill-rule:evenodd;fill:url(#linearGradient2160);stroke-width:.36358;stroke:#888a85"/>
+  <rect id="rect2100" x="1.567" y="1.7202" width="12.861" height="8.7455" style="fill-rule:evenodd;fill:url(#radialGradient2157);stroke-width:.36358;stroke:#204a87"/>
+  <rect id="rect4355" x="1.6195" y="1.7271" width="4.178" height="8.7396" style="color:#000000;fill-rule:evenodd;fill:#c00;stroke-dashoffset:.8;stroke-width:.36358;stroke:#a40000"/>
+  <path id="path2102" d="m1.326 0.51922c-0.43574 0-0.84725 0.48978-0.84725 0.97451v10.11c0.002131 0.2297 0.048186 0.30174 0.094365 0.34539 0.046179 0.04364 0.1413 0.08171 0.30414 0.08616l13.896 0.01188c0.21953 0 0.28787-0.04049 0.31568-0.07353 0.02781-0.03305 0.07536-0.15037 0.07536-0.43749v-9.9709c0-0.68889-0.34905-1.0458-0.8907-1.0458h-12.948z" style="fill:none;stroke-width:.364;stroke:#fff" xlink:href="##rect5040"/>
+  <rect id="rect5232-4" x="5.7906" y="1.7202" width="4.178" height="8.7396" style="color:#000000;fill-rule:evenodd;fill:#73d216;stroke-dashoffset:.8;stroke-width:.36358;stroke:#4e9a06"/>
+  <rect id="rect5234" x="9.9617" y="1.7202" width="4.178" height="8.7396" style="color:#000000;fill-rule:evenodd;fill:#3465a4;stroke-dashoffset:.8;stroke-width:.36358;stroke:#204a87"/>
+ </g>
+</svg>

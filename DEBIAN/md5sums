@@ -4090,7 +4090,7 @@ bb9b4d73bbfe6d436f72649d45f33c4c opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/f
 0a1c71463f5850ad7ea3e30c1ac0adfb opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/filters/GimpGegl-gegl-saturation-config.settings
 6e64dcdeaf42fcae6a19c4e95bef135b opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/filters/GimpGegl-gimp-colorize-config.settings
 8349a0b853dbf02233123c19826dec1d opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/filters/GimpLevelsConfig.settings
-5667fcca77de13f22120152d10fc6ece opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/gimprc
+2dd17cd8b9ec89ce966671d301899e83 opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/gimprc
 bb21cfd9a6f911e181b8c7f5c1a0625d opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/gimprc~
 4d241099d15df6dd4fa6823cf55033c7 opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/gtkrc
 834a932f5968ce5a8d480e074501b5bd opt/gimp-quirinux/gimp-shop/.config/GIMP/2.10/icons/Gimps/22x22/apps/gimp-business-card.svg
@@ -8669,7 +8669,7 @@ d861e00c86bdbbfdeb4e9a4a89c09226 opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/
 fabab4520d9d18a5fd1ccb61fd9ed8d3 opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/scripts/xach-effect.scm
 9960a7fa0d466eaae1722a11236ef20c opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/sessionrc
 71285401f5a9304ed31c3ca4878ce2d7 opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/tags/gimp-tags-default.xml
-dc2be3171539f319d34e35215ba4dab6 opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/themes/Dark/gtkrc
+a502ceeed8416afdf7967905b78b2b6d opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/themes/Dark/gtkrc
 9a20a9ac2402f13188db15601984fd28 opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/themes/Dark/ui/arrow-down-insens.png
 7dd264f6fdae14d1277fb2e199af6105 opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/themes/Dark/ui/arrow-down-prelight.png
 5908559a9eb9c6a464c8110be4b7e5bb opt/gimp-quirinux/gimp-shop/usr/share/gimp/2.0/themes/Dark/ui/arrow-down-small-insens.png

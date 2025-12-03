@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>many unknown and unnamed, Andrew Chadwick, Alexandre Prokoudine, Aryeom Han, Benoit Touchette, Jakub Steiner, Jehan, Johannes Matschke, Kevin Payne, Klaus Staedtler, Marek Dvoroznak, Michael Natterer</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Enhanced, extended tango-art-libre for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="g4179">
+  <g id="g1978" transform="matrix(.39024 0 0 .38153 -1.3819 -1.1943)">
+   <path id="rect15391" d="m7.7526 3.6464 23.447-0.015625 10.279 12.313 4e-6 27.474c0 0.63657-0.51248 1.149-1.149 1.149h-32.577c-0.63657 0-1.149-0.51248-1.149-1.149v-38.622c0-0.63657 0.51248-1.149 1.149-1.149z" style="color:#000000;display:block;fill:#eeeeec;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.0004;stroke:#555753"/>
+   <path id="path2210" d="m41.411 15.872-10.235-12.237 0.059214 12.333z" style="color:#000000;display:block;fill:url(#radialGradient1996);stroke-linejoin:round;stroke:#555753"/>
+   <path id="path2247" d="m39.122 14.816-6.9251-8.3788 0.04198 8.2561z" style="color:#000000;fill-rule:evenodd;fill:#eeeeec;stroke:url(#linearGradient3976)"/>
+  </g>
+  <rect id="rect4010" y="7.3288e-6" width="16" height="16" rx=".3436" ry=".33985" style="color-rendering:auto;color:#000000;fill:none;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000"/>
+ </g>
+ <path id="rect11686-8" d="m3.0361 0.14464v2.8911h-2.8916v1.9287h2.8916v2.8911h1.9277v-2.8911h2.8916v-1.9287h-2.8916v-2.8911z" style="stroke-width:.28915;stroke:#fff"/>
+</svg>

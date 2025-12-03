@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>many unknown and unnamed, Andrew Chadwick, Alexandre Prokoudine, Aryeom Han, Benoit Touchette, Jakub Steiner, Jehan, Johannes Matschke, Kevin Payne, Klaus Staedtler, Marek Dvoroznak, Michael Natterer</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Enhanced, extended tango-art-libre for GIMP</dc:description>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs7386">
+  <linearGradient id="linearGradient7321" x1="83.032" x2="66.311" y1="40.924" y2="22.766" gradientTransform="matrix(.34101 0 0 .39513 572.97 416.15)" gradientUnits="userSpaceOnUse">
+   <stop id="stop5150" stop-color="#d0d0d0" offset="0"/>
+   <stop id="stop5152" stop-color="#ececec" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4200" x1="3" x2="22.062" y1="14.594" y2="14.594" gradientUnits="userSpaceOnUse">
+   <stop id="stop3847" style="stop-color:#f0f1ee" offset="0"/>
+   <stop id="stop3849" style="stop-color:#d3d7cf" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient4196" cx="25.053" cy="39.593" r="15.757" gradientTransform="matrix(.34847 0 0 .34847 15.645 17.024)" gradientUnits="userSpaceOnUse">
+   <stop id="stop8602" style="stop-color:#777" offset="0"/>
+   <stop id="stop8604" offset="1"/>
+  </radialGradient>
+  <linearGradient id="linearGradient4208" x1="7.4194" x2="19.764" y1="9.1137" y2="33.509" gradientUnits="userSpaceOnUse">
+   <stop id="stop4178" style="stop-color:#fff" offset="0"/>
+   <stop id="stop4180" style="stop-color:#fff;stop-opacity:0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="g4316">
+  <g id="g19">
+   <g id="g3998" transform="matrix(1.0048 0 0 1.0478 .011576 -3.8011)">
+    <rect id="rect4273-3" transform="matrix(1 0 -.33325 .94284 0 0)" x="7.03" y="10.423" width="11.827" height="9.1189" style="color:#000000;fill-rule:evenodd;fill:url(#linearGradient7321);stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.0038;stroke:#9b9c98"/>
+    <rect id="rect5156-3" transform="matrix(1 0 -.33197 .94329 0 0)" x="8.1767" y="11.497" width="9.6324" height="5.793" ry="0" style="color:#000000;fill-rule:evenodd;fill:#d3d7cf;stroke-miterlimit:10;stroke-width:1.0655;stroke:#fff"/>
+   </g>
+  </g>
+  <g id="g4994" transform="matrix(.49801 0 0 .49336 -1.2407 -2.2159)">
+   <path id="path3826" d="m3.5 5.5v9.75c0 3.4674 5.4333 7.1034 9 8.4375 3.4739-1.2407 9.0625-4.4209 9.0625-8.3125v-9.875z" style="color:#000000;fill-rule:evenodd;fill:url(#linearGradient4200);stroke-width:2.0167;stroke:#888a85"/>
+   <path id="path3832" d="m12.312 6v16.984c0.07932 0.03108 0.17249 0.06496 0.25 0.09375 3.2335-1.1469 8.4375-4.0901 8.4375-7.6875v-9.3902z" style="color:#000000;fill-rule:evenodd;fill:#85907a;opacity:.26289"/>
+   <path id="path3828" d="m14.416 10.592v2.5125l1.2347-1.6428 2.9444-0.67643z" style="color:#000000;fill-rule:evenodd;opacity:.28351"/>
+   <path id="path3830" d="m10.528 10.592v2.4578l-1.2053-1.607-2.8743-0.66172z" style="color:#000000;fill-rule:evenodd;opacity:.28351"/>
+   <g id="g4192" transform="matrix(1.533 0 0 1 -24.741 -12.149)">
+    <path id="path2659" d="m27.846 27.643c-0.84092 1.4565-1.8242 2.5062-3.5745 2.5062-1.7005 0-2.9454-1.2098-3.7223-2.5555 0.71071 0.85191 1.7515 1.8305 3.6484 1.8305 2.2665 0 2.6628-0.81036 3.6484-1.7812z" style="color:#000000;fill:#fff;opacity:.36"/>
+    <path id="path8606" d="m27.846 27.446c-0.84092 1.4565-1.8242 2.5062-3.5745 2.5062-1.7005 0-2.9454-1.2098-3.7223-2.5555 0.71071 0.85191 1.7515 1.8305 3.6484 1.8305 2.2665 0 2.6628-0.81036 3.6484-1.7812z" style="fill:url(#radialGradient4196)"/>
+   </g>
+   <path id="path4198" transform="matrix(.87449 0 0 .87452 1.5728 1.8254)" d="m4.5605 6.5605v8.6895c0 1.1797 1.0922 2.7905 2.7832 4.2051 1.5823 1.3236 3.5673 2.4207 5.1738 3.0684 1.591-0.60607 3.5736-1.586 5.1621-2.832 1.705-1.3374 2.8223-2.8783 2.8223-4.3164v-8.8145z" style="color:#000000;fill:none;stroke-width:2.3061;stroke:url(#linearGradient4208)" xlink:href="#path3826"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,8 @@
+# GIMP gimp-dodge-burn-tool options
+
+(brush "2. Hardness 100")
+(dynamics "Pressure Opacity")
+(palette "Default")
+(brush-size 51.000000)
+
+# end of gimp-dodge-burn-tool options
