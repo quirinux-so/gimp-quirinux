@@ -8,38 +8,51 @@
 # ==============================================================
 # Ejecutar como ROOT (sin sudo)
 # ==============================================================
-set -e
 
 clear
 echo "====> Iniciando instalación segura de GIMP Quirinux"
-
-# --------------------------------------------------------------
-# Verificar wget
-# --------------------------------------------------------------
-if ! command -v wget >/dev/null 2>&1; then
-    apt update
-    apt install -y wget
-fi
 
 DEST="/tmp/gimp-quirinux"
 mkdir -p "$DEST"
 
 # --------------------------------------------------------------
-# LIMPIEZA FORZADA DE libgimp2.0 EXTERNO (SI EXISTE)
+# Verificar wget
 # --------------------------------------------------------------
-echo "====> Eliminando versiones externas de libgimp2.0 (si existen)..."
-apt remove -y libgimp2.0 || true
-apt autoremove -y
+if ! command -v wget >/dev/null 2>&1; then
+    echo "====> Instalando wget..."
+    apt update
+    apt install -y wget
+fi
 
 # --------------------------------------------------------------
-# INSTALAR libgimp2.0 SOLO DESDE REPOS OFICIALES
+# INSTALAR libgimp2.0 DESDE REPOS O DESDE QUIRINUX (FALLBACK)
 # --------------------------------------------------------------
-echo "====> Instalando libgimp2.0 desde repos oficiales..."
+echo "====> Verificando disponibilidad de libgimp2.0 en repos oficiales..."
 apt update
-apt install -y libgimp2.0
+
+if apt-cache show libgimp2.0 >/dev/null 2>&1; then
+    echo "====> libgimp2.0 disponible en repos oficiales. Instalando..."
+    apt install -y libgimp2.0
+    ORIGEN_LIB="repos"
+else
+    echo "====> libgimp2.0 NO disponible en repos oficiales."
+    echo "====> Descargando desde repo.quirinux..."
+
+    QUIRINUX_LIB_URL="https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_2.10.35-1+deb12u3_amd64.deb"
+
+    wget -P "$DEST" "$QUIRINUX_LIB_URL" || {
+        echo "ERROR: No se pudo descargar libgimp2.0 desde Quirinux."
+        exit 1
+    }
+
+    echo "====> Instalando libgimp2.0 desde Quirinux..."
+    dpkg -i "$DEST"/libgimp2.0_*.deb || true
+    apt -f install -y
+    ORIGEN_LIB="quirinux"
+fi
 
 # --------------------------------------------------------------
-# PAQUETES QUIRINUX (SIN libgimp2.0)
+# DESCARGAR PAQUETES QUIRINUX (PLUGINS Y CONFIGURADOR)
 # --------------------------------------------------------------
 URLS=(
 "https://repo.quirinux.org/pool/main/g/gluas/gimp-gluas_0.1.20-2_amd64.deb"
@@ -60,15 +73,23 @@ for url in "${URLS[@]}"; do
 done
 
 # --------------------------------------------------------------
-# INSTALAR GIMP Y MPLAYER DESDE REPOS
+# INSTALAR GIMP SIEMPRE DESDE REPOS OFICIALES
 # --------------------------------------------------------------
-echo "====> Instalando gimp y mplayer desde repos..."
-apt install -y gimp mplayer
+echo "====> Instalando gimp exclusivamente desde repos oficiales..."
+
+if ! apt install -y gimp; then
+    echo "ERROR CRÍTICO:"
+    echo " No se pudo instalar gimp desde repos oficiales."
+    echo " libgimp2.0 fue instalado desde: $ORIGEN_LIB"
+    echo " Existe un conflicto real de versiones."
+    echo " El script se detiene para evitar romper el sistema."
+    exit 1
+fi
 
 # --------------------------------------------------------------
-# INSTALAR PAQUETES QUIRINUX CON DPKG (SIN libgimp2.0)
+# INSTALAR PAQUETES QUIRINUX CON DPKG
 # --------------------------------------------------------------
-echo "====> Instalando paquetes Quirinux con dpkg..."
+echo "====> Instalando paquetes Quirinux..."
 
 dpkg -i \
 "$DEST"/gimp-gluas_*.deb \
@@ -91,17 +112,12 @@ apt -f install -y
 # --------------------------------------------------------------
 # FINAL
 # --------------------------------------------------------------
-
 echo "==========================================================="
 echo " INSTALACIÓN COMPLETA"
 echo "==========================================================="
+echo " libgimp2.0 instalado desde: $ORIGEN_LIB"
+echo " gimp instalado desde: repos oficiales"
+echo ""
 echo " Accede al Configurador Quirinux de GIMP desde:"
 echo " >>> Menu Aplicaciones > Configuración > Configurar GIMP"
-echo ""
 echo "==========================================================="
-
-echo " Accede al Configurador Quirinux de GIMP desde:"
-echo " >>> Menu Aplicaciones > Configuración > Configurar GIMP"
-echo ""
-echo "==========================================================="
-
