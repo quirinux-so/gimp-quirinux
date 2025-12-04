@@ -10,6 +10,10 @@
 # ==============================================================
 
 clear
+
+# Asegurar PATH completo en sistemas tipo Devuan
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
 echo "====> Iniciando instalación segura de GIMP Quirinux"
 
 DEST="/tmp/gimp-quirinux"
