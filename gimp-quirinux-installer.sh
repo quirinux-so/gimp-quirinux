@@ -26,7 +26,7 @@ mkdir -p "$DEST"
 
 # Lista de URLs a descargar
 URLS=(
-"https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_2.10.34-1+deb12u3_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_2.10.35-1+deb12u3_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gluas/gimp-gluas_0.1.20-2_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gmic/gimp-gmic_2.9.5-4+b4_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gutenprint/libgutenprintui2-2_5.3.4.20220624T01008808d602-1_amd64.deb"
