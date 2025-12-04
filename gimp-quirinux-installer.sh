@@ -51,7 +51,7 @@ URLS=(
 "https://repo.quirinux.org/pool/main/g/gimp-plugin-registry/gimp-plugin-registry_9.20200929+b1_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gtkam/gtkam-gimp_1.0-3+b1_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gimp-gap/gimp-gap_2.6.1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimp-quirinux/gimp-quirinux_6.5.4_all.deb"
+"https://repo.quirinux.org/pool/main/g/gimp-quirinux/gimp-quirinux_6.5.5_all.deb"
 )
 
 echo "====> Descargando paquetes Quirinux..."
@@ -104,3 +104,4 @@ echo " Accede al Configurador Quirinux de GIMP desde:"
 echo " >>> Menu Aplicaciones > Configuración > Configurar GIMP"
 echo ""
 echo "==========================================================="
+
