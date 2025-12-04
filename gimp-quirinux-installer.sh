@@ -1,8 +1,8 @@
 #!/bin/bash
 # ==============================================================
 # Nombre:            install-gimp-quirinux.sh
-# Autor:             Charlie Martínez® <cmartinez@quirinux.org>
-# Licencia:          https://www.gnu.org/licenses/gpl-3.0.txt
+# Autor:             Charlie Martínez®
+# Licencia:          GPL-3
 # Utilidad:          Instala el Configurador Quirinux para GIMP
 # Distro:            Quirinux, Debian 12 y 13, Devuan 5 y 6
 # ==============================================================
@@ -11,48 +11,38 @@
 
 clear
 
-echo ""
-echo "====> Verificando que esté instalado wget..."
+echo "====> Verificando wget..."
 if ! command -v wget >/dev/null 2>&1; then
-    echo "====>  wget no está instalado. Instalando..."
     apt update
     apt install -y wget
-else
-    echo "====>  wget ya está instalado."
 fi
 
-echo "====> Creando carpeta de destino /tmp/gimp-quirinux..."
 DEST="/tmp/gimp-quirinux"
 mkdir -p "$DEST"
 
 # ==============================================================
-# Detectar versión compatible de libgimp2.0 requerida por gimp
+# 1) VERIFICAR SI libgimp2.0 EXISTE EN REPO QUIRINUX
 # ==============================================================
 
-echo "====> Analizando versión compatible de libgimp2.0 requerida por gimp..."
-apt update
+QUIRINUX_LIB_URL="https://repo.quirinux.org/pool/main/g/gimp/"
+QUIRINUX_LIB_DEB=$(wget -qO- "$QUIRINUX_LIB_URL" | grep -o 'libgimp2.0_[^"]*_amd64.deb' | tail -n1)
 
-REQ_VERSION=$(apt-cache depends gimp | grep libgimp2.0 | head -n1 | sed 's/.*(<= //;s/)//')
+if [ -n "$QUIRINUX_LIB_DEB" ]; then
+    echo "====> libgimp2.0 encontrado en repo.quirinux.org"
+    echo "====> Descargando desde Quirinux..."
+    wget -P "$DEST" "$QUIRINUX_LIB_URL$QUIRINUX_LIB_DEB"
 
-if [ -z "$REQ_VERSION" ]; then
-    echo "====> ERROR: No se pudo detectar la versión requerida de libgimp2.0"
-    exit 1
-fi
-
-echo "====> gimp requiere libgimp2.0 <= $REQ_VERSION"
-
-if apt-cache madison libgimp2.0 | grep -q "$REQ_VERSION"; then
-    echo "====> Versión compatible encontrada en los repositorios."
-    apt install -y "libgimp2.0=$REQ_VERSION"
-    DESCARGAR_LIBGIMP="no"
+    echo "====> Instalando libgimp2.0 desde Quirinux..."
+    apt install -y "$DEST/$QUIRINUX_LIB_DEB"
 else
-    echo "====> Versión NO encontrada en los repositorios."
-    echo "====> Se descargará desde repo.quirinux.org"
-    DESCARGAR_LIBGIMP="si"
+    echo "====> libgimp2.0 NO existe en repo.quirinux.org"
+    echo "====> Instalando desde repos oficiales..."
+    apt update
+    apt install -y libgimp2.0
 fi
 
 # ==============================================================
-# Lista de URLs base (sin libgimp2.0)
+# 2) PAQUETES QUIRINUX (EXCEPTO libgimp2.0)
 # ==============================================================
 
 URLS=(
@@ -68,35 +58,21 @@ URLS=(
 "https://repo.quirinux.org/pool/main/g/gimp-quirinux/gimp-quirinux_6.5.4_all.deb"
 )
 
-# ==============================================================
-# Añadir libgimp2.0 SOLO si no existe en repos
-# ==============================================================
-
-if [ "$DESCARGAR_LIBGIMP" = "si" ]; then
-    URLS+=("https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_${REQ_VERSION}_amd64.deb")
-fi
-
-# ==============================================================
-# Descargar paquetes
-# ==============================================================
-
-echo "====> Descargando paquetes .deb necesarios..."
+echo "====> Descargando paquetes Quirinux..."
 for url in "${URLS[@]}"; do
     wget -P "$DEST" "$url"
 done
 
 # ==============================================================
-# Instalación (orden correcto anti-roturas)
+# 3) INSTALACIÓN FINAL (ORDEN SEGURO)
 # ==============================================================
 
 echo "====> Instalando paquetes..."
-
-apt install -y mplayer
+apt install -y gimp mplayer
 apt install --reinstall -y /tmp/gimp-quirinux/*.deb
-apt install --reinstall -y gimp
 
 # ==============================================================
-# Final
+# FINAL
 # ==============================================================
 
 echo ""
@@ -107,4 +83,3 @@ echo " Accede al Configurador Quirinux de GIMP desde:"
 echo " >>> Menu Aplicaciones > Configuración > Configurar GIMP"
 echo ""
 echo "==========================================================="
-echo ""
