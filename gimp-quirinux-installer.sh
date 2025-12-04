@@ -26,25 +26,33 @@ DEST="/tmp/gimp-quirinux"
 mkdir -p "$DEST"
 
 # ==============================================================
-# Verificar si libgimp2.0 existe en los repositorios oficiales
+# Detectar versión compatible de libgimp2.0 requerida por gimp
 # ==============================================================
 
-echo "====> Verificando si libgimp2.0 está disponible en los repositorios..."
-
+echo "====> Analizando versión compatible de libgimp2.0 requerida por gimp..."
 apt update
 
-if apt-cache show libgimp2.0 >/dev/null 2>&1; then
-    echo "====> libgimp2.0 encontrado en los repositorios. Instalando desde repo..."
-    apt install -y libgimp2.0
+REQ_VERSION=$(apt-cache depends gimp | grep libgimp2.0 | head -n1 | sed 's/.*(<= //;s/)//')
+
+if [ -z "$REQ_VERSION" ]; then
+    echo "====> ERROR: No se pudo detectar la versión requerida de libgimp2.0"
+    exit 1
+fi
+
+echo "====> gimp requiere libgimp2.0 <= $REQ_VERSION"
+
+if apt-cache madison libgimp2.0 | grep -q "$REQ_VERSION"; then
+    echo "====> Versión compatible encontrada en los repositorios."
+    apt install -y "libgimp2.0=$REQ_VERSION"
     DESCARGAR_LIBGIMP="no"
 else
-    echo "====> libgimp2.0 NO encontrado en los repositorios."
+    echo "====> Versión NO encontrada en los repositorios."
     echo "====> Se descargará desde repo.quirinux.org"
     DESCARGAR_LIBGIMP="si"
 fi
 
 # ==============================================================
-# Lista de URLs a descargar (sin libgimp2.0 por defecto)
+# Lista de URLs base (sin libgimp2.0)
 # ==============================================================
 
 URLS=(
@@ -60,9 +68,12 @@ URLS=(
 "https://repo.quirinux.org/pool/main/g/gimp-quirinux/gimp-quirinux_6.5.4_all.deb"
 )
 
-# Si no existe libgimp2.0 en repos, agregarlo a descargas
+# ==============================================================
+# Añadir libgimp2.0 SOLO si no existe en repos
+# ==============================================================
+
 if [ "$DESCARGAR_LIBGIMP" = "si" ]; then
-    URLS+=("https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_2.10.35-1+deb12u3_amd64.deb")
+    URLS+=("https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_${REQ_VERSION}_amd64.deb")
 fi
 
 # ==============================================================
@@ -75,13 +86,18 @@ for url in "${URLS[@]}"; do
 done
 
 # ==============================================================
-# Instalación
+# Instalación (orden correcto anti-roturas)
 # ==============================================================
 
 echo "====> Instalando paquetes..."
-apt install gimp --reinstall -y
-apt install mplayer --reinstall -y
+
+apt install -y mplayer
 apt install --reinstall -y /tmp/gimp-quirinux/*.deb
+apt install --reinstall -y gimp
+
+# ==============================================================
+# Final
+# ==============================================================
 
 echo ""
 echo "==========================================================="
