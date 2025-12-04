@@ -21,28 +21,41 @@ DEST="/tmp/gimp-quirinux"
 mkdir -p "$DEST"
 
 # ==============================================================
-# 1) VERIFICAR SI libgimp2.0 EXISTE EN REPO QUIRINUX
+# 1) Detectar versión máxima permitida por gimp
 # ==============================================================
 
-QUIRINUX_LIB_URL="https://repo.quirinux.org/pool/main/g/gimp/"
-QUIRINUX_LIB_DEB=$(wget -qO- "$QUIRINUX_LIB_URL" | grep -o 'libgimp2.0_[^"]*_amd64.deb' | tail -n1)
+echo "====> Detectando versión compatible de libgimp2.0..."
+apt update
 
-if [ -n "$QUIRINUX_LIB_DEB" ]; then
-    echo "====> libgimp2.0 encontrado en repo.quirinux.org"
+REQ_VERSION=$(apt-cache depends gimp | grep libgimp2.0 | grep -o '[0-9].*' | tr -d ')')
+
+if [ -z "$REQ_VERSION" ]; then
+    echo "ERROR: No se pudo detectar la versión requerida."
+    exit 1
+fi
+
+echo "====> gimp exige libgimp2.0 <= $REQ_VERSION"
+
+# ==============================================================
+# 2) Ver si repo.quirinux tiene ESA versión (no cualquier versión)
+# ==============================================================
+
+QUIRINUX_URL="https://repo.quirinux.org/pool/main/g/gimp/"
+QUIRINUX_DEB="libgimp2.0_${REQ_VERSION}_amd64.deb"
+
+if wget -q --spider "$QUIRINUX_URL$QUIRINUX_DEB"; then
+    echo "====> Versión COMPATIBLE encontrada en Quirinux."
     echo "====> Descargando desde Quirinux..."
-    wget -P "$DEST" "$QUIRINUX_LIB_URL$QUIRINUX_LIB_DEB"
-
-    echo "====> Instalando libgimp2.0 desde Quirinux..."
-    apt install -y "$DEST/$QUIRINUX_LIB_DEB"
+    wget -P "$DEST" "$QUIRINUX_URL$QUIRINUX_DEB"
+    apt install -y "$DEST/$QUIRINUX_DEB"
 else
-    echo "====> libgimp2.0 NO existe en repo.quirinux.org"
-    echo "====> Instalando desde repos oficiales..."
-    apt update
+    echo "====> Quirinux NO tiene versión compatible."
+    echo "====> Instalando libgimp2.0 desde repos oficiales..."
     apt install -y libgimp2.0
 fi
 
 # ==============================================================
-# 2) PAQUETES QUIRINUX (EXCEPTO libgimp2.0)
+# 3) Paquetes Quirinux (SIN libgimp2.0)
 # ==============================================================
 
 URLS=(
@@ -64,7 +77,7 @@ for url in "${URLS[@]}"; do
 done
 
 # ==============================================================
-# 3) INSTALACIÓN FINAL (ORDEN SEGURO)
+# 4) Instalación final (orden seguro)
 # ==============================================================
 
 echo "====> Instalando paquetes..."
@@ -72,13 +85,17 @@ apt install -y gimp mplayer
 apt install --reinstall -y /tmp/gimp-quirinux/*.deb
 
 # ==============================================================
-# FINAL
+# Final
 # ==============================================================
 
-echo ""
 echo "==========================================================="
 echo " INSTALACIÓN COMPLETA"
 echo "==========================================================="
+echo " Accede al Configurador Quirinux de GIMP desde:"
+echo " >>> Menu Aplicaciones > Configuración > Configurar GIMP"
+echo ""
+echo "==========================================================="
+
 echo " Accede al Configurador Quirinux de GIMP desde:"
 echo " >>> Menu Aplicaciones > Configuración > Configurar GIMP"
 echo ""
