@@ -6,7 +6,7 @@
 # Utilidad:          Instala el Configurador Quirinux para GIMP
 # Distro:            Quirinux, Debian 12 y 13, Devuan 5 y 6
 # ==============================================================
-# Ejecutar como ROOT (sin sudo)
+# Ejecutar con permisos de administrador
 # ==============================================================
 
 clear
@@ -59,17 +59,18 @@ fi
 # DESCARGAR PAQUETES QUIRINUX (PLUGINS Y CONFIGURADOR)
 # --------------------------------------------------------------
 URLS=(
-"https://repo.quirinux.org/pool/main/g/gluas/gimp-gluas_0.1.20-2_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gmic/gimp-gmic_2.9.5-4+b4_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gutenprint/libgutenprintui2-2_5.3.4.20220624T01008808d602-1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gutenprint/gimp-gutenprint_5.3.4.20220624T01008808d602-1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimplensfun/gimp-lensfun_0.2.5-1.1_amd64.deb"
-"https://repo.quirinux.org/pool/main/libj/libjpeg-turbo/libjpeg62-turbo_2.1.5-4_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimp-plugin-registry/gimp-plugin-registry_9.20200929+b1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gtkam/gtkam-gimp_1.0-3+b1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimp-gap/gimp-gap_2.6.1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimp-quirinux/gimp-quirinux_6.5.8+q2_all.deb"
+"https://repo.quirinux.org/pool/main/g/gluas/gimp-gluas_0.1.20-3+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gmic/gimp-gmic_2.9.5-5+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gutenprint/libgutenprintui2-2_5.3.4.20220624T01008808d602-2+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gutenprint/gimp-gutenprint_5.3.4.20220624T01008808d602-2+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gimplensfun/gimp-lensfun_0.2.5-1.2+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gimp-plugin-registry/gimp-plugin-registry_9.20200930+q2_amd64"
+"https://repo.quirinux.org/pool/main/g/gtkam/gtkam-gimp_1.0-4+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gimp-gap/gimp-gap_2.6.2+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gimp-quirinux/gimp-quirinux_6.5.9+q2_all.deb"
 )
+
+# TODO: Revisar compatibilidad de paquete libjpeg62-turbo 
 
 echo "====> Descargando paquetes Quirinux..."
 for url in "${URLS[@]}"; do
@@ -121,6 +122,6 @@ echo " INSTALACIÓN COMPLETA"
 echo "==========================================================="
 echo ""
 echo " Accede al Configurador Quirinux de GIMP desde:"
-echo " >>> Menu Aplicaciones > Configuración > Configurar GIMP"
+echo " >>> Menu Aplicaciones > Configuración / Preferencias > Configurar GIMP"
 echo ""
 echo "==========================================================="
