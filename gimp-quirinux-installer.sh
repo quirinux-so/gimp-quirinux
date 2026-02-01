@@ -6,7 +6,7 @@
 # Utilidad:          Instala el Configurador Quirinux para GIMP
 # Distro:            Quirinux, Debian 12 y 13, Devuan 5 y 6
 # ==============================================================
-# Ejecutar con permisos de administrador
+# Ejecutar como ROOT (sin sudo)
 # ==============================================================
 
 clear
@@ -42,7 +42,7 @@ else
     echo "====> libgimp2.0 NO disponible en repos oficiales."
     echo "====> Descargando desde repo.quirinux..."
 
-    QUIRINUX_LIB_URL="https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_2.10.35-1+deb12u3_amd64.deb"
+    QUIRINUX_LIB_URL="https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_2.10.34-2+q2_amd64.deb"
 
     wget -P "$DEST" "$QUIRINUX_LIB_URL" || {
         echo "ERROR: No se pudo descargar libgimp2.0 desde Quirinux."
@@ -64,7 +64,7 @@ URLS=(
 "https://repo.quirinux.org/pool/main/g/gutenprint/libgutenprintui2-2_5.3.4.20220624T01008808d602-2+q2_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gutenprint/gimp-gutenprint_5.3.4.20220624T01008808d602-2+q2_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gimplensfun/gimp-lensfun_0.2.5-1.2+q2_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimp-plugin-registry/gimp-plugin-registry_9.20200930+q2_amd64"
+"https://repo.quirinux.org/pool/main/g/gimp-plugin-registry/gimp-plugin-registry_9.20200930+q2_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gtkam/gtkam-gimp_1.0-4+q2_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gimp-gap/gimp-gap_2.6.2+q2_amd64.deb"
 "https://repo.quirinux.org/pool/main/g/gimp-quirinux/gimp-quirinux_6.5.9+q2_all.deb"
@@ -96,13 +96,14 @@ fi
 # --------------------------------------------------------------
 echo "====> Instalando paquetes Quirinux..."
 
+# TODO: Revisar "$DEST"/libjpeg62-turbo_*.deb \
+
 dpkg -i \
 "$DEST"/gimp-gluas_*.deb \
 "$DEST"/gimp-gmic_*.deb \
 "$DEST"/libgutenprintui2-*.deb \
 "$DEST"/gimp-gutenprint_*.deb \
 "$DEST"/gimp-lensfun_*.deb \
-"$DEST"/libjpeg62-turbo_*.deb \
 "$DEST"/gimp-plugin-registry_*.deb \
 "$DEST"/gtkam-gimp_*.deb \
 "$DEST"/gimp-gap_*.deb \
