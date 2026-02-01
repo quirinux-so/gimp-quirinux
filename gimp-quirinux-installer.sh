@@ -42,7 +42,7 @@ else
     echo "====> libgimp2.0 NO disponible en repos oficiales."
     echo "====> Descargando desde repo.quirinux..."
 
-    QUIRINUX_LIB_URL="https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_2.10.34-2+q2_amd64.deb"
+    QUIRINUX_LIB_URL="https://repo.quirinux.org/extras/debs_auxiliares/libgimp2.0_2.10.34-2+q2_amd64.deb"
 
     wget -P "$DEST" "$QUIRINUX_LIB_URL" || {
         echo "ERROR: No se pudo descargar libgimp2.0 desde Quirinux."
