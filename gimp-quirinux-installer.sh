@@ -10,6 +10,10 @@
 # ==============================================================
 
 clear
+
+# Asegurar PATH completo en sistemas tipo Devuan
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
 echo "====> Iniciando instalación segura de GIMP Quirinux"
 
 DEST="/tmp/gimp-quirinux"
@@ -38,7 +42,7 @@ else
     echo "====> libgimp2.0 NO disponible en repos oficiales."
     echo "====> Descargando desde repo.quirinux..."
 
-    QUIRINUX_LIB_URL="https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_2.10.35-1+deb12u3_amd64.deb"
+    QUIRINUX_LIB_URL="https://repo.quirinux.org/pool/main/g/gimp/libgimp2.0_2.10.34-2+q2_amd64.deb"
 
     wget -P "$DEST" "$QUIRINUX_LIB_URL" || {
         echo "ERROR: No se pudo descargar libgimp2.0 desde Quirinux."
@@ -55,17 +59,18 @@ fi
 # DESCARGAR PAQUETES QUIRINUX (PLUGINS Y CONFIGURADOR)
 # --------------------------------------------------------------
 URLS=(
-"https://repo.quirinux.org/pool/main/g/gluas/gimp-gluas_0.1.20-2_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gmic/gimp-gmic_2.9.5-4+b4_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gutenprint/libgutenprintui2-2_5.3.4.20220624T01008808d602-1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gutenprint/gimp-gutenprint_5.3.4.20220624T01008808d602-1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimplensfun/gimp-lensfun_0.2.5-1.1_amd64.deb"
-"https://repo.quirinux.org/pool/main/libj/libjpeg-turbo/libjpeg62-turbo_2.1.5-4_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimp-plugin-registry/gimp-plugin-registry_9.20200929+b1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gtkam/gtkam-gimp_1.0-3+b1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimp-gap/gimp-gap_2.6.1_amd64.deb"
-"https://repo.quirinux.org/pool/main/g/gimp-quirinux/gimp-quirinux_6.5.6_all.deb"
+"https://repo.quirinux.org/pool/main/g/gluas/gimp-gluas_0.1.20-3+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gmic/gimp-gmic_2.9.5-5+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gutenprint/libgutenprintui2-2_5.3.4.20220624T01008808d602-2+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gutenprint/gimp-gutenprint_5.3.4.20220624T01008808d602-2+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gimplensfun/gimp-lensfun_0.2.5-1.2+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gimp-plugin-registry/gimp-plugin-registry_9.20200930+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gtkam/gtkam-gimp_1.0-4+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gimp-gap/gimp-gap_2.6.2+q2_amd64.deb"
+"https://repo.quirinux.org/pool/main/g/gimp-quirinux/gimp-quirinux_6.5.9+q2_all.deb"
 )
+
+# TODO: Revisar compatibilidad de paquete libjpeg62-turbo 
 
 echo "====> Descargando paquetes Quirinux..."
 for url in "${URLS[@]}"; do
@@ -91,13 +96,14 @@ fi
 # --------------------------------------------------------------
 echo "====> Instalando paquetes Quirinux..."
 
+# TODO: Revisar "$DEST"/libjpeg62-turbo_*.deb \
+
 dpkg -i \
 "$DEST"/gimp-gluas_*.deb \
 "$DEST"/gimp-gmic_*.deb \
 "$DEST"/libgutenprintui2-*.deb \
 "$DEST"/gimp-gutenprint_*.deb \
 "$DEST"/gimp-lensfun_*.deb \
-"$DEST"/libjpeg62-turbo_*.deb \
 "$DEST"/gimp-plugin-registry_*.deb \
 "$DEST"/gtkam-gimp_*.deb \
 "$DEST"/gimp-gap_*.deb \
@@ -117,6 +123,6 @@ echo " INSTALACIÓN COMPLETA"
 echo "==========================================================="
 echo ""
 echo " Accede al Configurador Quirinux de GIMP desde:"
-echo " >>> Menu Aplicaciones > Configuración > Configurar GIMP"
+echo " >>> Menu Aplicaciones > Configuración / Preferencias > Configurar GIMP"
 echo ""
 echo "==========================================================="
