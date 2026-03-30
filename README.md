@@ -6,7 +6,7 @@
 ![gimp-quirinux screenshot](https://charliemartinez.com.ar/wp-content/uploads/2023/11/gimp-quirinux_charlie-martinez.jpg)
 
 ![Contributors](https://img.shields.io/github/contributors/quirinux-so/gimp-quirinux) ![Stars](https://img.shields.io/github/stars/quirinux-so/gimp-quirinux) ![Forks](https://img.shields.io/github/forks/quirinux-so/gimp-quirinux) ![Issues](https://img.shields.io/github/issues/quirinux-so/gimp-quirinux) ![Commits](https://img.shields.io/github/commit-activity/t/quirinux-so/gimp-quirinux)
- ![Last Commit](https://img.shields.io/github/last-commit/quirinux-so/gimp-quirinux) ![Activity](https://img.shields.io/github/commit-activity/m/quirinux-so/gimp-quirinux) ![Repo Size](https://img.shields.io/github/repo-size/quirinux-so/gimp-quirinux) ![Lenguaje](https://img.shields.io/badge/Lenguaje-bash-scripting)
+ ![Last Commit](https://img.shields.io/github/last-commit/quirinux-so/gimp-quirinux) ![Repo Size](https://img.shields.io/github/repo-size/quirinux-so/gimp-quirinux) ![Lenguaje](https://img.shields.io/badge/Lenguaje-bash-scripting)
 
 
 ---
